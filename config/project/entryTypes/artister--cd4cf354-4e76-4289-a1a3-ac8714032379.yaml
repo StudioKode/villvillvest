@@ -1,0 +1,92 @@
+fieldLayouts:
+  b2c23efa-5081-46a0-bb43-64b6acfb8c77:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: Headline
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 526a7aea-a219-45b1-9b55-89497faed2bb # Concert Date
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1f836d55-a234-40bb-8a95-b077e937f673 # Feature Image
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 92a91755-38a8-4942-9206-0e50ea6c868d # Artister Content
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 180e3cca-d0eb-453d-b3f7-85d511780b16 # Spotify
+            instructions: ''
+            label: 'Music Embed'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a152c3e3-dc15-4615-a65a-cb575d975378 # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3a659cbb-99e4-4a67-a7b8-563372412d79 # Artister Categories
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Artister Content'
+        sortOrder: 1
+handle: artister
+hasTitleField: true
+name: artister
+section: a8dca5bb-824a-42a4-8cc5-80855f57506a # artister
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

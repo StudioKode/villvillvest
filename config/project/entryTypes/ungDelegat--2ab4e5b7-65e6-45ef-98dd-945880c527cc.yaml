@@ -1,0 +1,38 @@
+fieldLayouts:
+  f352e122-af30-4328-91d4-f878d155ef28:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: ungDelegat
+hasTitleField: false
+name: 'Ung Delegat'
+section: 2a5f83b6-d037-48fc-a5a6-26736f1156c6 # Ung Delegat
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

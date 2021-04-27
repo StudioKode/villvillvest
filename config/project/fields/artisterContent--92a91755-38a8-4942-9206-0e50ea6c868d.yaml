@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: f3a2cae1-2987-4f73-b541-a04eaf4909ff # Artister Fields
+handle: artisterContent
+instructions: ''
+name: 'Artister Content'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_artistercontent}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

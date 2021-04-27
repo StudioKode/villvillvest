@@ -1,0 +1,38 @@
+fieldLayouts:
+  ed56c721-5c1d-4044-baed-bfe4fe561c8b:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: kontaktOss
+hasTitleField: false
+name: 'Kontakt Oss'
+section: f449ae46-3ea4-4ade-8cc3-2b5ef08eeb36 # Kontakt Oss
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

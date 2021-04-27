@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: partnere
+name: Partnere
+propagationMethod: all
+siteSettings:
+  ff6d129f-58c1-49a3-82d4-b5e2571a753e: # villvillvest
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/partnere
+    uriFormat: partnere
+type: single

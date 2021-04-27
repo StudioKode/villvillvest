@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: f3a2cae1-2987-4f73-b541-a04eaf4909ff # Artister Fields
+handle: summary
+instructions: 'Enter a brief, one or two sentence artist summary.'
+name: Summary
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '1'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

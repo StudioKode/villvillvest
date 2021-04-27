@@ -1,0 +1,32 @@
+contentColumnType: string
+fieldGroup: f3a2cae1-2987-4f73-b541-a04eaf4909ff # Artister Fields
+handle: featureImage
+instructions: ''
+name: 'Feature Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: true
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

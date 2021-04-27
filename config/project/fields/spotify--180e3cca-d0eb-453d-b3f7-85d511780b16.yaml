@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: f3a2cae1-2987-4f73-b541-a04eaf4909ff # Artister Fields
+handle: spotify
+instructions: 'Paste Spotify embed code'
+name: Spotify
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: '1'
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

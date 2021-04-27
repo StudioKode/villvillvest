@@ -1,0 +1,49 @@
+field: 92a91755-38a8-4942-9206-0e50ea6c868d # Artister Content
+fieldLayouts:
+  d9990c72-4c50-49bd-9a0a-d976a460efd8:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b2b62e27-9335-46b9-bf00-280228e075ea # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  b2b62e27-9335-46b9-bf00-280228e075ea: # Text
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: 'Write some information about the artist'
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: text
+name: Text
+sortOrder: 1

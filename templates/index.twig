@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ craft.app.language }}">
+  <head>
+    <meta charset="utf-8"/>
+    <title>{{ siteName }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&amp;family=Roboto&amp;display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+  {% include "_includes/header" %}
+    <div class="page-content">
+      <section class="section-lineup">
+        <div class="lineup">
+            {% set image = hero.heroImage.one %}
+            {% if image|length %}
+                <img class="lineup__image" src="{{ image.url }}">
+            {% endif %}
+
+        <div class="lineup__info">
+            <a class="lineup__button" href="#">Se artister</a>
+            <h1 class="lineup__heading lineup__heading--1 heading--secondary">Se Lineupp</h1>
+            <h1 class="lineup__heading lineup__heading--2 heading--secondary">2021</h1>
+        </div>
+
+            <iframe class="lineup__iframe" src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" frameborder="0" allowtransparency="true" allow="encrypted-media" class="hero-iframe"></iframe>
+        </div>
+      </section>
+
+      <section>
+            
+        {% set posts = craft.entries().section('artister').limit(4) %}
+
+        {% block content %}
+            {% include "_includes/artister-row" with { posts: posts } only %}
+        {% endblock %}
+      </section>
+    
+      <section class="partners">
+        <h2 class="u-center partners__heading">Våre Hovedpartnere</h2>
+        <div class="partners__container">
+            {% set images = partnere.partnereImages.all() %}
+            {% if images | length %}
+                {% for image in images %}
+                    <img class="partners__logo" src="{{ image.getURL() }}">
+                {% endfor %}
+            {% endif %}
+        </div>
+        {# {% set image = partnere.partnereBackground.one %}
+            {% if image|length %}
+                <img class="partners__background" src="{{ image.url }}">
+            {% endif %} #}
+      </section>
+
+
+    </div>
+  </body>
+</html>

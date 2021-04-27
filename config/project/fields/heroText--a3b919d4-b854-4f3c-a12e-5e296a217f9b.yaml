@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 162dc10a-1ef6-4450-8aa7-13d41b2348ae # Global Fields
+handle: heroText
+instructions: ''
+name: 'Hero text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

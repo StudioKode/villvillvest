@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: villvillvest
+primary: true
+siteGroup: cea8a1ac-c5b2-4ab9-9519-4d6efde6f853 # villvillvest
+sortOrder: 1

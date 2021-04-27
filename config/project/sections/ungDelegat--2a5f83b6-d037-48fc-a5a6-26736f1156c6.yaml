@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: ungDelegat
+name: 'Ung Delegat'
+propagationMethod: all
+siteSettings:
+  ff6d129f-58c1-49a3-82d4-b5e2571a753e: # villvillvest
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/ung-delegat
+    uriFormat: ung-delegat
+type: single

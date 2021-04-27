@@ -1,0 +1,16 @@
+<div class="post-row">
+{% for post in posts %}
+  <a href="{{ post.url }}" class="post-row__link">
+    {% if post.featureImage|length %}
+      {% set image = post.featureImage.one() %}
+      <div>
+        <img src="{{ image.getUrl({ width: 400, height: 400}) }}"
+            alt="{{ image.title }}"
+            class="post-row__image"
+        />
+      </div>
+    {% endif %}
+    <span class="post-row__title">{{ post.title }}</span>
+  </a>
+{% endfor %}
+</div>

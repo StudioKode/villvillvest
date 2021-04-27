@@ -1,0 +1,14 @@
+<div class="listing">
+{% for post in posts %}
+  <a class="listing__link" href="{{ post.url }}">
+    {% if post.featureImage|length %}
+      {% set image = post.featureImage.one() %}
+        <img src="{{ image.getUrl({ width: 300, height: 300}) }}"
+            alt="{{ image.title }}"
+            class="listing__image"
+        />
+    {% endif %}
+    <span class="listing__title">{{ post.title }}</span>
+  </a>
+{% endfor %}
+</div>

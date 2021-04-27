@@ -1,0 +1,40 @@
+fieldLayouts:
+  f370eb08-981f-4f5e-a6f7-1a8cc20a8513:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: artisterCategories
+name: 'Artister Categories'
+siteSettings:
+  ff6d129f-58c1-49a3-82d4-b5e2571a753e: # villvillvest
+    hasUrls: true
+    template: artister/_category
+    uriFormat: 'artister/category/{slug}'
+structure:
+  maxLevels: 1
+  uid: 9f5ac798-8d08-4577-b00d-73b91c197b26

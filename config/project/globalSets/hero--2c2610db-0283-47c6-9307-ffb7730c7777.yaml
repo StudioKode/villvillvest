@@ -1,0 +1,36 @@
+fieldLayouts:
+  bb059f84-2ef6-45ab-842f-b79b28190ab9:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c4cafaf2-4bda-4ced-a13a-3fa258e23592 # Hero Headline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a3b919d4-b854-4f3c-a12e-5e296a217f9b # Hero text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c56db5d3-d89b-4d3a-ac40-492caea0b62b # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Hero
+        sortOrder: 1
+handle: hero
+name: Hero
