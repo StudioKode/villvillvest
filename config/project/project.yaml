@@ -1,4 +1,4 @@
-dateModified: 1619521800
+dateModified: 1619552514
 email:
   fromEmail: julia@studiokode.no
   fromName: villvillvest
@@ -8,6 +8,20 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  servd-asset-storage:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.5
+    settings:
+      assetsEnvironment: ''
+      assetsEnvironmentOverwrite: ''
+      cacheClearMode: full
+      clearCachesOnSave: always
+      injectCors: ''
+      projectSlug: chief-spoonbill
+      securityKey: F1i7oFijS0WRF8yHxeUXCTQ2EcnNxWhi
+      suppressWarnings: ''
+      useLocalVolumes: ''
 system:
   edition: solo
   live: true

@@ -4,8 +4,71 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddc7653cc0f1aee0b82e409ac5b290db",
+    "content-hash": "7e88a827046a54c3be1063a3b147573b",
     "packages": [
+        {
+            "name": "aws/aws-sdk-php",
+            "version": "3.178.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0aa83b522d5ffa794c02e7411af87a0e241a3082",
+                "reference": "0aa83b522d5ffa794c02e7411af87a0e241a3082",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "guzzlehttp/guzzle": "^5.3.3|^6.2.1|^7.0",
+                "guzzlehttp/promises": "^1.4.0",
+                "guzzlehttp/psr7": "^1.7.0",
+                "mtdowling/jmespath.php": "^2.6",
+                "php": ">=5.5"
+            },
+            "suggest": {
+                "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                "doctrine/cache": "To use the DoctrineCacheAdapter",
+                "ext-curl": "To send requests using cURL",
+                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+                "ext-sockets": "To use client-side monitoring"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aws\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Amazon Web Services",
+                    "homepage": "http://aws.amazon.com"
+                }
+            ],
+            "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+            "homepage": "http://aws.amazon.com/sdkforphp",
+            "keywords": [
+                "amazon",
+                "aws",
+                "cloud",
+                "dynamodb",
+                "ec2",
+                "glacier",
+                "s3",
+                "sdk"
+            ],
+            "time": "2021-04-19T18:13:17+00:00"
+        },
         {
             "name": "cebe/markdown",
             "version": "1.2.1",
@@ -1299,6 +1362,43 @@
             "time": "2020-08-23T07:39:11+00:00"
         },
         {
+            "name": "league/flysystem-aws-s3-v3",
+            "version": "1.0.29",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/4e25cc0582a36a786c31115e419c6e40498f6972",
+                "reference": "4e25cc0582a36a786c31115e419c6e40498f6972",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "^3.20.0",
+                "league/flysystem": "^1.0.40",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\AwsS3v3\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Flysystem adapter for the AWS S3 SDK v3.x",
+            "time": "2020-10-08T18:58:37+00:00"
+        },
+        {
             "name": "league/mime-type-detection",
             "version": "1.7.0",
             "dist": {
@@ -1415,6 +1515,53 @@
                 "shell"
             ],
             "time": "2021-03-17T06:54:33+00:00"
+        },
+        {
+            "name": "mtdowling/jmespath.php",
+            "version": "2.6.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/42dae2cbd13154083ca6d70099692fef8ca84bfb",
+                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4 || ^7.0 || ^8.0",
+                "symfony/polyfill-mbstring": "^1.17"
+            },
+            "bin": [
+                "bin/jp.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JmesPath\\": "src/"
+                },
+                "files": [
+                    "src/JmesPath.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Declaratively specify how to extract elements from a JSON document",
+            "keywords": [
+                "json",
+                "jsonpath"
+            ],
+            "time": "2020-07-31T21:01:56+00:00"
         },
         {
             "name": "opis/closure",
@@ -2093,6 +2240,55 @@
                 "phar"
             ],
             "time": "2020-07-07T18:42:57+00:00"
+        },
+        {
+            "name": "servd/craft-asset-storage",
+            "version": "2.2.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/servdhost/craft-asset-storage/zipball/60aed5b1d6bf388a5fa2eab9071298a12e8f8fe2",
+                "reference": "60aed5b1d6bf388a5fa2eab9071298a12e8f8fe2",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.1.5",
+                "league/flysystem-aws-s3-v3": "^1.0.28",
+                "yiisoft/yii2-redis": "^2.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Servd Assets and Helpers",
+                "handle": "servd-asset-storage",
+                "documentationUrl": "https://github.com/servdhost/craft-asset-storage"
+            },
+            "autoload": {
+                "psr-4": {
+                    "servd\\AssetStorage\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Servd",
+                    "homepage": "https://servd.host/"
+                }
+            ],
+            "description": "Servd Asset Storage and Helpers integration for Craft CMS",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "servd",
+                "yii2"
+            ],
+            "support": {
+                "email": "hello@servd.host",
+                "issues": "https://github.com/servdhost/craft-asset-storage/issues",
+                "source": "https://github.com/servdhost/craft-asset-storage",
+                "docs": "https://github.com/servdhost/craft-asset-storage"
+            },
+            "time": "2021-04-26T20:57:24+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3998,6 +4194,49 @@
                 "yii"
             ],
             "time": "2020-12-23T17:04:23+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-redis",
+            "version": "2.0.14",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-redis/zipball/1cbc7b2138ec9b6ffdc08929f8dc1f41848596aa",
+                "reference": "1cbc7b2138ec9b6ffdc08929f8dc1f41848596aa",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "yiisoft/yii2": "~2.0.39"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\redis\\": "src"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
+                }
+            ],
+            "description": "Redis Cache, Session and ActiveRecord for the Yii framework",
+            "keywords": [
+                "active-record",
+                "cache",
+                "redis",
+                "session",
+                "yii2"
+            ],
+            "time": "2020-11-10T11:53:29+00:00"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",

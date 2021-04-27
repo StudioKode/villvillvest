@@ -32,9 +32,15 @@ handle: general
 hasUrls: true
 name: General
 settings:
-  path: '@webroot/assets/general'
-sortOrder: 2
+  cdnUrlPattern: ''
+  customSubfolder: sub/
+  makeUploadsPublic: true
+  optimisePrefix: ''
+  optimiseUrlPattern: ''
+  projectSlug: ''
+  securityKey: ''
+sortOrder: 0
 titleTranslationKeyFormat: null
 titleTranslationMethod: null
-type: craft\volumes\Local
-url: '@web/assets/general'
+type: servd\AssetStorage\Volume
+url: 'https://cdn2.assets-servd.host/'

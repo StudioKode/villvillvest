@@ -32,9 +32,15 @@ handle: artister
 hasUrls: true
 name: artister
 settings:
-  path: '@webroot/assets/artister'
-sortOrder: 1
+  cdnUrlPattern: ''
+  customSubfolder: sub/
+  makeUploadsPublic: true
+  optimisePrefix: ''
+  optimiseUrlPattern: ''
+  projectSlug: ''
+  securityKey: ''
+sortOrder: 0
 titleTranslationKeyFormat: null
 titleTranslationMethod: null
-type: craft\volumes\Local
-url: '@web/assets/artister'
+type: servd\AssetStorage\Volume
+url: 'https://cdn2.assets-servd.host/'
