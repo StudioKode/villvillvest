@@ -1,5 +1,5 @@
 fieldLayouts:
-  b2c23efa-5081-46a0-bb43-64b6acfb8c77:
+  64606a0c-d58b-41a6-be4b-40a8adbf6bba:
     tabs:
       -
         elements:
@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: ''
-            label: Headline
+            instructions: null
+            label: null
             max: null
             min: null
             name: null
@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 526a7aea-a219-45b1-9b55-89497faed2bb # Concert Date
+            fieldUid: 1f836d55-a234-40bb-8a95-b077e937f673 # Feature Image
             instructions: null
             label: null
             required: false
@@ -36,34 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 1f836d55-a234-40bb-8a95-b077e937f673 # Feature Image
-            instructions: ''
-            label: ''
-            required: '1'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             fieldUid: 92a91755-38a8-4942-9206-0e50ea6c868d # Post Content
-            instructions: ''
-            label: ''
-            required: '1'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 180e3cca-d0eb-453d-b3f7-85d511780b16 # Spotify
-            instructions: ''
-            label: 'Music Embed'
-            required: ''
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: a152c3e3-dc15-4615-a65a-cb575d975378 # Summary
             instructions: null
             label: null
             required: false
@@ -73,19 +46,19 @@ fieldLayouts:
             width: 100
           -
             fieldUid: 3a659cbb-99e4-4a67-a7b8-563372412d79 # Post Categories
-            instructions: ''
-            label: ''
-            required: '1'
+            instructions: null
+            label: null
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: 'Artister Content'
+        name: Content
         sortOrder: 1
-handle: artister
+handle: nyheter
 hasTitleField: true
-name: artister
-section: a8dca5bb-824a-42a4-8cc5-80855f57506a # artister
+name: Nyheter
+section: 128177ca-ec9e-45f3-b0b5-3cf67fe3fed8 # Nyheter
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

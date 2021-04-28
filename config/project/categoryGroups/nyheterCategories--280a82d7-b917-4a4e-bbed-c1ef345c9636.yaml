@@ -1,0 +1,40 @@
+fieldLayouts:
+  c6fde26a-84a9-48ed-ae42-c08a2ed1ed2a:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: nyheterCategories
+name: 'Nyheter Categories'
+siteSettings:
+  ff6d129f-58c1-49a3-82d4-b5e2571a753e: # villvillvest
+    hasUrls: true
+    template: null
+    uriFormat: 'nyheter/category/{slug}'
+structure:
+  maxLevels: 1
+  uid: 7e4735ab-dae0-4658-a165-eeb0a0d076ce

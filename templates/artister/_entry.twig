@@ -25,7 +25,7 @@
 
 
   <section class="artister__content">
-    {% for block in entry.artisterContent.all() %}
+    {% for block in entry.postContent.all() %}
       <div class="artister__text">
         {% if block.type == 'text' %}
           {{ block.text }}

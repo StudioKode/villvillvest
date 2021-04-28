@@ -1,8 +1,8 @@
 contentColumnType: string
-fieldGroup: f3a2cae1-2987-4f73-b541-a04eaf4909ff # Artister Fields
-handle: artisterCategories
+fieldGroup: f3a2cae1-2987-4f73-b541-a04eaf4909ff # Posts Fields
+handle: postCategories
 instructions: ''
-name: 'Artister Categories'
+name: 'Post Categories'
 searchable: false
 settings:
   allowLimit: false
@@ -12,7 +12,7 @@ settings:
   limit: null
   localizeRelations: false
   selectionLabel: ''
-  showSiteMenu: false
+  showSiteMenu: true
   source: 'group:da5588b9-1acb-4ee2-9150-665572898c4b' # Artister Categories
   sources: '*'
   targetSiteId: null
