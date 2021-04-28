@@ -263,6 +263,10 @@ nav {
     text-transform: uppercase;
 }
 
+.lineup__link {
+    text-decoration: none;
+}
+
 .lineup__heading {
     color: #fff;
     font-size: 8rem;

@@ -18,10 +18,13 @@
                 <img class="lineup__image" src="{{ image.url }}">
             {% endif %}
 
+            
             <div class="lineup__info">
-                <a class="lineup__button" href="#">Se artister</a>
-                <h1 class="lineup__heading lineup__heading--1 heading--secondary">Se Lineupp</h1>
-                <h1 class="lineup__heading lineup__heading--2 heading--secondary">2021</h1>
+                <a class="lineup__button" href="{{ url('artister/category/2021') }}">Se artister</a>
+                <a href="{{ url('artister/category/2021') }}" class="lineup__link">
+                    <h1 class="lineup__heading lineup__heading--1 heading--secondary">Se Lineupp</h1>
+                    <h1 class="lineup__heading lineup__heading--2 heading--secondary">2021</h1>
+                </a>
             </div>
         </a>
 
