@@ -41,7 +41,11 @@
             {% include "_includes/post-row" with { posts: posts } only %}
       </section>
 
-      
+      <section>   
+        {% set posts = craft.entries().section('nyheter').limit(4) %}
+
+            {% include "_includes/post-row" with { posts: posts } only %}
+      </section>
     
       <section class="partners">
         <h2 class="u-center partners__heading">Våre Hovedpartnere</h2>
