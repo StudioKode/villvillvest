@@ -1,0 +1,19 @@
+<div class="nyheter-row">
+{% for post in posts %}
+  <a href="{{ post.url }}" class="nyheter-row__link">
+    {% if post.featureImage|length %}
+      {% set image = post.featureImage.one() %}
+      <div>
+        <img src="{{ image.getUrl({ width: 400, height: 400}) }}"
+            alt="{{ image.title }}"
+            class="nyheter-row__image"
+        />
+        <div class="nyheter-row__text">
+            <h3 class="nyheter-row__title">{{ post.title }}</h3>
+            <p class="nyheter-row__summary">{{ post.summary }}</p>
+    </div>
+      </div>
+    {% endif %}
+  </a>
+{% endfor %}
+</div>

@@ -33,20 +33,20 @@ section:not(:last-child) {
     height: 100%;
 }
 
-.post-row {
+.artister-row {
     display: flex;
     justify-content: space-between;
     grid-gap: 2rem;
 }
 
-.post-row__link {
+.artister-row__link {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.post-row__image {
+.artister-row__image {
     border-radius: 10px;
     width: 100%;
     height: 100%;
@@ -55,11 +55,11 @@ section:not(:last-child) {
     transition: filter .2s ease-in; 
 }
 
-.post-row__image:hover {
+.artister-row__image:hover {
     filter: brightness(.8);
 }
 
-.post-row__title {
+.artister-row__title {
     font-size: 2rem;
     color: #fff;
     text-decoration: none;
@@ -67,6 +67,48 @@ section:not(:last-child) {
     position: absolute;
     bottom: 5rem;
 }
+
+
+.nyheter-row {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 2rem;
+}
+
+.nyheter-row__link {
+    position: relative;
+    text-decoration: none;
+}
+
+.nyheter-row__image {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(.7);
+    transition: filter .2s ease-in; 
+}
+
+.nyheter-row__image:hover {
+    filter: brightness(.8);
+}
+
+.nyheter-row__text {
+    padding-top: 1.5rem;
+    color: #333;
+}
+
+.nyheter-row__title {
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nyheter-row__summary {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
 
 
 /*********************/
@@ -381,6 +423,53 @@ nav {
     font-family: 'Roboto', sans-serif;
     width: 60%;
 }
+
+
+/*********************/
+/** Nyheter **/
+/*********************/
+
+.nyheter__name {
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: .5rem;
+}
+
+.nyheter__date {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.nyheter__assets {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-column-gap: 2rem;
+}
+
+.nyheter__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.nyheter__music-embed {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.nyheter__content {
+    margin-top: 2rem;
+}
+
+.nyheter__text {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+}
+
+
+
 
 
 /*********************/
