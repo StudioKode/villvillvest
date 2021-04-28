@@ -10,6 +10,9 @@
   <body>
   {% include "_includes/header" %}
     <div class="page-content">
+    
+    {% block content %}
+
       <section class="section-lineup">
       <a href="{{ url('artister/category/2021') }}" class="lineup__link">
         <div class="lineup">
@@ -32,14 +35,13 @@
         </div>
       </section>
 
-      <section>
-            
+      <section>   
         {% set posts = craft.entries().section('artister').limit(4) %}
 
-        {% block content %}
-            {% include "_includes/artister-row" with { posts: posts } only %}
-        {% endblock %}
+            {% include "_includes/post-row" with { posts: posts } only %}
       </section>
+
+      
     
       <section class="partners">
         <h2 class="u-center partners__heading">Våre Hovedpartnere</h2>
@@ -56,7 +58,7 @@
                 <img class="partners__background" src="{{ image.url }}">
             {% endif %} #}
       </section>
-
+    {% endblock %}
 
     </div>
   </body>
