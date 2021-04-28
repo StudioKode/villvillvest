@@ -33,7 +33,7 @@ hasUrls: true
 name: artister
 settings:
   cdnUrlPattern: ''
-  customSubfolder: sub/
+  customSubfolder: artister
   makeUploadsPublic: true
   optimisePrefix: ''
   optimiseUrlPattern: ''

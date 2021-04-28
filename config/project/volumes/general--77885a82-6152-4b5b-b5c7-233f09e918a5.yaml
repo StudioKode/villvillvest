@@ -33,7 +33,7 @@ hasUrls: true
 name: General
 settings:
   cdnUrlPattern: ''
-  customSubfolder: sub/
+  customSubfolder: general
   makeUploadsPublic: true
   optimisePrefix: ''
   optimiseUrlPattern: ''
