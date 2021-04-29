@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ craft.app.language }}">
-  <head>
-    <meta charset="utf-8"/>
-    <title>{{ siteName }}</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="/css/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&amp;family=Roboto&amp;display=swap" rel="stylesheet"/>
-  </head>
-  <body>
-  {% include "_includes/header" %}
-    <div class="page-content">
+{% extends "_layout" %}
+    {# Inject the content below in the `{% block content        %}` of your `_layout` file #}
     {% block content %}
 
       <section class="section-lineup">
@@ -62,7 +52,3 @@
             {% endif %} #}
       </section>
     {% endblock %}
-    </div>
-    <script src="/js/app.js"></script>
-  </body>
-</html>
