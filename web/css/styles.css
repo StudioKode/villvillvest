@@ -95,11 +95,12 @@ section:not(:last-child) {
 
 .nyheter-row__text {
     padding-top: 1.5rem;
+    padding-left: .5rem;
     color: #333;
 }
 
 .nyheter-row__title {
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
     font-size: 1.6rem;
     text-decoration: none;
     font-weight: bold;
