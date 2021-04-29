@@ -16,7 +16,10 @@ html {
 
 body {
     font-family: sans-serif;
-    box-sizing: border-box;  
+    box-sizing: border-box; 
+    /* background-image: radial-gradient(circle, #051937, #171228, #190a1a, #12040d, #000000); */
+
+
 }
 
 
@@ -34,6 +37,120 @@ section:not(:last-child) {
     margin-bottom: 2rem;
     height: 100%;
 }
+
+.video-hero {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-column-gap: 2rem;
+    height: 60rem;
+}
+
+.video-hero__iframe {
+    width: 100%;
+    height: 59.5rem;
+}
+
+.video-hero__info {
+    position: absolute;
+    left: 15rem;
+    bottom: 15rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.video-hero__button {
+    position: absolute;
+    bottom: 22rem;
+    color: #333;
+    background: #fff;
+    padding: 1rem 2.5rem;
+    letter-spacing: 1.6px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.video-hero__link {
+    text-decoration: none;
+}
+
+.video-hero__heading {
+    color: #fff;
+    font-size: 8rem;
+    line-height: 10rem;
+}
+
+.video-hero__heading--1 {
+    font-weight: bold;
+}
+
+.video-hero__heading--2 {
+    font-weight: lighter;
+}
+
+.video-hero__box {
+    display: grid;
+    grid-template-rows: 7fr 3fr;
+    grid-row-gap: 2rem;
+    height: 55rem;
+}
+
+.video-hero__news1 {
+    background: #000;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-image: linear-gradient(to right bottom, #051937, #171228, #190a1a, #12040d, #000000);
+}
+
+.video-hero__tag {
+    color: #333;
+    background: #fff;
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.video-hero__news1 h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 5rem;
+    line-height: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.video-hero__news1 p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.video-hero__news2 {
+    color: #fff;
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to right top, #051937, #1b2b59, #393d7d, #5c4ea0, #845ec2);
+}
+
+.video-hero__news2 h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    line-height: 4rem;
+    padding-bottom: 2rem;
+}
+
+.video-hero__news2 p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 .artister-row {
     display: flex;

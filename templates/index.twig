@@ -2,6 +2,31 @@
     {# Inject the content below in the `{% block content        %}` of your `_layout` file #}
     {% block content %}
 
+        <section class="video-hero">
+            <div>
+                <iframe src="https://www.youtube.com/embed/8hV_FeBmfmI?autoplay=1&loop=1&modestbranding=1&rel=0&fs=0&color=white&controls=0&mute=1" width="560" height="315" frameborder="0" class="video-hero__iframe"></iframe>
+
+                <div class="video-hero__info">
+                    <a class="video-hero__button" href="{{ url('artister/category/2021') }}">Se artister</a>
+                    <a href="{{ url('artister/category/2021') }}" class="video-hero__link">
+                        <h1 class="video-hero__heading video-hero__heading--1 heading--secondary">Se Lineup</h1>
+                        <h1 class="video-hero__heading video-hero__heading--2 heading--secondary">2021</h1>
+                </a>
+            </div>
+            </div>
+            <div class="video-hero__box">
+                <div class="video-hero__news1">
+                    <p class="video-hero__tag">Aktuelt</p>
+                    <h2>With spicy club sauce</h2>
+                    <p>Can you believe that the only reason the club is going under is because it's in a terrifying neighborhood? And the soup of the day is bread.</p>
+                </div>
+                <div class="video-hero__news2">
+                    <h2>With spicy club sauce</h2>
+                    <p>Can you believe that the only reason the club is going under is because it's in a terrifying neighborhood? And the soup of the day is bread.</p>
+                </div>
+            </div>
+        </section>
+
       <section class="section-lineup">
       <a href="{{ url('artister/category/2021') }}" class="lineup__link">
         <div class="lineup">
