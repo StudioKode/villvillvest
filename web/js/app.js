@@ -12,4 +12,4 @@ new Glider(document.querySelector('.glider'), {
 
   console.log("test");
   var test = "Dette er en test";
- 
+ var hello = "Hello World";
