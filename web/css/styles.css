@@ -249,13 +249,16 @@ section:not(:last-child) {
 }
 
 .header__link {
-    color: #333;
+    color: #000;
     text-decoration: none;
     display: flex;
+    align-items: center;
 }
 
 .header__logo {
     font-size: 6rem;
+    /* width: 15rem; */
+    height: 100%;
     font-weight: lighter;
     padding-right: 1rem;
 }
@@ -274,6 +277,7 @@ section:not(:last-child) {
     font-weight: 600;
     font-size: 1.4rem;
     font-weight: lighter;
+    letter-spacing: .2rem;
     padding: 1rem 3rem;
     margin-right: 2rem;
     overflow: hidden;
@@ -301,30 +305,30 @@ section:not(:last-child) {
 }
 
 .header__menu{
-    margin-right: 1rem;
+    margin-right: 0rem;
     margin-top: -.2rem;
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 
 .header__burger-line1 {
     width: 30px;
-    height: 2px;
+    height: 3px;
     margin: 4px;
     background-color: #333;
 }
 
 .header__burger-line2 {
     width: 22px;
-    height: 2px;
+    height: 3px;
     margin: 4px;
     background-color: #333;
 }
 
 .header__burger-line3 {
     width: 30px;
-    height: 2px;
+    height: 3px;
     margin: 4px;
     background-color: #333;
 }
