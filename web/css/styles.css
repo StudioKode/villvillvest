@@ -138,17 +138,22 @@ section:not(:last-child) {
     width: 60%;
 }
 
-.venues__videos {
+.venues__slide {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2rem;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2rem;
 }
 
-.venues__videos iframe {
+.venues__slide iframe {
     width: 100%;
     border-radius: 10px;
 }
+
+.venues__slide-text {
+    
+}
+
 
 /*********************/
 /** HEADER **/
