@@ -58,7 +58,7 @@ section:not(:last-child) {
 }
 
 .artister-row__image:hover {
-    filter: brightness(.8);
+    filter: brightness(1);
 }
 
 .artister-row__title {
@@ -92,7 +92,7 @@ section:not(:last-child) {
 }
 
 .nyheter-row__image:hover {
-    filter: brightness(.8);
+    filter: brightness(1);
 }
 
 .nyheter-row__text {
@@ -287,7 +287,7 @@ nav {
 }
 
 .lineup__image:hover {
-    filter: brightness(.7);
+    filter: brightness(.8);
 }
 
 .lineup__info {
