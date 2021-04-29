@@ -139,14 +139,15 @@ section:not(:last-child) {
 }
 
 .venues__slide {
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 2rem;
+    grid-template-columns: 5fr 5fr;
+    grid-column-gap: 4rem
 }
 
 .venues__slide iframe {
     width: 100%;
+    height: 35rem;
     border-radius: 10px;
 }
 
