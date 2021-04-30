@@ -3,8 +3,8 @@
 /*********************/
 
 :root {
-    --border-radius-small: 5px;
-    --border-radius-big: 10px;
+    --border-radius-small: 0px;
+    --border-radius-big: 0px;
 }
 
 
@@ -142,19 +142,24 @@ section:not(:last-child) {
 .venues__heading {
     font-size: 6rem;
     font-family: 'Oswald', sans-serif;
+    color: #333;
 }
 
 .venues__paragraph {
     padding-top: 1rem;
     font-size: 1.6rem;
     width: 60%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .venues__slide {
     margin-top: 4rem;
+    margin-bottom: 2rem;
     display: grid;
     grid-template-columns: 5fr 5fr;
-    grid-column-gap: 4rem
+    grid-column-gap: 4rem;
+    background: #F2EDED;
+    color: #333;
 }
 
 .venues__slide iframe {
@@ -164,9 +169,47 @@ section:not(:last-child) {
 }
 
 .venues__slide-text {
-    
+    padding-top: 3rem;
 }
 
+.venues__slide-heading {
+    font-size: 4rem;
+}
+
+.venues__slide-paragraph {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    width: 65%;
+}
+
+.venues__slide-paragraph--address {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #741CBF;
+    font-weight: 600;
+}
+
+.venues__slide-button {
+    background: #741CBF;
+    color: #fff;
+    padding: .5rem 2rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.glider-prev,
+.glider-next {
+    font-size: 1.5rem;
+    background: #454545;
+    color: #fff;
+    margin-top: 1rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    border-radius: 50%;
+}
 
 /*********************/
 /** HEADER **/
@@ -195,7 +238,7 @@ section:not(:last-child) {
     font-size: 6rem;
     /* width: 15rem; */
     height: 100%;
-    font-weight: lighter;
+    font-weight: 400;
     padding-right: 1rem;
 }
 
@@ -688,6 +731,10 @@ nav {
 
 .u-bold {
     font-weight: bold;
+}
+
+.u-color-accent {
+    color: #741CBF;
 }
 
 
