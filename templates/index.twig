@@ -10,7 +10,7 @@
             <div>
                 {% set image = hero.heroImage.one %}
                 {% if image|length %}
-                    <img class="hero__image" src="{{ image.url }}">
+                    <img class="hero__image" src="{{ image.url({ width: 1000, height: 1000}) }}">
                 {% endif %}
                 <div class="hero__year">
                     <h1>2021</h1>
