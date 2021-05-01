@@ -1,15 +1,109 @@
 {% extends "_layout" %}
     {# Inject the content below in the `{% block content        %}` of your `_layout` file #}
     {% block content %}
+
+
+    <section class="hero">
+    
+    <div id="glider-1" class="glider-contain">
+        <div id="gliderHero" class="glider">
+            <div>
+                {% set image = hero.heroImage.one %}
+                {% if image|length %}
+                    <img class="hero__image" src="{{ image.url }}">
+                {% endif %}
+                <div class="hero__year">
+                    <h1>2021</h1>
+                </div>
+                <div class="hero__info">
+                    <div class="hero__box-1">
+                        <h1 class="hero__heading">Første lanserte artister. That's why you always leave a note</h1>
+                        <p class="hero__paragraph u-bold">Se Lineup 2021 <span>&rarr;</span></p>
+                    </div>
+                    <div class="hero__box-2">
+                        <h1 class="hero__heading">Skaff deg early bird billetter før det er for sent</h1>
+                        <p class="hero__paragraph u-bold">Kjøp Billett <span>&rarr;</span></p>
+                    </div>
+                </div>   
+            </div>
+
+            <div>
+                {% set image = hero.heroImage.one %}
+                {% if image|length %}
+                    <img class="hero__image" src="{{ image.url }}">
+                {% endif %}
+                <div class="hero__year">
+                    <h1>2021</h1>
+                </div>
+                <div class="hero__info">
+                    <div class="hero__box-1">
+                        <h1 class="hero__heading">Første lanserte artister. That's why you always leave a note</h1>
+                        <p class="hero__paragraph u-bold">Se Lineup 2021 <span>&rarr;</span></p>
+                    </div>
+                    <div class="hero__box-2">
+                        <h1 class="hero__heading">Skaff deg early bird billetter før det er for sent</h1>
+                        <p class="hero__paragraph u-bold">Kjøp Billett <span>&rarr;</span></p>
+                    </div>
+                </div>   
+            </div>
+
+            <div>
+                {% set image = hero.heroImage.one %}
+                {% if image|length %}
+                    <img class="hero__image" src="{{ image.url }}">
+                {% endif %}
+                <div class="hero__year">
+                    <h1>2021</h1>
+                </div>
+                <div class="hero__info">
+                    <div class="hero__box-1">
+                        <h1 class="hero__heading">Første lanserte artister. That's why you always leave a note</h1>
+                        <p class="hero__paragraph u-bold">Se Lineup 2021 <span>&rarr;</span></p>
+                    </div>
+                    <div class="hero__box-2">
+                        <h1 class="hero__heading">Skaff deg early bird billetter før det er for sent</h1>
+                        <p class="hero__paragraph u-bold">Kjøp Billett <span>&rarr;</span></p>
+                    </div>
+                </div>   
+            </div>
+
+            <div>
+                {% set image = hero.heroImage.one %}
+                {% if image|length %}
+                    <img class="hero__image" src="{{ image.url }}">
+                {% endif %}
+                <div class="hero__year">
+                    <h1>2021</h1>
+                </div>
+                <div class="hero__info">
+                    <div class="hero__box-1">
+                        <h1 class="hero__heading">Første lanserte artister. That's why you always leave a note</h1>
+                        <p class="hero__paragraph u-bold">Se Lineup 2021 <span>&rarr;</span></p>
+                    </div>
+                    <div class="hero__box-2">
+                        <h1 class="hero__heading">Skaff deg early bird billetter før det er for sent</h1>
+                        <p class="hero__paragraph u-bold">Kjøp Billett <span>&rarr;</span></p>
+                    </div>
+                </div>   
+            </div>        
+
+        </div>
+
+        <button aria-label="Previous" id="heroPrev" class="glider-prev hero__prev"><span>&#8592</span> Previous</button>
+        <button aria-label="Next" id="heroNext" class="glider-next hero__next">Next <span>&#8594</span></button>
+        <div role="tablist" id="heroDots" class="dots"></div>
+      </div>
+             
+    </section>
                   
-      <section class="section-lineup">
+      {# <section class="section-lineup">
       <a href="{{ url('artister/category/2021') }}" class="lineup__link">
         <div class="lineup">
             {# {% set image = hero.heroImage.one %}
             {% if image|length %}
                 <img class="lineup__image" src="{{ image.url }}">
             {% endif %} #}
-            <iframe src="https://www.youtube.com/embed/8hV_FeBmfmI?autoplay=1&loop=1&modestbranding=1&rel=0&fs=0&color=white&controls=0&mute=1" width="560" height="315" frameborder="0" class="lineup__image"></iframe>
+            {# <iframe src="https://www.youtube.com/embed/8hV_FeBmfmI?autoplay=1&loop=1&modestbranding=1&rel=0&fs=0&color=white&controls=0&mute=1" width="560" height="315" frameborder="0" class="lineup__image"></iframe>
 
             
             <div class="lineup__info">
@@ -23,19 +117,19 @@
 
             <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" class="lineup__iframe"></iframe>
         </div>
-      </section>
+      </section> #}
 
-      <section>   
-        {% set posts = craft.entries().section('artister').limit(4) %}
+      {# <section>   
+        {% set posts = craft.entries().section('artister').all() %}
 
             {% include "_includes/artister-row" with { posts: posts } only %}
-      </section>
+      </section> #}
 
-      <section class="venues">
+      <section class="venues page-content">
       <h2 class="venues__heading"><span class="u-color-accent">Vill Vill Vest</span> Venues</h2>
       <p class="venues__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p>
-      <div class="glider-contain">
-        <div class="glider">
+      <div id="glider-2" class="glider-contain">
+        <div id="gliderVenues" class="glider">
 
             <div class="venues__slide">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/JnD-d_MQZGI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -69,20 +163,21 @@
       
 
       </div>
-      <button aria-label="Previous" class="glider-prev">&#8592;</button>
-      <button aria-label="Next" class="glider-next">&#8594;</button>
-      <div role="tablist" id="dots"></div>
+      <button aria-label="Previous" id="venuesPrev" class="glider-prev">&#8592;</button>
+      <button aria-label="Next" id="venuesNext" class="glider-next">&#8594;</button>
+      <div role="tablist" id="venuesDots" class="dots"></div>
       </div>
       </section>
 
 
-      <section>   
+
+      {# <section>   
         {% set posts = craft.entries().section('nyheter').limit(4) %}
 
             {% include "_includes/nyheter-row" with { posts: posts } only %}
-      </section>
+      </section> #}
     
-      <section class="partners">
+      {# <section class="partners">
         <h2 class="u-center partners__heading">Våre Hovedpartnere</h2>
         <div class="partners__container">
             {% set images = partnere.partnereImages.all() %}
@@ -96,5 +191,5 @@
             {% if image|length %}
                 <img class="partners__background" src="{{ image.url }}">
             {% endif %} #}
-      </section>
+      </section> #}
     {% endblock %}

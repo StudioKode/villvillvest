@@ -50,6 +50,150 @@ section:not(:last-child) {
     height: 100%;
 }
 
+/* Hero */
+
+.hero {
+    height: 100vh;
+    margin: 0 0;
+    position: relative;
+}
+
+.hero__image {
+    width: 100%;
+    height: 80rem;
+}
+
+.hero__year {
+    font-size: 4rem;
+    color: #fff;
+    font-size: 14rem;
+    z-index: 7;
+    opacity: .3;
+    position: absolute;
+    left: 8.5%;
+    top: 20rem;
+}
+
+.hero__info {
+    display: flex;
+    position: relative;
+    left: 0;
+    bottom: 23rem;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    width: 70rem;
+    height: 15rem;
+    z-index: 2;
+}
+
+.hero__box-1 {
+    background: #fff;
+    color: #333;
+    flex-basis: 50%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.hero__box-2 {
+    background: #F2EDED;
+    color: #741CBF;
+    flex-basis: 50%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+}
+
+
+.hero__link {
+    text-decoration: none;
+}
+
+.hero__heading {
+    font-size: 2rem;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.hero__paragraph {
+    font-size: 1.6rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.hero__paragraph span {
+    margin-left: 1rem;
+    transition: all .2s ease-in;
+}
+
+.hero__paragraph:hover span {
+    margin-left: 2rem;
+}
+
+#glider-1 .glider-track {
+    height: 100vh;
+}
+
+#glider-1 .glider-next {
+    background: none;
+    color: #fff;
+    border-radius: 0;
+    position: absolute;
+    top: 90vh;
+    right: 5vw;
+    width: auto;
+}
+
+#glider-1 .glider-prev {
+    background: none;
+    color: #fff;
+    border-radius: 0;
+    position: absolute;
+    top: 90vh;
+    left: 80vw;
+    width: auto;
+}
+
+#heroPrev span {
+    margin-right: 1rem;
+    display: inline-block;
+    transition: all .2s ease-in;
+}
+
+#heroPrev:hover span {
+    transform: translateX(-3px);
+}
+
+#heroNext span {
+    margin-left: 1rem;
+    display: inline-block;
+    transition: all .2s ease-in;
+}
+
+#heroNext:hover span {
+    transform: translateX(3px);
+}
+
+#glider-1 .dots {
+    margin-top: 2rem;
+}
+
+#heroDots {
+    position: absolute;
+    top: 90vh;
+    left: 69vw;
+}
+
+.hero__next.disabled,
+.hero__prev.disabled {
+    opacity: 1;
+    color:#fff;
+    cursor: pointer;
+}
+
+
 /* Artister Row */
 
 .artister-row {
@@ -223,12 +367,14 @@ section:not(:last-child) {
     justify-content: space-between;
     margin: 0 5%;
     padding-bottom: 1rem;
-    color: #333;
+    color: #fff;
     font-family: 'Oswald', sans-serif;
+    position: absolute;
+    z-index: 1;
 }
 
 .header__link {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -249,8 +395,10 @@ section:not(:last-child) {
 }
 
 .header__button {
-    background: #741CBF;
-    color: #fff;
+    /* background: #741CBF;
+    color: #fff; */
+    color: #741CBF;
+    background: #fff;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 600;
@@ -270,7 +418,8 @@ section:not(:last-child) {
 }
 
 .header__button:hover {
-    background: #9B5ECF;
+    /* background: #9B5ECF; */
+    opacity: .7;
 }
 
 .header__button:hover span {
@@ -287,7 +436,8 @@ section:not(:last-child) {
     margin-right: 0rem;
     margin-top: -.2rem;
     font-size: 2.4rem;
-    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
@@ -295,21 +445,21 @@ section:not(:last-child) {
     width: 30px;
     height: 3px;
     margin: 4px;
-    background-color: #333;
+    background-color: #fff;
 }
 
 .header__burger-line2 {
     width: 22px;
     height: 3px;
     margin: 4px;
-    background-color: #333;
+    background-color: #fff;
 }
 
 .header__burger-line3 {
     width: 30px;
     height: 3px;
     margin: 4px;
-    background-color: #333;
+    background-color: #fff;
 }
 
 nav {
