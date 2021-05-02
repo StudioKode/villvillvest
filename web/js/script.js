@@ -27,3 +27,16 @@ window.addEventListener('load', function() {
         }
       });
 })
+
+window.addEventListener('load', function() {
+    new Glider(document.querySelector('#gliderArtister'), {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        draggable: false,
+        dots: '#artisterDots',
+        arrows: {
+          prev: '#artisterPrev',
+          next: '#artisterNext'
+        }
+      });
+})

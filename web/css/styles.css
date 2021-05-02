@@ -202,6 +202,24 @@ section:not(:last-child) {
 
 /* Artister Row */
 
+.artister {
+
+}
+
+.artister__heading {
+    font-size: 6rem;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+}
+
+.artister__paragraph {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    font-size: 1.6rem;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+}
+
 .artister-row {
     display: flex;
     justify-content: space-between;
@@ -209,10 +227,12 @@ section:not(:last-child) {
 }
 
 .artister-row__link {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-decoration: none;
+    background: #F2EDED;
+}
+
+.artister-row__link:not(:last-child) {
+    margin-right: 4rem;
 }
 
 .artister-row__image {
@@ -230,11 +250,41 @@ section:not(:last-child) {
 
 .artister-row__title {
     font-size: 2rem;
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
-    position: absolute;
-    bottom: 5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+.artister-row__summary {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.artister__slide-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#artisterPrev {
+    position: relative;
+}
+
+#artisterNext {
+    position: relative;
+}
+
+#artisterDots {
+
 }
 
 
@@ -361,6 +411,27 @@ section:not(:last-child) {
     border-radius: 50%;
 }
 
+.venues__slide-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 0rem;
+}
+
+#venuesPrev {
+    position: relative;
+}
+
+#venuesNext {
+    position: relative;
+}
+
+#venuesDots {
+
+}
+
 /*********************/
 /** HEADER **/
 /*********************/
@@ -407,9 +478,7 @@ section:not(:last-child) {
     background: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 600;
     font-size: 1.4rem;
-    font-weight: lighter;
     letter-spacing: .2rem;
     padding: 1rem 3rem;
     margin-right: 2rem;
@@ -781,13 +850,13 @@ nav {
 }
 
 .ticket-cards {
-    /* padding-left: 5%;
-    padding-right: 5%; */
+
     margin-top: 6rem;
-    margin-left: -5%;
-    margin-right: -5%;
-    padding: 6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding: 6rem; */
     padding-top: 4rem;
+
     background: #f5f5f5;
 }
 
@@ -891,6 +960,10 @@ nav {
 
 .u-color-accent {
     color: #741CBF;
+}
+
+.u-header-offset {
+    padding-top: 15vh;
 }
 
 

@@ -1,5 +1,5 @@
-
-<div class="artister-row">
+<div id="glider-2" class="glider-contain">
+<div id="gliderArtister" class="glider artister-row">
 {% for post in posts %}
   <a href="{{ post.url }}" class="artister-row__link">
     {% if post.featureImage|length %}
@@ -11,8 +11,14 @@
         />
       </div>
     {% endif %}
-    <span class="artister-row__title">{{ post.title }}</span>
+    <h3 class="artister-row__title">{{ post.title }}</h3>
+    <p class="artister-row__summary">{{ post.summary }}</p>
   </a>
 {% endfor %}
+</div>
+<div class="artister__slide-nav">
+  <button aria-label="Previous" id="artisterPrev" class="glider-prev artister__prev"><span class="fas fa-chevron-left"></button>
+  <div role="tablist" id="artisterDots" class="dots"></div>
+  <button aria-label="Next" id="artisterNext" class="glider-next artister__next"><span class="fas fa-chevron-right"></span></button>
 </div>
 </div>

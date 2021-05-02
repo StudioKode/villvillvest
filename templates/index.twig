@@ -82,11 +82,13 @@
         </div>
       </section> #}
 
-      {# <section>   
+      <section class="artister page-content">  
+      <h2 class="artister__heading"><span class="u-color-accent">Artist</span>slipp</h2>
+      <p class="artister__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p> 
         {% set posts = craft.entries().section('artister').all() %}
 
             {% include "_includes/artister-row" with { posts: posts } only %}
-      </section> #}
+      </section>
 
       <section class="venues page-content">
       <h2 class="venues__heading"><span class="u-color-accent">Vill Vill Vest</span> Venues</h2>
@@ -126,9 +128,11 @@
       
 
       </div>
-      <button aria-label="Previous" id="venuesPrev" class="glider-prev">&#8592;</button>
-      <button aria-label="Next" id="venuesNext" class="glider-next">&#8594;</button>
+      <div class="venues__slide-nav">
+      <button aria-label="Previous" id="venuesPrev" class="glider-prev"><span class="fas fa-chevron-left"></button>
       <div role="tablist" id="venuesDots" class="dots"></div>
+      <button aria-label="Next" id="venuesNext" class="glider-next"><span class="fas fa-chevron-right"></button>
+      </div>
       </div>
       </section>
 
