@@ -229,6 +229,7 @@ section:not(:last-child) {
 .artister-row__link {
     text-decoration: none;
     background: #F2EDED;
+    overflow: hidden;
 }
 
 .artister-row__link:not(:last-child) {
@@ -270,21 +271,25 @@ section:not(:last-child) {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20rem;
+    width: 17rem;
     margin: 0 auto;
     margin-top: 2rem;
 }
 
 #artisterPrev {
     position: relative;
+    background: none;
+    color: #555;
 }
 
 #artisterNext {
     position: relative;
+    background: none;
+    color: #555;
 }
 
 #artisterDots {
-
+    margin-top: .6rem;
 }
 
 
@@ -415,21 +420,25 @@ section:not(:last-child) {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20rem;
+    width: 17rem;
     margin: 0 auto;
     margin-top: 0rem;
 }
 
 #venuesPrev {
     position: relative;
+    background: none;
+    color: #555;
 }
 
 #venuesNext {
     position: relative;
+    background: none;
+    color: #555;
 }
 
 #venuesDots {
-
+    margin-top: .6rem;
 }
 
 /*********************/
