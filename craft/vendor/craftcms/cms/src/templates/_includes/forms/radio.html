@@ -1,0 +1,25 @@
+{% set id = id ?? "radio#{random()}" %}
+{% set label = radioLabel ?? label ?? null %}
+
+{% set inputAttributes = {
+    type: 'radio',
+    id: id,
+    class: (class ?? [])|explodeClass,
+       class: (class ?? [])|explodeClass|merge([
+        'radio'
+    ]|filter),
+    name: name ?? false,
+    value: value ?? '1',
+    checked: checked ?? false,
+    autofocus: (autofocus ?? false) and not craft.app.request.isMobileBrowser(true),
+    disabled: disabled ?? false,
+    aria: {
+        describedby: instructionsId ?? false,
+    },
+}|merge(inputAttributes ?? [], recursive=true) %}
+
+{{ tag('input', inputAttributes) }}
+
+<label for="{{ id }}">
+    {{ label|raw }}
+</label>

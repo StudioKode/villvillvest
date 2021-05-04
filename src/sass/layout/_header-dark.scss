@@ -1,0 +1,77 @@
+.header--dark {
+    margin-top: -5vh;
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+    padding-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    z-index: 1;
+    color: #333;
+
+    &__link {
+        color: #333;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__button {
+        background: #741CBF;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.4rem;
+        letter-spacing: .2rem;
+        padding: 1rem 3rem;
+        margin-right: 2rem;
+        overflow: hidden;
+        border-radius:  var(--border-radius-small);
+        transition: all .2s ease-in;
+
+        & span {
+            margin-left: 1.5rem;
+            transition: all .3s ease-in;
+        }
+        
+        &:hover {
+            /* background: #9B5ECF; */
+            opacity: .7;
+        }
+        
+        &:hover span {
+            margin-left: 1.9rem;
+        }
+    }
+
+    &__burger-line1 {
+        background-color: #333;
+        width: 30px;
+        height: 3px;
+        margin: 4px;
+    }
+
+    &__burger-line2 {
+        background-color: #333;
+        width: 22px;
+        height: 3px;
+        margin: 4px;
+    }
+
+    &__burger-line3 {
+        background-color: #333;
+        width: 30px;
+        height: 3px;
+        margin: 4px;
+    }
+}
+
+
+
+
+
+
+

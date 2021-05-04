@@ -1,0 +1,102 @@
+.venues {
+    margin-top: 4rem;
+
+    &__heading {
+        font-size: 6rem;
+        font-family: 'Oswald', sans-serif;
+        color: #333;
+    }
+
+    &__paragraph {
+        padding-top: 1rem;
+        font-size: 1.6rem;
+        width: 60%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &__slide {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        grid-column-gap: 4rem;
+        background: #F2EDED;
+        color: #333;
+    }
+
+    &__slide iframe {
+        width: 100%;
+        height: 35rem;
+        border-radius:  var(--border-radius-big);
+    }
+
+    &__slide-text {
+        padding-top: 3rem;
+    }
+
+    &__slide-heading {
+        font-size: 4rem;
+    }
+
+    &__slide-paragraph {
+        padding-top: 1rem;
+        font-size: 1.6rem;
+        font-family: 'Roboto', sans-serif;
+        width: 65%;
+    }
+
+    &__slide-paragraph--address {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: #741CBF;
+        font-weight: 600;
+    }
+
+    &__slide-button {
+        background: #741CBF;
+        color: #fff;
+        padding: .5rem 2rem;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+}
+
+
+
+.glider-prev,
+.glider-next {
+    font-size: 1.5rem;
+    background: #454545;
+    color: #fff;
+    margin-top: 1rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    border-radius: 50%;
+}
+
+.venues__slide-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17rem;
+    margin: 0 auto;
+    margin-top: 0rem;
+}
+
+#venuesPrev {
+    position: relative;
+    background: none;
+    color: #555;
+}
+
+#venuesNext {
+    position: relative;
+    background: none;
+    color: #555;
+}
+
+#venuesDots {
+    margin-top: .6rem;
+}

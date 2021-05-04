@@ -1,0 +1,38 @@
+.artister__name {
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: .5rem;
+}
+
+.artister__date {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.artister__assets {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-column-gap: 2rem;
+}
+
+.artister__image {
+    width: 100%;
+    height: 100%;
+    border-radius:  var(--border-radius-big);
+}
+
+.artister__music-embed {
+    width: 100%;
+    height: 100%;
+    border-radius:  var(--border-radius-big);
+}
+
+.artister__content {
+    margin-top: 2rem;
+}
+
+.artister__text {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+}

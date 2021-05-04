@@ -1,0 +1,146 @@
+.hero {
+    height: 80vh;
+    margin: 0 0;
+    position: relative;
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__year {
+        font-size: 4rem;
+        color: #fff;
+        font-size: 14rem;
+        z-index: 7;
+        opacity: .3;
+        position: absolute;
+        left: 50%;
+        top: 20rem;
+        transform: translateX(-50%);
+    }
+
+    &__info {
+        display: flex;
+        position: relative;
+        left: 0;
+        bottom: 3rem;
+        background: #fff;
+        font-family: 'Roboto', sans-serif;
+        width: 70rem;
+        height: 15rem;
+        z-index: 2;
+    }
+
+    &__box-1 {
+        background: #fff;
+        color: #333;
+        flex-basis: 50%;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        position: relative;
+    }
+
+    &__box-2 {
+        background: #F2EDED;
+        color: #741CBF;
+        flex-basis: 50%;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        position: relative;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__heading {
+        font-size: 2rem;
+        font-weight: 400;
+        z-index: 2;
+    }
+
+    &__paragraph {
+        font-size: 1.6rem;
+        position: absolute;
+        right: 2rem;
+        bottom: 2rem;
+
+        & span {
+            margin-left: 1rem;
+            transition: all .2s ease-in;
+        }
+
+        &:hover span {
+            margin-left: 2rem;
+        }
+    }
+}
+
+#glider-1 {
+    height: 80vh;
+}
+
+
+#glider-1 .glider-track {
+    height: 100vh;
+}
+
+#glider-1 .glider-next {
+    background: none;
+    color: #fff;
+    border-radius: 0;
+    position: absolute;
+    top: 90vh;
+    right: 5vw;
+    width: auto;
+}
+
+#glider-1 .glider-prev {
+    background: none;
+    color: #fff;
+    border-radius: 0;
+    position: absolute;
+    top: 90vh;
+    left: 80vw;
+    width: auto;
+}
+
+#heroPrev span {
+    margin-right: 1rem;
+    display: inline-block;
+    transition: all .2s ease-in;
+}
+
+#heroPrev:hover span {
+    transform: translateX(-3px);
+}
+
+#heroNext span {
+    margin-left: 1rem;
+    display: inline-block;
+    transition: all .2s ease-in;
+}
+
+#heroNext:hover span {
+    transform: translateX(3px);
+}
+
+#glider-1 .dots {
+    margin-top: 2rem;
+}
+
+#heroDots {
+    position: absolute;
+    top: 90vh;
+    left: 69vw;
+}
+
+.hero__next.disabled,
+.hero__prev.disabled {
+    opacity: 1;
+    color:#fff;
+    cursor: pointer;
+}
