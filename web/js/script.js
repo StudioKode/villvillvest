@@ -58,9 +58,11 @@ tl.to(".navigation", {opacity: '1'})
 burgers.forEach(burger => burger.addEventListener('click', () => {
   if (nav.style.opacity === '1') {
     tl.reverse(.4);
+    nav.style.zIndex = '1';
     console.log("uplay");
   } else {
     tl.play();
+    nav.style.zIndex = '100';
     console.log("play");
   }
 
