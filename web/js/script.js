@@ -40,3 +40,34 @@ window.addEventListener('load', function() {
         }
       });
 })
+
+
+//GSAP Animations
+
+//Get elements
+
+const burgers = document.querySelectorAll('.header__hamburger-meny');
+const nav = document.querySelector('.navigation');
+
+var tl = gsap.timeline({defaults:{duration: 1, ease: Back.easeOut.config(2)}})
+
+tl.paused(true);
+tl.to(".navigation", {opacity: '1'})
+
+
+burgers.forEach(burger => burger.addEventListener('click', () => {
+  if (nav.style.opacity === '1') {
+    tl.reverse(.4);
+    console.log("uplay");
+  } else {
+    tl.play();
+    console.log("play");
+  }
+
+
+  // tl.play();
+  
+}))
+
+console.log("loaded");
+console.log(nav.style.opacity);

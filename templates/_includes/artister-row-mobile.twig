@@ -1,0 +1,18 @@
+<div class="artister-mobile">
+    {% for post in posts %}
+  <a href="{{ post.url }}" class="artister-mobile__card">
+    {% if post.featureImage|length %}
+      {% set image = post.featureImage.one() %}
+      <div>
+        <img src="{{ image.getUrl({ width: 1000, height: 1000}) }}"
+            alt="{{ image.title }}"
+            class="artister-mobile__image"
+        />
+      </div>
+    {% endif %}
+    <h3 class="artister-mobile__title">{{ post.title }}</h3>
+    <p class="artister-mobile__summary">{{ post.summary }}</p>
+  </a>
+{% endfor %}
+    <a class="artister-mobile__button">Se alle artister</a>
+</div>

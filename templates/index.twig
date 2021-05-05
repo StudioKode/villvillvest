@@ -3,6 +3,8 @@
     {% block content %}
     {% include "_includes/header" %}
 
+    {% include "_includes/nav" %}
+
     <section class="hero">
     
     <div id="glider-1" class="glider-contain">
@@ -38,9 +40,11 @@
 
         </div>
 
-        <button aria-label="Previous" id="heroPrev" class="glider-prev hero__prev"><span>&#8592</span> Previous</button>
-        <button aria-label="Next" id="heroNext" class="glider-next hero__next">Next <span>&#8594</span></button>
-        <div role="tablist" id="heroDots" class="dots"></div>
+        <div class="hero__slide-nav">
+            <div role="tablist" id="heroDots" class="dots"></div>
+            <button aria-label="Next" id="heroNext" class="glider-next hero__next">Next <span>&#8594</span></button>
+            <button aria-label="Previous" id="heroPrev" class="glider-prev hero__prev"><span>&#8592</span> Previous</button>
+        </div>
       </div>
 
       <div class="hero__year">
@@ -82,18 +86,30 @@
         </div>
       </section> #}
 
-      <section class="artister page-content">  
+      <section class="artister">  
+      <div class="artister__text-box">
       <h2 class="artister__heading"><span class="u-color-accent">Artist</span>slipp</h2>
       <p class="artister__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p> 
+      </div>
         {% set posts = craft.entries().section('artister').all() %}
 
             {% include "_includes/artister-row" with { posts: posts } only %}
       </section>
 
+      <section class="artister-mobile-section">
+        <div class="artister__text-box">
+        <h2 class="artister__heading"><span class="u-color-accent">Artist</span>slipp</h2>
+        <p class="artister__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p> 
+        </div>
+        {% set posts = craft.entries().section('artister').limit(4) %}
+
+            {% include "_includes/artister-row-mobile" with { posts: posts } only %}
+      </section>
+
       <section class="venues page-content">
       <h2 class="venues__heading"><span class="u-color-accent">Vill Vill Vest</span> Venues</h2>
       <p class="venues__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p>
-      <div id="glider-2" class="glider-contain">
+      <div id="glider-3" class="glider-contain">
         <div id="gliderVenues" class="glider">
 
             <div class="venues__slide">
@@ -129,11 +145,50 @@
 
       </div>
       <div class="venues__slide-nav">
-      <button aria-label="Previous" id="venuesPrev" class="glider-prev"><span class="fas fa-chevron-left"></button>
-      <div role="tablist" id="venuesDots" class="dots"></div>
-      <button aria-label="Next" id="venuesNext" class="glider-next"><span class="fas fa-chevron-right"></button>
+        <button aria-label="Previous" id="venuesPrev" class="glider-prev"><span class="fas fa-chevron-left"></button>
+        <div role="tablist" id="venuesDots" class="dots"></div>
+        <button aria-label="Next" id="venuesNext" class="glider-next"><span class="fas fa-chevron-right"></button>
       </div>
       </div>
+      </section>
+
+      <section class="venues-mobile">
+        <h2 class="venues__heading"><span class="u-color-accent">Vill Vill Vest</span> Venues</h2>
+        <p class="venues__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p>
+
+        <div class="venues-mobile__card">
+            <div class="venues-mobile__iframe">
+                <iframe src="https://www.youtube.com/embed/JnD-d_MQZGI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="venues-mobile__text">
+                <h2 class="venues-mobile__heading">Landmark</h2>
+                <p class="venues-mobile__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p>
+                <p class="venues-mobile__paragraph venues__slide-paragraph--address">Christian Michelsens gate 4</p>
+                <a href="#" class="venues__slide-button">Besøk</a>
+            </div>
+        </div>
+        <div class="venues-mobile__card">
+            <div class="venues-mobile__iframe">
+                <iframe src="https://www.youtube.com/embed/JnD-d_MQZGI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="venues-mobile__text">
+                <h2 class="venues-mobile__heading">Landmark</h2>
+                <p class="venues-mobile__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p>
+                <p class="venues-mobile__paragraph venues__slide-paragraph--address">Christian Michelsens gate 4</p>
+                <a href="#" class="venues__slide-button">Besøk</a>
+            </div>
+            </div>
+        </div>
+        <div class="venues-mobile__card">
+            <div class="venues-mobile__iframe">
+                <iframe src="https://www.youtube.com/embed/JnD-d_MQZGI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="venues-mobile__text">
+                <h2 class="venues-mobile__heading">Landmark</h2>
+                <p class="venues-mobile__paragraph">Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? We just call it a sausage. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret. It's a hug, Michael. I'm hugging you.</p>
+                <p class="venues-mobile__paragraph venues__slide-paragraph--address">Christian Michelsens gate 4</p>
+                <a href="#" class="venues__slide-button">Besøk</a>
+            </div>
+        </div>
+        </div>
       </section>
 
 
@@ -158,5 +213,5 @@
             {% if image|length %}
                 <img class="partners__background" src="{{ image.url }}">
             {% endif %} #}
-      </section> #}
+      {# </section> #} #}
     {% endblock %}
