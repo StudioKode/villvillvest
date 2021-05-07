@@ -92,6 +92,7 @@ section:not(:last-child) {
 .artister {
   width: 90%;
   margin: 0 5%;
+  margin-top: 10rem;
 }
 @media (max-width: 56.25em) {
   .artister {
@@ -291,16 +292,16 @@ section:not(:last-child) {
   display: flex;
   position: relative;
   left: 0;
-  bottom: 3rem;
+  bottom: -9rem;
   background: #fff;
   font-family: "Roboto", sans-serif;
-  width: 70rem;
-  height: 15rem;
+  width: 40rem;
+  height: 6rem;
   z-index: 2;
 }
 @media (max-width: 75em) {
   .hero__info {
-    width: 50rem;
+    width: 40rem;
   }
 }
 @media (max-width: 56.25em) {
@@ -316,14 +317,6 @@ section:not(:last-child) {
   padding-left: 2rem;
   position: relative;
 }
-@media (max-width: 75em) {
-  .hero__box-1 {
-    flex-basis: 100%;
-    padding: 2rem;
-    background: #F2EDED;
-    color: #741CBF;
-  }
-}
 .hero__box-2 {
   background: #F2EDED;
   color: #741CBF;
@@ -332,11 +325,6 @@ section:not(:last-child) {
   padding-left: 2rem;
   padding-right: 2rem;
   position: relative;
-}
-@media (max-width: 75em) {
-  .hero__box-2 {
-    display: none;
-  }
 }
 .hero__link {
   text-decoration: none;
@@ -888,7 +876,7 @@ section:not(:last-child) {
 .navigation__heading {
   font-size: 2rem;
   padding-bottom: 2rem;
-  color: #9B5ECF;
+  color: #741CBF;
 }
 .navigation__list {
   list-style: none;
@@ -900,6 +888,9 @@ section:not(:last-child) {
 .navigation__item a {
   color: #333;
   text-decoration: none;
+}
+.navigation__item a:hover {
+  text-decoration: underline;
 }
 .navigation__links {
   margin-top: 10rem;
