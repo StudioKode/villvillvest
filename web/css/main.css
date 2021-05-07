@@ -316,6 +316,7 @@ section:not(:last-child) {
   padding-top: 2rem;
   padding-left: 2rem;
   position: relative;
+  display: block;
 }
 .hero__box-2 {
   background: #F2EDED;
@@ -325,6 +326,7 @@ section:not(:last-child) {
   padding-left: 2rem;
   padding-right: 2rem;
   position: relative;
+  display: block;
 }
 .hero__link {
   text-decoration: none;
