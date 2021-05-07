@@ -1,15 +1,15 @@
 contentColumnType: string
 fieldGroup: beee187e-0df2-4878-af7a-95b85a796f70 # Hero Fields
-handle: heroImage
+handle: heroImage2
 instructions: ''
-name: 'Hero Image'
+name: 'Hero Image 2'
 searchable: false
 settings:
   allowSelfRelations: false
   allowUploads: true
   allowedKinds:
     - image
-  defaultUploadLocationSource: 'volume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  defaultUploadLocationSource: 'volume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
@@ -24,7 +24,7 @@ settings:
   source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: true
+  useSingleFolder: false
   validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null

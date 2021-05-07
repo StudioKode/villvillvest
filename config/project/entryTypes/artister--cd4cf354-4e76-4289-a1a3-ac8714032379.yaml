@@ -45,6 +45,15 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            fieldUid: 2cc6ec4d-29f3-4a07-899f-5ebba95a7a5a # Photo Credit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: 92a91755-38a8-4942-9206-0e50ea6c868d # Post Content
             instructions: ''
             label: ''
