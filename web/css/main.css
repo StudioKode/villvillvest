@@ -305,7 +305,7 @@ section:not(:last-child) {
 }
 .hero__image {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
 .hero__year {
@@ -952,30 +952,60 @@ section:not(:last-child) {
   opacity: 0;
   display: none;
 }
+@media (max-width: 50em) {
+  .navigation {
+    height: 155vh;
+  }
+}
 .navigation__header {
   background: #fff;
 }
 .navigation__container {
-  display: flex;
-  grid-column-gap: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 12rem;
   position: absolute;
-  top: 15vh;
+  top: 35vh;
   right: 5%;
 }
-.navigation__category {
-  margin-top: 20%;
+@media (max-width: 50em) {
+  .navigation__container {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 50em) {
+  .navigation__category {
+    margin-top: 4rem;
+    width: auto;
+  }
 }
 .navigation__heading {
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding-bottom: 2rem;
   color: #741CBF;
+}
+@media (max-width: 50em) {
+  .navigation__heading {
+    font-size: 4rem;
+  }
 }
 .navigation__list {
   list-style: none;
 }
 .navigation__item {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   padding-bottom: 2rem;
+}
+@media (max-width: 50em) {
+  .navigation__item {
+    font-size: 2.6rem;
+  }
 }
 .navigation__item a {
   color: #333;
@@ -996,6 +1026,25 @@ section:not(:last-child) {
 }
 .navigation__links a:not(:last-child) {
   padding-right: 2rem;
+}
+.navigation__social {
+  margin-top: 4rem;
+}
+.navigation__social-link {
+  font-size: 3rem;
+  color: #741CBF;
+  text-decoration: none;
+}
+.navigation__social-link:not(:last-child) {
+  margin-right: 4rem;
+}
+.navigation__social span {
+  padding-top: 1rem;
+  font-size: 4rem;
+  transition: all 0.2s ease-in;
+}
+.navigation__social span:hover {
+  color: #9a44e4;
 }
 
 .artister__name {
