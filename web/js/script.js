@@ -59,10 +59,12 @@ burgers.forEach(burger => burger.addEventListener('click', () => {
   if (nav.style.opacity === '1') {
     tl.reverse(.4);
     nav.style.zIndex = '1';
+    nav.style.display = 'none';
     console.log("uplay");
   } else {
     tl.play();
     nav.style.zIndex = '100';
+    nav.style.display = 'block';
     console.log("play");
   }
 
