@@ -1,47 +1,52 @@
 {% extends "_layout" %}
 
 {% block content %}
-<h1>Personvernerklæring</h1>
-<p>Vill Vill Vest samler inn noe data fra våre publikummere for å drifte festivalen på best mulig måte.
+{% include "_includes/header-dark" %}
+{% include "_includes/nav" %}
+
+<div class="page-content">
+<h1 class="heading--section">Personvernerklæring</h1>
+<p class="paragraph u-padding-top-1">Vill Vill Vest samler inn noe data fra våre publikummere for å drifte festivalen på best mulig måte.
 
 Nedenfor finner du en kort oppsummering av ulik informasjon vi samler inn, lagrer og hvordan vi benytter oss av den.</p>
-<h2>Hvem vi er:</h2>
-<p>Vill Vill Vest er en nasjonal musikk- og bransjefestival som arrangeres i september hvert år. Den driftes og administreres av Vill Vill Vest og Brak, org nr 816 956 412.</p>
-<h2>Nettside:</h2>
-<p>Vill Vill Vest sine nettside benytter seg av cookies for å gi en bedre brukeropplevelse av nettsiden, men disse kan ikke benyttes av oss til å identifisere våre publikummere.
+<h2 class="u-padding-top-4">Hvem vi er:</h2>
+<p class="paragraph u-padding-top-1">Vill Vill Vest er en nasjonal musikk- og bransjefestival som arrangeres i september hvert år. Den driftes og administreres av Vill Vill Vest og Brak, org nr 816 956 412.</p>
+<h2 class="u-padding-top-4">Nettside:</h2>
+<p class="paragraph u-padding-top-1">Vill Vill Vest sine nettside benytter seg av cookies for å gi en bedre brukeropplevelse av nettsiden, men disse kan ikke benyttes av oss til å identifisere våre publikummere.
 </p>
-<p>Vill Vill Vest benytter seg av Google Analytics for å måle brukeradferd på nettsiden.</p>
-<p>Denne informasjonen er anonymisert og knyttes ikke opp til enkeltpersoner.</p>
-<h2>Billettsalg:</h2>
-<p>Vill Vill Vest mottar billettkjøperes e-post ifm salg.</p>
-<p>Disse opplysningene lagres ikke hos oss, men hos vår billettleverandør TicketCo. Informasjonen brukes kun for å gi essensiell informasjon om konsertene, eller evt for å gjennomføre refunderinger.</p>
-<p>Hvis du kjøper delegatpass vil du som billettkjøper trenger spesifikk informasjon om program og seminarer, påmeldinger osv. Som delegatpass kjøper vil du bli lagt til en mailingliste som sender ut spesifikk informasjon som er relevant og viktig for deg. Du kan når som helst melde deg av denne listen ved å trykke på “unsubscribe” i informasjons mailen og vi sletter all informasjon. Du vil også bli lagt til en liste for å kunne knytte kontakter med andre bransje representanter. Hvis du ikke ønsker å vise at du er en del av bransje programmet kan du sende en email til festival@villvillvest.no slik at vi kan fjerne din informasjon fra listen.</p>
-<p>Vi har anledning til å se statistikk på brukeradferden via Google Analytics, men dette er anonymisert.</p>
-<p>Vill Vill Vest har databehandleravtale med TicketCo.</p>
-<h2>Artister:</h2>
-<p>Vill Vill Vest mottar artist e-post ifm påmelding.</p>
-<p>Informasjonen brukes kun for å gi essensiell informasjon om utvelgelsesprosessen, deadlines, booking og kontrakt med bookede artister Deles ikke med tredje part.</p>
-<h2>Nyhetsbrev:</h2>
-<p>Vill Vill Vest har et nyhetsbrev som vi bruker til å informere publikummere som har meldt seg på listen om festivalens aktiviteter, samt noe informasjon og tilbud fra samarbeidspartnere.</p>
-<p>Informasjonen vi lagrer er din e-postadresse og navn.</p>
-<p>Vi har også innsyn i statistikk på hvor ofte nyhetsbrev åpnes og hvilke nyhetssaker og lenker i nyhetsbrevet som klikkes. Dette er informasjon vi benytter oss av for gjøre nyhetsbrevet bedre og utforme kommende nyhetsbrev slik at det passer våre abonnenters brukermønster.</p>
-<p>Nyhetsbrevet sendes ut via tjenesten Mailchimp.</p>
-<p>Vill Vill Vest har databehandleravtale med <a href="https://mailchimp.com"> Mailchimp</a>.</p>
-<p>Påmeldingsskjema til nyhetsbrevet finner du her.</p>
-<h2>Frivillige:</h2>
-<p>Vill Vill Vest lagrer data på våre frivillige for å kunne ha best mulig dialog med disse.</p>
-<p>Informasjonen vi lagrer er: navn, bilde, e-postadresse, telefonnummer, og matintoleranser.</p>
-<p>Vill Vill Vest sine  frivillige ønsker ofte å returnere år etter år. Derfor har vi valgt å beholde denne informasjonen i en periode på 5 år, med mindre dette ønskes slettet fra de frivilliges side.</p>
-<p>Informasjonen lagres i tjenesten <a href="https://mailchimp.com/">Mailchimp</a>.</p>
-<p>Vill Vill Vest har databehandleravtale med Mailchimp.</p>
-<h2>Dine rettigheter:</h2>
-<p>Alle har rett til innsyn i sine opplysninger. Dersom du ønsker innsyn i hva slags opplysninger vi har om deg ber vi deg ta kontakt via e-post.</p>
-<h2>Deling av dine opplysninger:</h2>
-<p>Vill Vill Vest deler ikke dine personopplysninger med noen tredjepart.</p>
-<h2>Endringer i Personvernerklæring:</h2>
-<p>Det kan forekomme endringer av personvernerklæringen dersom det gjøres endringer på nettstedet, eller våre rutiner endres.</p>
-<p>Dato for siste revisjon: 29.04.20</p>
-<h2>Spørsmål eller innspill?</h2>
-<p>Dersom du har spørsmål eller innspill vedr. personvern tar vi gjerne i mot en e-post fra deg.</p>
-<p>Send e-post med spørsmål eller innspill til kontakt@villvillvest.no</p>
+<p class="paragraph">Vill Vill Vest benytter seg av Google Analytics for å måle brukeradferd på nettsiden.</p>
+<p class="paragraph">Denne informasjonen er anonymisert og knyttes ikke opp til enkeltpersoner.</p>
+<h2 class="u-padding-top-4">Billettsalg:</h2>
+<p class="paragraph u-padding-top-1">Vill Vill Vest mottar billettkjøperes e-post ifm salg.</p>
+<p class="paragraph">Disse opplysningene lagres ikke hos oss, men hos vår billettleverandør TicketCo. Informasjonen brukes kun for å gi essensiell informasjon om konsertene, eller evt for å gjennomføre refunderinger.</p>
+<p class="paragraph">Hvis du kjøper delegatpass vil du som billettkjøper trenger spesifikk informasjon om program og seminarer, påmeldinger osv. Som delegatpass kjøper vil du bli lagt til en mailingliste som sender ut spesifikk informasjon som er relevant og viktig for deg. Du kan når som helst melde deg av denne listen ved å trykke på “unsubscribe” i informasjons mailen og vi sletter all informasjon. Du vil også bli lagt til en liste for å kunne knytte kontakter med andre bransje representanter. Hvis du ikke ønsker å vise at du er en del av bransje programmet kan du sende en email til festival@villvillvest.no slik at vi kan fjerne din informasjon fra listen.</p>
+<p class="paragraph">Vi har anledning til å se statistikk på brukeradferden via Google Analytics, men dette er anonymisert.</p>
+<p class="paragraph">Vill Vill Vest har databehandleravtale med TicketCo.</p>
+<h2 class="u-padding-top-4">Artister:</h2>
+<p class="paragraph u-padding-top-1">Vill Vill Vest mottar artist e-post ifm påmelding.</p>
+<p class="paragraph">Informasjonen brukes kun for å gi essensiell informasjon om utvelgelsesprosessen, deadlines, booking og kontrakt med bookede artister Deles ikke med tredje part.</p>
+<h2 class="u-padding-top-4">Nyhetsbrev:</h2>
+<p class="paragraph u-padding-top-1">Vill Vill Vest har et nyhetsbrev som vi bruker til å informere publikummere som har meldt seg på listen om festivalens aktiviteter, samt noe informasjon og tilbud fra samarbeidspartnere.</p>
+<p class="paragraph">Informasjonen vi lagrer er din e-postadresse og navn.</p>
+<p class="paragraph">Vi har også innsyn i statistikk på hvor ofte nyhetsbrev åpnes og hvilke nyhetssaker og lenker i nyhetsbrevet som klikkes. Dette er informasjon vi benytter oss av for gjøre nyhetsbrevet bedre og utforme kommende nyhetsbrev slik at det passer våre abonnenters brukermønster.</p>
+<p class="paragraph">Nyhetsbrevet sendes ut via tjenesten Mailchimp.</p>
+<p class="paragraph">Vill Vill Vest har databehandleravtale med <a href="https://mailchimp.com"> Mailchimp</a>.</p>
+<p class="paragraph">Påmeldingsskjema til nyhetsbrevet finner du her.</p>
+<h2 class="u-padding-top-4">Frivillige:</h2>
+<p class="paragraph u-padding-top-1">Vill Vill Vest lagrer data på våre frivillige for å kunne ha best mulig dialog med disse.</p>
+<p class="paragraph">Informasjonen vi lagrer er: navn, bilde, e-postadresse, telefonnummer, og matintoleranser.</p>
+<p class="paragraph">Vill Vill Vest sine  frivillige ønsker ofte å returnere år etter år. Derfor har vi valgt å beholde denne informasjonen i en periode på 5 år, med mindre dette ønskes slettet fra de frivilliges side.</p>
+<p class="paragraph">Informasjonen lagres i tjenesten <a href="https://mailchimp.com/">Mailchimp</a>.</p>
+<p class="paragraph">Vill Vill Vest har databehandleravtale med Mailchimp.</p>
+<h2 class="u-padding-top-4">Dine rettigheter:</h2>
+<p class="paragraph u-padding-top-1">Alle har rett til innsyn i sine opplysninger. Dersom du ønsker innsyn i hva slags opplysninger vi har om deg ber vi deg ta kontakt via e-post.</p>
+<h2 class="u-padding-top-4">Deling av dine opplysninger:</h2>
+<p class="paragraph u-padding-top-1">Vill Vill Vest deler ikke dine personopplysninger med noen tredjepart.</p>
+<h2 class="u-padding-top-4">Endringer i Personvernerklæring:</h2>
+<p class="paragraph u-padding-top-1">Det kan forekomme endringer av personvernerklæringen dersom det gjøres endringer på nettstedet, eller våre rutiner endres.</p>
+<p class="paragraph">Dato for siste revisjon: 29.04.20</p>
+<h2 class="u-padding-top-4">Spørsmål eller innspill?</h2>
+<p class="paragraph u-padding-top-1">Dersom du har spørsmål eller innspill vedr. personvern tar vi gjerne i mot en e-post fra deg.</p>
+<p class="paragraph">Send e-post med spørsmål eller innspill til kontakt@villvillvest.no</p>
+</div>
 {% endblock %}
