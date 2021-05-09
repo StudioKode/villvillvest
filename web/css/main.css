@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
@@ -58,8 +58,16 @@ section:not(:last-child) {
   height: 100%;
 }
 
+@font-face {
+  font-family: "drukwide-super";
+  src: url("../type/drukwide-super.otf");
+}
+@font-face {
+  font-family: "drukwide-medium";
+  src: url("../type/drukwide-medium.otf");
+}
 .heading--section {
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   font-size: 3rem;
   color: #333;
 }
@@ -120,7 +128,7 @@ section:not(:last-child) {
 .artister {
   width: 90%;
   margin: 0 5%;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 @media (max-width: 56.25em) {
   .artister {
@@ -129,7 +137,7 @@ section:not(:last-child) {
 }
 .artister__heading {
   font-size: 6rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   color: #333;
 }
 @media (max-width: 75em) {
@@ -138,7 +146,7 @@ section:not(:last-child) {
   }
 }
 .artister__paragraph {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 4rem;
   font-size: 1.6rem;
   width: 60%;
@@ -305,18 +313,18 @@ section:not(:last-child) {
 }
 .hero__image {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 .hero__year {
-  font-size: 4rem;
+  font-family: "drukwide-medium", sans-serif;
   color: #fff;
-  font-size: 14rem;
+  font-size: 12rem;
   z-index: 7;
   opacity: 0.3;
   position: absolute;
   left: 50%;
-  top: 20rem;
+  top: 24rem;
   transform: translateX(-50%);
 }
 @media (max-width: 56.25em) {
@@ -494,7 +502,7 @@ section:not(:last-child) {
 }
 .listing__headline {
   font-size: 4rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   padding-bottom: 2rem;
 }
 .listing__link {
@@ -524,7 +532,7 @@ section:not(:last-child) {
   font-size: 2rem;
   color: #741CBF;
   font-weight: bold;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   text-decoration: none;
 }
 
@@ -614,11 +622,11 @@ section:not(:last-child) {
 }
 .venues__heading {
   font-size: 6rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   color: #333;
 }
 .venues__paragraph {
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-size: 1.6rem;
   width: 60%;
   font-family: "Roboto", sans-serif;
@@ -644,6 +652,7 @@ section:not(:last-child) {
 }
 .venues__slide-heading {
   font-size: 4rem;
+  font-family: "drukwide-super", sans-serif;
 }
 .venues__slide-paragraph {
   padding-top: 1rem;
@@ -793,7 +802,7 @@ section:not(:last-child) {
   justify-content: space-between;
   margin: 0 5%;
   padding-bottom: 1rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   position: relative;
   z-index: 200;
   color: #333;
@@ -810,6 +819,7 @@ section:not(:last-child) {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.4rem;
+  font-family: "drukwide-medium", sans-serif;
   letter-spacing: 0.2rem;
   padding: 1rem 3rem;
   margin-right: 2rem;
@@ -856,7 +866,7 @@ section:not(:last-child) {
   margin: 0 5%;
   padding-bottom: 1rem;
   color: #fff;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   position: absolute;
   z-index: 100;
 }
@@ -866,16 +876,18 @@ section:not(:last-child) {
   display: flex;
   align-items: center;
 }
+.header__logo-image {
+  width: 5.5rem;
+}
 .header__logo {
   font-size: 6rem;
   /* width: 15rem; */
   height: 100%;
-  font-weight: 400;
   padding-right: 1rem;
 }
 .header__year {
   font-size: 6rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   margin-right: auto;
 }
 .header__button {
@@ -886,6 +898,7 @@ section:not(:last-child) {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.4rem;
+  font-family: "drukwide-medium", sans-serif;
   letter-spacing: 0.2rem;
   padding: 1rem 3rem;
   margin-right: 2rem;
@@ -914,8 +927,7 @@ section:not(:last-child) {
   margin-right: 0rem;
   margin-top: -0.2rem;
   font-size: 2.4rem;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "drukwide-medium", sans-serif;
   text-transform: uppercase;
 }
 .header__burger-line1 {
@@ -989,6 +1001,7 @@ section:not(:last-child) {
   font-size: 2.2rem;
   padding-bottom: 2rem;
   color: #741CBF;
+  font-family: "drukwide-medium", sans-serif;
 }
 @media (max-width: 50em) {
   .navigation__heading {
@@ -1049,7 +1062,7 @@ section:not(:last-child) {
 
 .artister__name {
   font-size: 4rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   padding-bottom: 0.5rem;
 }
 
@@ -1091,9 +1104,20 @@ section:not(:last-child) {
   margin-bottom: 2rem;
   width: 60%;
 }
+@media (max-width: 50em) {
+  .tickets {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 37.5em) {
+  .tickets {
+    width: 80%;
+  }
+}
 .tickets__heading {
   padding-bottom: 2rem;
   font-size: 3rem;
+  font-family: "drukwide-medium", sans-serif;
 }
 .tickets__paragraph {
   font-size: 1.6rem;
@@ -1128,11 +1152,23 @@ section:not(:last-child) {
   /* padding: 6rem; */
   padding-top: 4rem;
   padding-bottom: 8rem;
-  background: #f5f5f5;
+  background: #F2EDED;
+}
+.ticket-cards h2 {
+  font-size: 4rem;
+  color: #591593;
+  font-family: "drukwide-medium", sans-serif;
 }
 .ticket-cards__box {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 50em) {
+  .ticket-cards__box {
+    flex-direction: column;
+    align-items: center;
+    grid-row-gap: 4rem;
+  }
 }
 .ticket-cards__card {
   width: 40rem;
@@ -1144,24 +1180,51 @@ section:not(:last-child) {
   cursor: pointer;
   transition: transform 0.2s ease-in;
 }
+@media (max-width: 87.5em) {
+  .ticket-cards__card {
+    width: 35rem;
+  }
+}
+@media (max-width: 75em) {
+  .ticket-cards__card {
+    width: 30rem;
+  }
+}
+@media (max-width: 50em) {
+  .ticket-cards__card {
+    width: 60%;
+  }
+}
+@media (max-width: 37.5em) {
+  .ticket-cards__card {
+    width: 80%;
+  }
+}
 .ticket-cards__card:hover {
   transform: translateY(-1rem);
 }
+.ticket-cards__card:hover .ticket-cards__image {
+  filter: brightness(1);
+}
 .ticket-cards__image {
   width: 100%;
+  height: 25rem;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  filter: brightness(0.8);
+  transition: filter 0.2s ease-in;
 }
 .ticket-cards__content {
   padding: 3rem;
   position: relative;
 }
 .ticket-cards h3 {
-  font-family: "Oswald", sans-serif;
-  font-weight: normal;
+  font-family: "drukwide-medium", sans-serif;
   font-size: 3rem;
-  padding-bottom: 1.5rem;
+  background-image: linear-gradient(to right top, #680c6f, #702684, #783998, #7e4cad, #845ec2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .ticket-cards__text-box {
   height: 18rem;
@@ -1199,7 +1262,7 @@ section:not(:last-child) {
 
 .nyheter__name {
   font-size: 4rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   padding-bottom: 0.5rem;
 }
 

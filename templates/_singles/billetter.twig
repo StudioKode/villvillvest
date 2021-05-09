@@ -16,7 +16,10 @@
 <h2 class="u-center u-padding-bottom-4  heading--section">Hvilken billett skal jeg velge?</h2>
     <div class="ticket-cards__box">
         <div class="ticket-cards__card">
-            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80', alt='Snowy Mountains" class="ticket-cards__image">
+            {% set image = tickets.ticketImage1.one %}
+            {% if image|length %}
+                <img class="ticket-cards__image" src="{{ image.url({ width: 700 }) }}">
+            {% endif %}
             <div class="ticket-cards__content">
                 <h3>Dagspass</h3>
                 <div class="ticket-cards__text-box">
@@ -30,7 +33,10 @@
     </div>
 
     <div class="ticket-cards__card">
-        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80', alt='Snowy Mountains" class="ticket-cards__image">
+        {% set image = tickets.ticketImage2.one %}
+        {% if image|length %}
+            <img class="ticket-cards__image" src="{{ image.url({ width: 700 }) }}">
+        {% endif %}
         <div class="ticket-cards__content">
             <h3>Festivalpass</h3>
             <div class="ticket-cards__text-box">
@@ -43,7 +49,10 @@
     </div>
 
     <div class="ticket-cards__card">
-        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80', alt='Snowy Mountains" class="ticket-cards__image">
+        {% set image = tickets.ticketImage3.one %}
+        {% if image|length %}
+            <img class="ticket-cards__image" src="{{ image.url({ width: 700 }) }}">
+        {% endif %}
         <div class="ticket-cards__content">
             <h3>Delegatpass</h3>
             <div class="ticket-cards__text-box">
