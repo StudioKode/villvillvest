@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   box-sizing: border-box;
 }
 
@@ -67,14 +67,14 @@ section:not(:last-child) {
   src: url("../type/drukwide-medium.otf");
 }
 .heading--section {
-  font-family: "drukwide-super", sans-serif;
+  font-family: "drukwide-medium", sans-serif;
   font-size: 3rem;
   color: #333;
 }
 
 .paragraph {
   font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 2.4rem;
   color: #333;
 }
@@ -104,6 +104,10 @@ section:not(:last-child) {
   margin-top: 4rem;
 }
 
+.u-margin-top-2 {
+  margin-top: 2rem;
+}
+
 .u-w-pc-70 {
   width: 70%;
 }
@@ -118,7 +122,7 @@ section:not(:last-child) {
 }
 
 .u-color-accent {
-  color: #741CBF;
+  color: #EF6202;
 }
 
 .u-header-offset {
@@ -150,7 +154,7 @@ section:not(:last-child) {
   padding-bottom: 4rem;
   font-size: 1.6rem;
   width: 60%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 @media (max-width: 56.25em) {
   .artister__paragraph {
@@ -211,13 +215,14 @@ section:not(:last-child) {
   padding-left: 1rem;
   padding-right: 1rem;
   text-align: center;
-  color: #741CBF;
+  color: #EF6202;
 }
 .artister-row__summary {
   padding: 1rem;
   padding-bottom: 2rem;
   font-size: 1.6rem;
   text-align: center;
+  color: #333;
 }
 
 .artister__slide-nav {
@@ -272,6 +277,13 @@ section:not(:last-child) {
   }
 }
 
+.artister-mobile__paragraph {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  font-size: 1.6rem;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  width: 90%;
+}
 .artister-mobile__card {
   display: block;
   width: 100%;
@@ -279,6 +291,11 @@ section:not(:last-child) {
   padding-bottom: 4rem;
   text-decoration: none;
   color: #333;
+}
+@media (max-width: 56.25em) {
+  .artister-mobile__card {
+    width: 100%;
+  }
 }
 .artister-mobile__image {
   width: 100%;
@@ -338,7 +355,7 @@ section:not(:last-child) {
   left: 0;
   bottom: -9rem;
   background: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 40rem;
   height: 6rem;
   z-index: 2;
@@ -367,7 +384,7 @@ section:not(:last-child) {
 }
 .hero__box-2 {
   background: #F2EDED;
-  color: #741CBF;
+  color: #EF6202;
   flex-basis: 50%;
   padding-top: 2rem;
   padding-left: 2rem;
@@ -500,6 +517,11 @@ section:not(:last-child) {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
 }
+@media (max-width: 56.25em) {
+  .listing {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .listing__headline {
   font-size: 4rem;
   font-family: "drukwide-super", sans-serif;
@@ -511,7 +533,7 @@ section:not(:last-child) {
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  color: #741CBF;
+  color: #EF6202;
   text-decoration: none;
   background: #F2EDED;
 }
@@ -530,7 +552,7 @@ section:not(:last-child) {
 .listing__title {
   padding: 2rem 0;
   font-size: 2rem;
-  color: #741CBF;
+  color: #EF6202;
   font-weight: bold;
   font-family: "drukwide-super", sans-serif;
   text-decoration: none;
@@ -629,7 +651,7 @@ section:not(:last-child) {
   padding-top: 2rem;
   font-size: 1.6rem;
   width: 60%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .venues__slide {
   margin-top: 4rem;
@@ -657,17 +679,17 @@ section:not(:last-child) {
 .venues__slide-paragraph {
   padding-top: 1rem;
   font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 65%;
 }
 .venues__slide-paragraph--address {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #741CBF;
+  color: #EF6202;
   font-weight: 600;
 }
 .venues__slide-button {
-  background: #741CBF;
+  background: #EF6202;
   color: #fff;
   padding: 0.5rem 2rem;
   font-size: 1.4rem;
@@ -725,16 +747,23 @@ section:not(:last-child) {
   height: 50rem;
   padding-bottom: 2rem;
 }
+@media (max-width: 56.25em) {
+  .venues-mobile__iframe iframe {
+    width: 100%;
+  }
+}
 .venues-mobile__text {
   margin-bottom: 4rem;
 }
 .venues-mobile__heading {
   font-size: 2rem;
   padding-bottom: 1rem;
+  font-family: "drukwide-medium", sans-serif;
 }
 .venues-mobile__paragraph {
   font-size: 1.6rem;
   width: 60%;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 @media (max-width: 56.25em) {
   .venues-mobile {
@@ -774,13 +803,13 @@ section:not(:last-child) {
   text-decoration: underline;
 }
 .footer__link--social {
-  color: #741CBF;
+  color: #EF6202;
 }
 .footer__link--social:hover {
   text-decoration: none;
 }
 .footer__social {
-  color: #741CBF;
+  color: #EF6202;
   display: flex;
   justify-content: space-between;
 }
@@ -791,7 +820,7 @@ section:not(:last-child) {
 }
 .footer__social span:hover {
   font-size: 3.4rem;
-  color: #591593;
+  color: #bc4d02;
 }
 .header--dark {
   margin-top: -5vh;
@@ -814,7 +843,7 @@ section:not(:last-child) {
   align-items: center;
 }
 .header--dark__button {
-  background: #741CBF;
+  background: #EF6202;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -879,11 +908,39 @@ section:not(:last-child) {
 .header__logo-image {
   width: 5.5rem;
 }
+@media (max-width: 75em) {
+  .header__logo-image {
+    width: 3.7rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .header__logo-image {
+    display: none;
+  }
+}
 .header__logo {
   font-size: 6rem;
   /* width: 15rem; */
   height: 100%;
   padding-right: 1rem;
+}
+@media (max-width: 75em) {
+  .header__logo {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .header__logo {
+    display: none;
+  }
+}
+.header__logo-mobile {
+  width: 10rem;
+}
+@media (min-width: 56.25em) {
+  .header__logo-mobile {
+    display: none;
+  }
 }
 .header__year {
   font-size: 6rem;
@@ -893,7 +950,7 @@ section:not(:last-child) {
 .header__button {
   /* background: #741CBF;
   color: #fff; */
-  color: #741CBF;
+  color: #EF6202;
   background: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -1000,7 +1057,7 @@ section:not(:last-child) {
 .navigation__heading {
   font-size: 2.2rem;
   padding-bottom: 2rem;
-  color: #741CBF;
+  color: #EF6202;
   font-family: "drukwide-medium", sans-serif;
 }
 @media (max-width: 50em) {
@@ -1045,7 +1102,7 @@ section:not(:last-child) {
 }
 .navigation__social-link {
   font-size: 3rem;
-  color: #741CBF;
+  color: #EF6202;
   text-decoration: none;
 }
 .navigation__social-link:not(:last-child) {
@@ -1057,13 +1114,15 @@ section:not(:last-child) {
   transition: all 0.2s ease-in;
 }
 .navigation__social span:hover {
-  color: #9a44e4;
+  color: #fd8d40;
 }
 
 .artister__name {
+  margin-top: 2rem;
   font-size: 4rem;
-  font-family: "drukwide-super", sans-serif;
-  padding-bottom: 0.5rem;
+  font-family: "drukwide-medium", sans-serif;
+  color: #EF6202;
+  padding-bottom: 2rem;
 }
 
 .artister__date {
@@ -1090,12 +1149,12 @@ section:not(:last-child) {
 }
 
 .artister__content {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .artister__text {
   font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 60%;
 }
 
@@ -1127,7 +1186,7 @@ section:not(:last-child) {
   font-size: 1.6rem;
   text-transform: uppercase;
   text-decoration: none;
-  background: #741CBF;
+  background: #EF6202;
   padding: 1.5rem 4rem;
   border: none;
   border-radius: var(--border-radius-small);
@@ -1139,7 +1198,7 @@ section:not(:last-child) {
   transition: all 0.3s ease-in;
 }
 .tickets__button:hover {
-  background: #9B5ECF;
+  background: #fd8431;
 }
 .tickets__button:hover span {
   margin-left: 1.7rem;
@@ -1156,7 +1215,6 @@ section:not(:last-child) {
 }
 .ticket-cards h2 {
   font-size: 4rem;
-  color: #591593;
   font-family: "drukwide-medium", sans-serif;
 }
 .ticket-cards__box {
@@ -1222,9 +1280,7 @@ section:not(:last-child) {
 .ticket-cards h3 {
   font-family: "drukwide-medium", sans-serif;
   font-size: 3rem;
-  background-image: linear-gradient(to right top, #680c6f, #702684, #783998, #7e4cad, #845ec2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #EF6202;
 }
 .ticket-cards__text-box {
   height: 18rem;
@@ -1243,7 +1299,7 @@ section:not(:last-child) {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  background-color: #741CBF;
+  background-color: #EF6202;
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -1254,7 +1310,7 @@ section:not(:last-child) {
   transition: all 0.2s ease-in;
 }
 .ticket-cards__button:hover, .ticket-cards__button:active {
-  background-color: #9B5ECF;
+  background-color: #fd8431;
 }
 .ticket-cards__button:hover span {
   margin-left: 1.7rem;
@@ -1295,7 +1351,7 @@ section:not(:last-child) {
 
 .nyheter__text {
   font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 60%;
 }
 

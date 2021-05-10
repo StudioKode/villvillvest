@@ -10,6 +10,10 @@
                 <img class="header__logo" src="{{ image.url }}">
             {% endif %} #}
         {# <h2 class="header__year">2021</h2> #}
+        {% set image = header.logoMobileDark.one %}
+        {% if image|length %}
+            <img class="header__logo-mobile" src="{{ image.url({ width: 50 }) }}">
+        {% endif %}
     </a>
     <nav class="menu">
         <a href="{{ url('billetter') }}" class="header--dark__button">Billetter <span>&rarr;</span></a>
