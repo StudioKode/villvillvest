@@ -4,16 +4,16 @@
         {% if image|length %}
             <img class="header__logo-image" src="{{ image.url({ width: 50 }) }}">
         {% endif %}
-        <h2 class="header__logo">Vill Vill Vest</h2>
+        {# <h2 class="header__logo">Vill Vill Vest</h2> #}
         {# {% set image = header.logoImage.one %}
             {% if image|length %}
                 <img class="header__logo" src="{{ image.url }}">
             {% endif %} #}
         {# <h2 class="header__year">2021</h2> #}
-        {% set image = header.logoMobile.one %}
+        {# {% set image = header.logoMobile.one %}
         {% if image|length %}
             <img class="header__logo-mobile" src="{{ image.url({ width: 50 }) }}">
-        {% endif %}
+        {% endif %} #}
     </a>
     <nav class="menu">
         <a href="{{ url('billetter') }}" class="header__button">Billetter <span>&rarr;</span></a>

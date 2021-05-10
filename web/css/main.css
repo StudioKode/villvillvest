@@ -554,7 +554,7 @@ section:not(:last-child) {
   font-size: 2rem;
   color: #EF6202;
   font-weight: bold;
-  font-family: "drukwide-super", sans-serif;
+  font-family: "drukwide-medium", sans-serif;
   text-decoration: none;
 }
 
@@ -906,17 +906,7 @@ section:not(:last-child) {
   align-items: center;
 }
 .header__logo-image {
-  width: 5.5rem;
-}
-@media (max-width: 75em) {
-  .header__logo-image {
-    width: 3.7rem;
-  }
-}
-@media (max-width: 56.25em) {
-  .header__logo-image {
-    display: none;
-  }
+  width: 9rem;
 }
 .header__logo {
   font-size: 6rem;
