@@ -114,6 +114,11 @@ p {
 .u-w-pc-70 {
   width: 70%;
 }
+@media (max-width: 56.25em) {
+  .u-w-pc-70 {
+    width: 90%;
+  }
+}
 
 /** Text **/
 .u-center {
@@ -1159,16 +1164,11 @@ p {
 .tickets {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  width: 60%;
-}
-@media (max-width: 50em) {
-  .tickets {
-    margin: 0 auto;
-  }
+  width: 70%;
 }
 @media (max-width: 37.5em) {
   .tickets {
-    width: 80%;
+    width: 90%;
   }
 }
 .tickets__button {
@@ -1205,7 +1205,13 @@ p {
 }
 .ticket-cards h2 {
   font-size: 4rem;
+  line-height: 3.5rem;
   font-family: "drukwide-medium", sans-serif;
+}
+@media (max-width: 37.5em) {
+  .ticket-cards h2 {
+    text-align: left !important;
+  }
 }
 .ticket-cards__box {
   display: flex;
@@ -1245,7 +1251,7 @@ p {
 }
 @media (max-width: 37.5em) {
   .ticket-cards__card {
-    width: 80%;
+    width: 100%;
   }
 }
 .ticket-cards__card:hover {
