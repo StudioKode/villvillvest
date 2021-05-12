@@ -44,7 +44,9 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: #333;
   box-sizing: border-box;
 }
 
@@ -69,14 +71,11 @@ section:not(:last-child) {
 .heading--section {
   font-family: "drukwide-medium", sans-serif;
   font-size: 3rem;
-  color: #333;
+  line-height: 3rem;
 }
 
-.paragraph {
-  font-size: 1.6rem;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+p {
   line-height: 2.4rem;
-  color: #333;
 }
 
 /** Margins & Paddings **/
@@ -106,6 +105,10 @@ section:not(:last-child) {
 
 .u-margin-top-2 {
   margin-top: 2rem;
+}
+
+.u-margin-bottom-2 {
+  margin-bottom: 2rem;
 }
 
 .u-w-pc-70 {
@@ -140,25 +143,13 @@ section:not(:last-child) {
   }
 }
 .artister__heading {
-  font-size: 6rem;
   font-family: "drukwide-super", sans-serif;
+  font-size: 6rem;
   color: #333;
 }
 @media (max-width: 75em) {
   .artister__heading {
     margin-top: 6rem;
-  }
-}
-.artister__paragraph {
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  font-size: 1.6rem;
-  width: 60%;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-@media (max-width: 56.25em) {
-  .artister__paragraph {
-    width: 100%;
   }
 }
 @media (max-width: 56.25em) {
@@ -195,16 +186,15 @@ section:not(:last-child) {
 .artister-row__link:not(:last-child) {
   margin-right: 4rem;
 }
+.artister-row__link:hover .artister-row__image {
+  filter: brightness(1.1);
+}
 .artister-row__image {
-  border-radius: var(--border-radius-big);
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.7);
+  filter: brightness(0.95);
   transition: filter 0.2s ease-in;
-}
-.artister-row__image__image:hover {
-  filter: brightness(1);
 }
 .artister-row__title {
   font-size: 2rem;
@@ -281,7 +271,7 @@ section:not(:last-child) {
   padding-top: 2rem;
   padding-bottom: 4rem;
   font-size: 1.6rem;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", "Open Sans", sans-serif;
   width: 90%;
 }
 .artister-mobile__card {
@@ -312,7 +302,7 @@ section:not(:last-child) {
   font-size: 1.6rem;
 }
 .artister-mobile__button {
-  background: #741CBF;
+  background: #EF6202;
   color: #fff;
   font-size: 1.6rem;
   padding: 1rem 2rem;
@@ -321,6 +311,11 @@ section:not(:last-child) {
   display: block;
   width: 30%;
   margin-bottom: 4rem;
+  text-decoration: none;
+  transition: background 0.2s ease-in;
+}
+.artister-mobile__button:hover {
+  background: #fd7e27;
 }
 
 .hero {
@@ -355,7 +350,6 @@ section:not(:last-child) {
   left: 0;
   bottom: -9rem;
   background: #fff;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 40rem;
   height: 6rem;
   z-index: 2;
@@ -522,6 +516,11 @@ section:not(:last-child) {
     grid-template-columns: 1fr 1fr;
   }
 }
+@media (max-width: 50em) {
+  .listing {
+    grid-template-columns: 1fr;
+  }
+}
 .listing__headline {
   font-size: 4rem;
   font-family: "drukwide-super", sans-serif;
@@ -536,21 +535,22 @@ section:not(:last-child) {
   color: #EF6202;
   text-decoration: none;
   background: #F2EDED;
+  transition: transform 0.2s ease-in;
+}
+.listing__link:hover .listing__image {
+  filter: brightness(1.1);
 }
 .listing__link:hover {
-  text-decoration: underline;
+  transform: translateY(0.5rem);
 }
 .listing__image {
   width: 100%;
   height: 100%;
-  filter: brightness(0.7);
+  filter: brightness(0.95);
   transition: filter 0.2s ease-in;
 }
-.listing__image:hover {
-  filter: brightness(0.8);
-}
 .listing__title {
-  padding: 2rem 0;
+  padding: 3rem 0;
   font-size: 2rem;
   color: #EF6202;
   font-weight: bold;
@@ -643,18 +643,12 @@ section:not(:last-child) {
   }
 }
 .venues__heading {
-  font-size: 6rem;
   font-family: "drukwide-super", sans-serif;
+  font-size: 6rem;
   color: #333;
 }
-.venues__paragraph {
-  padding-top: 2rem;
-  font-size: 1.6rem;
-  width: 60%;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
 .venues__slide {
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 5fr 5fr;
@@ -679,7 +673,7 @@ section:not(:last-child) {
 .venues__slide-paragraph {
   padding-top: 1rem;
   font-size: 1.6rem;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica Neue", "Open Sans", sans-serif;
   width: 65%;
 }
 .venues__slide-paragraph--address {
@@ -688,12 +682,27 @@ section:not(:last-child) {
   color: #EF6202;
   font-weight: 600;
 }
+@media (max-width: 56.25em) {
+  .venues__slide-paragraph--address {
+    padding-bottom: 4rem;
+  }
+}
 .venues__slide-button {
   background: #EF6202;
   color: #fff;
   padding: 0.5rem 2rem;
   font-size: 1.4rem;
   text-decoration: none;
+  transition: background 0.2s ease-in;
+}
+.venues__slide-button:hover {
+  background: #fd7e27;
+}
+@media (max-width: 56.25em) {
+  .venues__slide-button {
+    padding: 1rem 4rem;
+    font-size: 1.6rem;
+  }
 }
 
 .glider-prev,
@@ -740,6 +749,7 @@ section:not(:last-child) {
 }
 
 .venues-mobile .venues__paragraph {
+  padding-top: 2rem;
   margin-bottom: 8rem;
 }
 .venues-mobile__iframe iframe {
@@ -756,14 +766,9 @@ section:not(:last-child) {
   margin-bottom: 4rem;
 }
 .venues-mobile__heading {
-  font-size: 2rem;
-  padding-bottom: 1rem;
   font-family: "drukwide-medium", sans-serif;
-}
-.venues-mobile__paragraph {
-  font-size: 1.6rem;
-  width: 60%;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 @media (max-width: 56.25em) {
   .venues-mobile {
@@ -1144,8 +1149,11 @@ section:not(:last-child) {
 
 .artister__text {
   font-size: 1.6rem;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 60%;
+}
+
+#container, html.embed {
+  background: #fff !important;
 }
 
 .tickets {
@@ -1162,14 +1170,6 @@ section:not(:last-child) {
   .tickets {
     width: 80%;
   }
-}
-.tickets__heading {
-  padding-bottom: 2rem;
-  font-size: 3rem;
-  font-family: "drukwide-medium", sans-serif;
-}
-.tickets__paragraph {
-  font-size: 1.6rem;
 }
 .tickets__button {
   color: #fff;
@@ -1271,13 +1271,14 @@ section:not(:last-child) {
   font-family: "drukwide-medium", sans-serif;
   font-size: 3rem;
   color: #EF6202;
+  padding-bottom: 1rem;
 }
 .ticket-cards__text-box {
   height: 18rem;
 }
 .ticket-cards p {
   font-size: 1.6rem;
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 1rem;
 }
 .ticket-cards__button {
@@ -1341,7 +1342,6 @@ section:not(:last-child) {
 
 .nyheter__text {
   font-size: 1.6rem;
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   width: 60%;
 }
 
