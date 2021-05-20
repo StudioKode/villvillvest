@@ -1,0 +1,55 @@
+<section class="hero">
+    
+    <div id="glider-1" class="glider-contain">
+        <div id="gliderHero" class="glider">
+            <div>
+                {% set image = hero.heroImage.one %}
+                {% if image|length %}
+                    <img class="hero__image" src="{{ image.url({ width: 2000 }) }}">
+                {% endif %}
+                  
+            </div>
+
+            <div>
+                {% set image = hero.heroImage2.one %}
+                {% if image|length %}
+                    <img class="hero__image" src="{{ image.url({ width: 2000 }) }}">
+                {% endif %}  
+            </div>
+
+            <div>
+                {% set image = hero.heroImage3.one %}
+                {% if image|length %}
+                    <img class="hero__image" src="{{ image.url({ width: 2000 }) }}">
+                {% endif %}   
+            </div>
+
+            <div>
+                {% set image = hero.heroImage4.one %}
+                {% if image|length %}
+                    <img class="hero__image" src="{{ image.url({ width: 2000 }) }}">
+                {% endif %}   
+            </div>        
+
+        </div>
+
+        <div class="hero__slide-nav">
+            <div role="tablist" id="heroDots" class="dots"></div>
+            <button aria-label="Next" id="heroNext" class="glider-next hero__next">Next <span>&#8594</span></button>
+            <button aria-label="Previous" id="heroPrev" class="glider-prev hero__prev"><span>&#8592</span> Previous</button>
+        </div>
+      </div>
+
+      <div class="hero__year">
+        <h1>2021</h1>
+    </div>
+    <div class="hero__info">
+        <a href="{{ url('artister/category/2021') }}" class="hero__box-1">
+            <p class="hero__paragraph u-bold">Se lineup 2021 <span>&rarr;</span></p>
+        </a>
+        <a href="{{ url('billetter') }}" class="hero__box-2">
+            <p class="hero__paragraph u-bold">Kjøp billett <span>&rarr;</span></p>
+        </a>
+        </div> 
+             
+    </section>
