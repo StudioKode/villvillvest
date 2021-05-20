@@ -1055,7 +1055,7 @@ p {
   top: 0;
   width: 100%;
   height: 100vh;
-  background: #F2EDED;
+  background: #fff;
   z-index: 2;
   opacity: 0;
   display: none;
