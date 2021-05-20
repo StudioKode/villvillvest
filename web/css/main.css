@@ -381,11 +381,12 @@ p {
   object-fit: cover;
 }
 .hero__year {
-  font-family: "drukwide-medium", sans-serif;
+  font-family: "drukwide-super", sans-serif;
   color: #fff;
-  font-size: 12rem;
+  font-size: 6rem;
+  text-align: center;
   z-index: 7;
-  opacity: 0.3;
+  opacity: 0.4;
   position: absolute;
   left: 50%;
   top: 24rem;
