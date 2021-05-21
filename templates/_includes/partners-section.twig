@@ -1,0 +1,11 @@
+<section class="partners page-content">
+    <div class="partners__grid">
+        {% set images = partnere.partnereImages.all() %}
+        {% for image in images %}
+            <img src="{{ image.getUrl }}" class="partners__image">
+        {% endfor %} 
+    </div>
+    <div class="partners__link-container">
+        <a href="{{ url('partnere') }}" class="partners__button">Se alle samarbeidspartnere <span>&rarr;</span></a>
+    </div>
+</section>

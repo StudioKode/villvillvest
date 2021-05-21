@@ -1,4 +1,19 @@
 {% extends "_layout" %}
 
 {% block content %}
+{% include "_includes/header-dark" %}
+{% include "_includes/nav" %}
+
+<section class="all-partners page-content">
+    <h1 class="heading--section u-margin-top-2 u-margin-bottom-2">
+    <span class="u-color-accent">Våre</span> samarbeidspartnere
+  </h1>
+  <p class="paragraph u-w-pc-70 u-padding-bottom-4">I'm half machine. I'm a monster. Across from where? Army had half a day. There's so many poorly chosen words in that sentence. There's so many poorly chosen words in that sentence.</p>
+    <div class="all-partners__grid">
+        {% set images = allPartners.allPartnersImages.all() %}
+        {% for image in images %}
+            <img src="{{ image.getUrl }}" class="partners__image">
+        {% endfor %} 
+    </div>
+</section>
 {% endblock %}

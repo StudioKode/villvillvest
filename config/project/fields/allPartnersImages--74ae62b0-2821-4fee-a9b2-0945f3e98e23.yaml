@@ -1,0 +1,32 @@
+contentColumnType: string
+fieldGroup: 227466e9-c1aa-4adc-a11d-f23c66462603 # All Partners
+handle: allPartnersImages
+instructions: 'Add the logos from all partners/sponsors (including main partners)'
+name: 'All Partners Images'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  defaultUploadLocationSubpath: ''
+  limit: ''
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

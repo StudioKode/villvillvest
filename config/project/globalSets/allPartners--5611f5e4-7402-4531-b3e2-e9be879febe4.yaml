@@ -1,0 +1,18 @@
+fieldLayouts:
+  1dd2e575-fe93-421b-b481-0c06e52c5288:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 74ae62b0-2821-4fee-a9b2-0945f3e98e23 # All Partners Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: content
+        sortOrder: 1
+handle: allPartners
+name: 'All Partners'
