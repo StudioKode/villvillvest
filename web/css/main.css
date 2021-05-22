@@ -1126,11 +1126,16 @@ p {
 }
 .navigation__container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 12rem;
-  position: absolute;
-  top: 35vh;
-  right: 5%;
+  grid-template-columns: 35% 1fr 1fr 1fr;
+  grid-column-gap: 6rem;
+  margin-top: 17vh;
+  padding-right: 5%;
+}
+@media (max-width: 56.25em) {
+  .navigation__container {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5%;
+  }
 }
 @media (max-width: 50em) {
   .navigation__container {
@@ -1194,6 +1199,11 @@ p {
 }
 .navigation__social {
   margin-top: 4rem;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: start;
 }
 .navigation__social-link {
   font-size: 3rem;
@@ -1210,6 +1220,22 @@ p {
 }
 .navigation__social span:hover {
   color: #fd8d40;
+}
+.navigation__blob {
+  margin-top: 8rem;
+  margin-left: 15%;
+  transform: rotate(-35deg);
+  width: 35rem;
+}
+@media (max-width: 75em) {
+  .navigation__blob {
+    width: 32rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .navigation__blob {
+    display: none;
+  }
 }
 
 .artister__name {

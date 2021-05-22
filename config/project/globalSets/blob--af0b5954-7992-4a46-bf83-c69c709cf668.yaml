@@ -1,0 +1,18 @@
+fieldLayouts:
+  e48a80c8-244c-4215-ae68-08a279aa5fc1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 75a78cea-b9eb-4663-b7b7-157118252650 # Blob Navigation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Blobs
+        sortOrder: 1
+handle: blob
+name: Blob

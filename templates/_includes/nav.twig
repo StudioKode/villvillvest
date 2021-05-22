@@ -6,6 +6,12 @@
     </div>
 
     <div class="navigation__container">
+
+        {% set image = blob.blobNav.one %}
+        {% if image|length %}
+            <img class="navigation__blob" src="{{ image.url({ width: 500 }) }}">
+        {% endif %}
+
         <div class="navigation__category">
             <h2 class="navigation__heading">Billetter &<br> påmelding</h2>
             <ul class="navigation__list">
