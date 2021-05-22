@@ -85,7 +85,7 @@ fieldLayouts:
 handle: konferanser
 hasTitleField: true
 name: Konferanser
-section: d940cb33-7c15-4286-8cb3-8ec1183f127f # Konferanser
+section: d940cb33-7c15-4286-8cb3-8ec1183f127f # Konferanse
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

@@ -1,0 +1,18 @@
+<div class="konferanse-mobile">
+    {% for post in posts %}
+  <a href="{{ post.url }}" class="konferanse-mobile__card">
+    {% if post.featureImage|length %}
+      {% set image = post.featureImage.one() %}
+      <div>
+        <img src="{{ image.getUrl({ width: 1000, height: 1000}) }}"
+            alt="{{ image.title }}"
+            class="konferanse-mobile__image"
+        />
+      </div>
+    {% endif %}
+    <h3 class="konferanse-mobile__title">{{ post.title }}</h3>
+    <p class="konferanse-mobile__summary">{{ post.summary }}</p>
+  </a>
+{% endfor %}
+    <a href="{{ url('konferanse/category/2021') }}" class="konferanse-mobile__button">Se alle konferanse</a>
+</div>

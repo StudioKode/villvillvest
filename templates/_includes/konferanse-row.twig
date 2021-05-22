@@ -1,0 +1,24 @@
+<div id="glider-2" class="glider-contain">
+<div id="gliderKonferanse" class="glider konferanse-row">
+{% for post in posts %}
+  <a href="{{ post.url }}" class="konferanse-row__link">
+    {% if post.featureImage|length %}
+      {% set image = post.featureImage.one() %}
+      <div>
+        <img src="{{ image.getUrl({ width: 400, height: 400}) }}"
+            alt="{{ image.title }}"
+            class="konferanse-row__image"
+        />
+      </div>
+    {% endif %}
+    <h3 class="konferanse-row__title">{{ post.title }}</h3>
+    <p class="konferanse-row__summary">{{ post.summary }}</p>
+  </a>
+{% endfor %}
+</div>
+<div class="konferanse__slide-nav">
+  <button aria-label="Previous" id="konferansePrev" class="glider-prev konferanse__prev"><span class="fas fa-chevron-left"></button>
+  <div role="tablist" id="konferanseDots" class="dots"></div>
+  <button aria-label="Next" id="konferanseNext" class="glider-next konferanse__next"><span class="fas fa-chevron-right"></span></button>
+</div>
+</div>

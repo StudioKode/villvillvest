@@ -594,6 +594,192 @@ p {
   cursor: pointer;
 }
 
+.konferanse {
+  width: 90%;
+  margin: 0 5%;
+  margin-top: 4rem;
+}
+@media (max-width: 56.25em) {
+  .konferanse {
+    display: none;
+  }
+}
+.konferanse__heading {
+  font-family: "Druk Wide Super", sans-serif;
+  font-size: 6rem;
+  color: #2a2a2a;
+}
+@media (max-width: 75em) {
+  .konferanse__heading {
+    margin-top: 6rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .konferanse__text-box {
+    margin: 4rem 0rem 4rem 0rem;
+  }
+}
+.konferanse__credit {
+  padding: 1rem 0;
+  text-align: right;
+  font-size: 1.4rem;
+}
+.konferanse__date {
+  color: #2a2a2a;
+}
+
+.konferanse-row {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 2rem;
+}
+@media (max-width: 56.25em) {
+  .konferanse-row {
+    display: none;
+  }
+}
+.konferanse-row__link {
+  text-decoration: none;
+  background: #F2EDED;
+  overflow: hidden;
+  width: 40rem;
+  height: 40rem;
+}
+.konferanse-row__link:not(:last-child) {
+  margin-right: 4rem;
+}
+.konferanse-row__link:hover .konferanse-row__image {
+  filter: brightness(1.1);
+}
+.konferanse-row__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.95);
+  transition: filter 0.2s ease-in;
+}
+.konferanse-row__title {
+  font-size: 2rem;
+  color: #2a2a2a;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  color: #EF6202;
+}
+.konferanse-row__summary {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.konferanse__slide-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+@media (max-width: 75em) {
+  .konferanse__slide-nav {
+    width: 22rem;
+  }
+}
+@media (max-width: 56.25em) {
+  .konferanse__slide-nav {
+    display: none;
+  }
+}
+
+#konferansePrev {
+  position: relative;
+  background: none;
+  color: #555;
+}
+
+#konferanseNext {
+  position: relative;
+  background: none;
+  color: #555;
+}
+
+#konferanseDots {
+  margin-top: 0.6rem;
+}
+
+.konferanse-mobile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 56.25em) {
+  .konferanse-mobile-section {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+@media (min-width: 56.25em) {
+  .konferanse-mobile-section {
+    display: none;
+  }
+}
+
+.konferanse-mobile__paragraph {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  font-size: 1.6rem;
+  font-family: "Helvetica Neue", "Open Sans", sans-serif;
+  width: 90%;
+}
+.konferanse-mobile__card {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4rem;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+@media (max-width: 56.25em) {
+  .konferanse-mobile__card {
+    width: 100%;
+  }
+}
+.konferanse-mobile__image {
+  width: 100%;
+  width: 100%;
+}
+.konferanse-mobile__title {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+.konferanse-mobile__summary {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.konferanse-mobile__button {
+  background: #EF6202;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 30%;
+  margin-bottom: 4rem;
+  text-decoration: none;
+  transition: background 0.2s ease-in;
+}
+.konferanse-mobile__button:hover {
+  background: #fd7e27;
+}
+
 .listing {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

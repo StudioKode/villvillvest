@@ -41,6 +41,19 @@ window.addEventListener('load', function() {
       });
 })
 
+window.addEventListener('load', function() {
+  new Glider(document.querySelector('#gliderKonferanse'), {
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      draggable: false,
+      dots: '#konferanseDots',
+      arrows: {
+        prev: '#konferansePrev',
+        next: '#konferanseNext'
+      }
+    });
+})
+
 
 //GSAP Animations
 
