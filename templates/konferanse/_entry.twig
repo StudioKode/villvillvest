@@ -1,0 +1,47 @@
+{% extends "_layout" %}
+
+{% set featureImage = {
+  mode: 'crop',
+  width: 900,
+  height: 600,
+  quality: 90
+} %}
+
+{% block content %}
+{% include "_includes/header-dark" %}
+{% include "_includes/nav" %}
+<div class="page-content">
+  <h1 class="heading--section u-padding-bottom-2 u-margin-top-2 u-color-accent">{{ entry.title }}</h1>
+  <h2 class="konferanse__date">{{ entry.concertDate }}</h2>
+
+    <section class="konferanse__assets">
+      <div class="konferanse__image-container">
+        {% if entry.featureImage|length %}
+            {% for image in entry.featureImage.all() %}
+            <img class="konferanse__image" src="{{ image.getUrl(featureImage) }}" alt="{{ image.title }}" />
+            {% endfor %}
+        {% endif %}
+        <p class="konferanse__credit">{{ entry.photoCredit }}</p>
+      </div>
+
+        <div class="konferanse__music-embed">
+            {{ entry.spotify | raw }}
+        </div>
+    </section>
+
+
+  <section class="konferanse__content">
+    {% for block in entry.postContent.all() %}
+      <div class="konferanse__text paragraph u-margin-top-4">
+        {% if block.type == 'text' %}
+          {{ block.text }}
+        {% elseif block.type == 'image' %}
+          {% for image in block.image.all() %}
+            <img src="{{ image.url }}" alt="{{ image.title }}" />
+          {% endfor %}
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

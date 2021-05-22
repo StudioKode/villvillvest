@@ -1,0 +1,40 @@
+fieldLayouts:
+  e43ead1a-2413-4ce3-8046-f1ccc77eeaf7:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: konferanseCategories
+name: 'Konferanse Categories'
+siteSettings:
+  ff6d129f-58c1-49a3-82d4-b5e2571a753e: # villvillvest
+    hasUrls: true
+    template: konferanse/_category
+    uriFormat: 'konferanse/category/{slug}'
+structure:
+  maxLevels: 1
+  uid: 8e26cda9-1d7a-4a93-9181-45c3515d232b

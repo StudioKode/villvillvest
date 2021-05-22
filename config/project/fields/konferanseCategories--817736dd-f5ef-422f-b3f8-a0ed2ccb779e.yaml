@@ -1,0 +1,23 @@
+contentColumnType: string
+fieldGroup: 227466e9-c1aa-4adc-a11d-f23c66462603 # All Partners
+handle: konferanseCategories
+instructions: ''
+name: 'Konferanse Categories'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: 'group:16b083e5-22dd-48cf-82a5-2c85727c3bf4' # Konferanse Categories
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

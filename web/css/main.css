@@ -1433,6 +1433,44 @@ p {
   margin-left: 1.7rem;
 }
 
+.konferanse__name {
+  margin-top: 2rem;
+  font-size: 4rem;
+  font-family: "Druk Wide Medium", sans-serif;
+  color: #EF6202;
+  padding-bottom: 2rem;
+}
+
+.konferanse__date {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.konferanse__assets {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-column-gap: 2rem;
+}
+
+.konferanse__image {
+  width: 100%;
+  height: 100%;
+}
+
+.konferanse__music-embed {
+  width: 100%;
+  height: 100%;
+}
+
+.konferanse__content {
+  margin-top: 3rem;
+}
+
+.konferanse__text {
+  font-size: 1.6rem;
+  width: 60%;
+}
+
 .nyheter__name {
   font-size: 4rem;
   font-family: "Druk Wide Super", sans-serif;
