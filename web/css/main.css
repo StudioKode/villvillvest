@@ -180,6 +180,10 @@ p {
   padding-top: 15vh;
 }
 
+.u-list-indent {
+  margin-left: 2rem;
+}
+
 .accordion {
   max-width: 600px;
 }
