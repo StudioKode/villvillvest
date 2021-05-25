@@ -1,6 +1,11 @@
 <section class="hero">
-    
-    <div id="glider-1" class="glider-contain">
+    {% set image = hero.heroImage.one %}
+    {% if image|length %}
+        <img class="hero__image" src="{{ image.url({ width: 2000 }) }}">
+    {% endif %}
+
+    {# Hero glider background #}
+    {# <div id="glider-1" class="glider-contain">
         <div id="gliderHero" class="glider">
             <div>
                 {% set image = hero.heroImage.one %}
@@ -38,7 +43,7 @@
             <button aria-label="Next" id="heroNext" class="glider-next hero__next">Next <span>&#8594</span></button>
             <button aria-label="Previous" id="heroPrev" class="glider-prev hero__prev"><span>&#8592</span> Previous</button>
         </div>
-      </div>
+      </div> #}
 
       <div class="hero__year">
         <h1>9. - 11. september</h1>
