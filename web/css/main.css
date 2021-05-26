@@ -428,11 +428,11 @@ p {
 }
 .hero__year {
   font-family: "Druk Wide Super", sans-serif;
-  color: #fff;
+  color: #EF6202;
+  text-transform: uppercase;
   font-size: 6rem;
   text-align: center;
   z-index: 7;
-  opacity: 0.4;
   position: absolute;
   left: 50%;
   top: 24rem;
