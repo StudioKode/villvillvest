@@ -9,7 +9,7 @@
 
         {% set image = blob.blobNav.one %}
         {% if image|length %}
-            <img class="navigation__blob" src="{{ image.url({ width: 500 }) }}">
+            <img class="navigation__blob" src="{{ image.url }}">
         {% endif %}
 
         <div class="navigation__category">
