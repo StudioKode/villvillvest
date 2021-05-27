@@ -251,6 +251,11 @@ p {
   font-size: 6rem;
   color: #2a2a2a;
 }
+@media (max-width: 37.5em) {
+  .artister__heading {
+    font-size: 4rem;
+  }
+}
 @media (max-width: 56.25em) {
   .artister__text-box {
     margin: 6rem 0rem 4rem 0rem;
@@ -621,6 +626,11 @@ p {
   font-size: 6rem;
   color: #2a2a2a;
 }
+@media (max-width: 37.5em) {
+  .konferanse__heading {
+    font-size: 4rem;
+  }
+}
 @media (max-width: 75em) {
   .konferanse__heading {
     margin-top: 8rem;
@@ -946,6 +956,11 @@ p {
   font-family: "Druk Wide Super", sans-serif;
   font-size: 6rem;
   color: #2a2a2a;
+}
+@media (max-width: 37.5em) {
+  .venues__heading {
+    font-size: 4rem;
+  }
 }
 .venues__slide {
   margin-top: 3rem;
