@@ -623,12 +623,7 @@ p {
 }
 @media (max-width: 75em) {
   .konferanse__heading {
-    margin-top: 6rem;
-  }
-}
-@media (max-width: 56.25em) {
-  .konferanse__text-box {
-    margin: 4rem 0rem 4rem 0rem;
+    margin-top: 8rem;
   }
 }
 .konferanse__credit {
@@ -727,7 +722,6 @@ p {
 .konferanse-mobile-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 @media (max-width: 56.25em) {
   .konferanse-mobile-section {
@@ -746,7 +740,7 @@ p {
   padding-bottom: 4rem;
   font-size: 1.6rem;
   font-family: "Helvetica Neue", "Open Sans", sans-serif;
-  width: 90%;
+  width: 100%;
 }
 .konferanse-mobile__card {
   display: block;
