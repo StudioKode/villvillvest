@@ -239,7 +239,7 @@ p {
 .artister {
   width: 90%;
   margin: 0 5%;
-  margin-top: 19rem;
+  margin-top: 8rem;
 }
 @media (max-width: 56.25em) {
   .artister {
@@ -251,14 +251,9 @@ p {
   font-size: 6rem;
   color: #2a2a2a;
 }
-@media (max-width: 75em) {
-  .artister__heading {
-    margin-top: 6rem;
-  }
-}
 @media (max-width: 56.25em) {
   .artister__text-box {
-    margin: 18rem 0rem 4rem 0rem;
+    margin: 6rem 0rem 4rem 0rem;
   }
 }
 .artister__credit {
@@ -1302,11 +1297,6 @@ p {
   overflow: hidden;
   transition: all 0.2s ease-in;
 }
-@media (max-width: 31.25em) {
-  .header__button {
-    display: none;
-  }
-}
 .header__button span {
   margin-left: 1.5rem;
   transition: all 0.3s ease-in;
@@ -1329,6 +1319,11 @@ p {
   font-size: 2.4rem;
   font-family: "Druk Wide Medium", sans-serif;
   text-transform: uppercase;
+}
+@media (max-width: 31.25em) {
+  .header__menu {
+    display: none;
+  }
 }
 .header__burger-line1 {
   width: 30px;
