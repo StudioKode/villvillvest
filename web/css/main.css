@@ -55,6 +55,12 @@ body {
   width: 90%;
   margin: 0 5%;
 }
+@media (max-width: 37.5em) {
+  .page-content {
+    width: 100%;
+    margin: 0 0;
+  }
+}
 
 a {
   color: #2a2a2a;
@@ -370,7 +376,7 @@ p {
   padding-bottom: 4rem;
   font-size: 1.6rem;
   font-family: "Helvetica Neue", "Open Sans", sans-serif;
-  width: 90%;
+  width: 100%;
 }
 .artister-mobile__card {
   display: block;
@@ -417,7 +423,7 @@ p {
 }
 
 .hero {
-  height: 80vh;
+  height: 100vh;
   margin: 0 0;
   position: relative;
 }
@@ -435,12 +441,11 @@ p {
   z-index: 7;
   position: absolute;
   left: 50%;
-  top: 24rem;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 @media (max-width: 56.25em) {
   .hero__year {
-    top: 35rem;
     font-size: 3rem;
   }
 }
@@ -1009,6 +1014,13 @@ p {
     font-size: 1.6rem;
   }
 }
+@media (max-width: 37.5em) {
+  .venues__slide-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+}
 
 .glider-prev,
 .glider-next {
@@ -1053,6 +1065,9 @@ p {
   margin-top: 0.6rem;
 }
 
+.venues-mobile {
+  margin-top: 6rem;
+}
 .venues-mobile .venues__paragraph {
   padding-top: 2rem;
   margin-bottom: 8rem;
@@ -1075,6 +1090,20 @@ p {
   font-size: 3rem;
   line-height: 3rem;
 }
+@media (max-width: 37.5em) {
+  .venues-mobile__heading {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+}
+@media (max-width: 37.5em) {
+  .venues-mobile__paragraph {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+}
 @media (max-width: 56.25em) {
   .venues-mobile {
     margin: 8rem 5rem 4rem 5rem;
@@ -1096,6 +1125,15 @@ p {
 @media (max-width: 75em) {
   .footer {
     grid-template-columns: 2fr 2fr 1fr;
+  }
+}
+@media (max-width: 37.5em) {
+  .footer {
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
   }
 }
 .footer__list {
@@ -1122,6 +1160,12 @@ p {
   color: #EF6202;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 37.5em) {
+  .footer__social {
+    margin-top: 2rem;
+    justify-content: flex-start;
+  }
 }
 .footer__social span {
   font-size: 3rem;
@@ -1257,6 +1301,11 @@ p {
   margin-right: 2rem;
   overflow: hidden;
   transition: all 0.2s ease-in;
+}
+@media (max-width: 31.25em) {
+  .header__button {
+    display: none;
+  }
 }
 .header__button span {
   margin-left: 1.5rem;
