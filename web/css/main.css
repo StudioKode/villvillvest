@@ -418,6 +418,11 @@ p {
   text-decoration: none;
   transition: background 0.2s ease-in;
 }
+@media (max-width: 37.5em) {
+  .artister-mobile__button {
+    width: 60%;
+  }
+}
 .artister-mobile__button:hover {
   background: #fd7e27;
 }
@@ -792,6 +797,11 @@ p {
   text-decoration: none;
   transition: background 0.2s ease-in;
 }
+@media (max-width: 37.5em) {
+  .konferanse-mobile__button {
+    width: 60%;
+  }
+}
 .konferanse-mobile__button:hover {
   background: #fd7e27;
 }
@@ -1018,13 +1028,6 @@ p {
     font-size: 1.6rem;
   }
 }
-@media (max-width: 37.5em) {
-  .venues__slide-button {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-  }
-}
 
 .glider-prev,
 .glider-next {
@@ -1093,20 +1096,6 @@ p {
   font-family: "Druk Wide Medium", sans-serif;
   font-size: 3rem;
   line-height: 3rem;
-}
-@media (max-width: 37.5em) {
-  .venues-mobile__heading {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-  }
-}
-@media (max-width: 37.5em) {
-  .venues-mobile__paragraph {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
-  }
 }
 @media (max-width: 56.25em) {
   .venues-mobile {
@@ -1386,6 +1375,7 @@ p {
   .navigation__container {
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 5%;
+    margin-top: 6rem;
   }
 }
 @media (max-width: 50em) {
@@ -1395,7 +1385,7 @@ p {
     right: 0;
     display: flex;
     flex-direction: column;
-    margin-top: 8rem;
+    margin-top: 4rem;
     margin-left: 4rem;
   }
 }
