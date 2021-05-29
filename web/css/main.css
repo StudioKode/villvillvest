@@ -195,6 +195,9 @@ p {
 .u-list-indent {
   margin-left: 2rem;
 }
+.u-list-indent:not(:last-child) li {
+  padding-bottom: 1rem;
+}
 
 .accordion {
   max-width: 600px;
