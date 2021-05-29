@@ -1,8 +1,8 @@
 contentColumnType: string
 fieldGroup: 227466e9-c1aa-4adc-a11d-f23c66462603 # All Partners
-handle: allPartnersImages
-instructions: 'Add the logos from all partners/sponsors (including main partners)'
-name: 'All Partners Images'
+handle: hovedpartnere
+instructions: ''
+name: Hovedpartnere
 searchable: false
 settings:
   allowSelfRelations: false
