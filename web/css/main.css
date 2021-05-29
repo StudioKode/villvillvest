@@ -1181,6 +1181,13 @@ p {
   margin: 0 5%;
   margin-top: 8rem;
 }
+@media (max-width: 37.5em) {
+  .welcome {
+    width: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
 
 .footer {
   display: grid;
