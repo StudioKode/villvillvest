@@ -26,6 +26,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
 }
 
 html {
+  overflow-x: hidden;
   font-size: 62.5%;
 }
 @media (max-width: 75em) {
@@ -45,6 +46,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Helvetica Neue", "Open Sans", sans-serif;
   font-size: 1.6rem;
   color: #2a2a2a;
