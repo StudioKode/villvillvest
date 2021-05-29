@@ -57,8 +57,8 @@ body {
 }
 @media (max-width: 37.5em) {
   .page-content {
-    width: 100%;
-    margin: 0 0;
+    width: 96%;
+    margin: 0 2%;
   }
 }
 
@@ -456,6 +456,11 @@ p {
 @media (max-width: 56.25em) {
   .hero__year {
     font-size: 3rem;
+  }
+}
+@media (max-width: 31.25em) {
+  .hero__year {
+    font-size: 2rem;
   }
 }
 .hero__info {
@@ -1181,9 +1186,11 @@ p {
   margin: 0 5%;
   margin-top: 8rem;
 }
-@media (max-width: 37.5em) {
+.welcome .paragraph {
+  width: 100%;
+}
+@media (max-width: 56.25em) {
   .welcome {
-    width: 100%;
     margin-left: 5rem;
     margin-right: 5rem;
   }
