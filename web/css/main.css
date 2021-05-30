@@ -1393,9 +1393,6 @@ p {
   margin-left: 1.5rem;
   transition: all 0.3s ease-in;
 }
-.header__button:hover {
-  opacity: 0.7;
-}
 .header__button:hover span {
   margin-left: 1.9rem;
 }
