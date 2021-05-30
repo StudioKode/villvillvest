@@ -1076,11 +1076,11 @@ p {
   padding-top: 1rem;
   font-size: 1.6rem;
   font-family: "Helvetica Neue", "Open Sans", sans-serif;
-  width: 65%;
+  width: 80%;
 }
 .venues__slide-paragraph--address {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   color: #EF6202;
   font-weight: 600;
 }
@@ -1092,8 +1092,9 @@ p {
 .venues__slide-button {
   background: #EF6202;
   color: #fff;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   font-size: 1.4rem;
+  font-weight: 600;
   text-decoration: none;
   transition: background 0.2s ease-in;
 }
