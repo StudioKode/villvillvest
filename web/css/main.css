@@ -1659,6 +1659,7 @@ p {
   font-size: 4rem;
   line-height: 3.5rem;
   font-family: "Druk Wide Medium", sans-serif;
+  padding-bottom: 6rem;
 }
 @media (max-width: 37.5em) {
   .ticket-cards h2 {
