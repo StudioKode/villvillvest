@@ -1,7 +1,7 @@
 <section class="hero">
     {% set image = hero.heroImage.one %}
     {% if image|length %}
-        <img class="hero__image" src="{{ image.url({ width: 2000 }) }}">
+        <img class="hero__image" src="{{ image.url({ width: 2000 }) }}" alt="Taco Bitch på USF Verftet, 2019. Fotograf: John Patrick">
     {% endif %}
 
     {# Hero glider background #}
