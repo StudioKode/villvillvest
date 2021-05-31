@@ -370,8 +370,8 @@ p {
 }
 @media (max-width: 56.25em) {
   .artister-mobile-section {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    width: 90%;
+    margin: 0 5%;
   }
 }
 @media (min-width: 56.25em) {
@@ -754,8 +754,8 @@ p {
 }
 @media (max-width: 56.25em) {
   .konferanse-mobile-section {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    width: 90%;
+    margin: 0 5%;
   }
 }
 @media (min-width: 56.25em) {
@@ -1178,7 +1178,10 @@ p {
 }
 @media (max-width: 56.25em) {
   .venues-mobile {
-    margin: 8rem 5rem 4rem 5rem;
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
   }
 }
 @media (min-width: 56.25em) {
@@ -1197,8 +1200,9 @@ p {
 }
 @media (max-width: 56.25em) {
   .welcome {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 8rem;
   }
 }
 
