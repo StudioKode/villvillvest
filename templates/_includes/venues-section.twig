@@ -48,6 +48,49 @@
                     <a href="https://kvarteret.no/" target="_blank" class="venues__slide-button">Besøk <span>&rarr;</span></a>
                 </div>
             </div>
+
+            <div class="venues__slide">
+                {% set image = venue.venueImage1.one %}
+                    {% if image|length %}
+                    <img src="{{ image.url({ width: 800 }) }}" alt="Illustration">
+                    {% endif %}
+                <div class="venues__slide-text">
+                    <h2 class="venues__slide-heading">Apollon</h2>
+                    <p class="venues__slide-paragraph">
+                    Rock'n roll siden 1976.Apollon er en av landets eldste plateforretninger. Spesialiteter er klassisk rock, folk, psykedelia, indie og metal.</p>
+                    <p class="venues__slide-paragraph venues__slide-paragraph--address">Olav Kyrres gate 49</p>
+                    <a href="https://kvarteret.no/" target="_blank" class="venues__slide-button">Besøk <span>&rarr;</span></a>
+                </div>
+            </div>
+
+            <div class="venues__slide">
+                {% set image = venue.venueImage2.one %}
+                    {% if image|length %}
+                    <img src="{{ image.url({ width: 800 }) }}" alt="Illustration">
+                    {% endif %}
+                <div class="venues__slide-text">
+                    <h2 class="venues__slide-heading">Kulturhuset</h2>
+                    <p class="venues__slide-paragraph">
+                    Kulturhuset i Bergen ligger i Vaskerelven 8, og vil være et åpent, inkluderende og levende hus som skal romme noe for alle.<br><br>
+                    Kulturhuset skal være åpent fra tidlig morgen til sent på kvelden og fylles med innhold gjennom døgnet</p>
+                    <p class="venues__slide-paragraph venues__slide-paragraph--address">Olav Kyrres gate 49</p>
+                    <a href="https://kvarteret.no/" target="_blank" class="venues__slide-button">Besøk <span>&rarr;</span></a>
+                </div>
+            </div>
+
+            <div class="venues__slide">
+                {% set image = venue.venueImage3.one %}
+                    {% if image|length %}
+                    <img src="{{ image.url({ width: 800 }) }}" alt="Illustration">
+                    {% endif %}
+                <div class="venues__slide-text">
+                    <h2 class="venues__slide-heading">Victoria</h2>
+                    <p class="venues__slide-paragraph">
+                    Bergens egen lille store Victoria Pub og Café. Her finner du gode folk, mat mat, og nydelig musikk.</p>
+                    <p class="venues__slide-paragraph venues__slide-paragraph--address">Olav Kyrres gate 49</p>
+                    <a href="https://kvarteret.no/" target="_blank" class="venues__slide-button">Besøk <span>&rarr;</span></a>
+                </div>
+            </div>
       
 
       </div>

@@ -1,0 +1,36 @@
+fieldLayouts:
+  4e680cae-dcc7-489d-b7b7-f30d7a2a4546:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 49f30b5d-f480-4098-9a0f-c138b18d506e # Venue Image 1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e51eee4d-5f43-4471-985b-7ef58cebb108 # Venue Image 2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ad3c0621-3542-433d-9e91-de757503e168 # Venue Image 3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: venue
+name: Venue
