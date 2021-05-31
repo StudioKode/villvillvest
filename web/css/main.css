@@ -1646,6 +1646,7 @@ p {
 @media (max-width: 37.5em) {
   .tickets {
     width: 90%;
+    margin: 0 5%;
   }
 }
 .tickets__button {
