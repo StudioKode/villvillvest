@@ -1631,7 +1631,7 @@ p {
   height: 100%;
 }
 
-.artister__music-embed {
+.artister__music-embed iframe {
   width: 100%;
   height: 100%;
 }
