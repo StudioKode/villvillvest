@@ -2,7 +2,7 @@
     <div class="partners__grid">
         {% set images = partnere.partnereImages.all() %}
         {% for image in images %}
-            <img src="{{ image.getUrl }}" class="partners__image">
+            <img src="{{ image.getUrl({ width: 600 }) }}" class="partners__image">
         {% endfor %} 
     </div>
     <div class="partners__link-container">
