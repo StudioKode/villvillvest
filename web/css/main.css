@@ -1240,6 +1240,11 @@ p {
 .footer__link--social {
   color: #EF6202;
 }
+@media (max-width: 37.5em) {
+  .footer__link--social {
+    padding-right: 1rem;
+  }
+}
 .footer__link--social:hover {
   text-decoration: none;
 }
