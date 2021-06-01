@@ -3,7 +3,7 @@
   <a class="listing__link" href="{{ post.url }}">
     {% if post.featureImage|length %}
       {% set image = post.featureImage.one() %}
-        <img src="{{ image.getUrl({ width: 300, height: 300}) }}"
+        <img src="{{ image.getUrl({ width: 1200, height: 1200}) }}"
             alt="{{ image.title }}"
             class="listing__image"
         />

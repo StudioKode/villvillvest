@@ -5,7 +5,7 @@
     {% if post.featureImage|length %}
       {% set image = post.featureImage.one() %}
       <div>
-        <img src="{{ image.getUrl({ width: 400, height: 400}) }}"
+        <img src="{{ image.getUrl({ width: 800, height: 800}) }}"
             alt="{{ image.title }}"
             class="artister-row__image"
         />
