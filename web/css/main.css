@@ -960,6 +960,11 @@ p {
     width: 14rem;
   }
 }
+@media (max-width: 37.5em) {
+  .partners__image {
+    width: 10rem;
+  }
+}
 .partners__link-container {
   display: flex;
   justify-content: center;
