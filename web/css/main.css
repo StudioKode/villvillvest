@@ -115,6 +115,17 @@ a {
   font-family: "drukwide-medium";
   src: url("../type/drukwide-medium.otf");
 }
+.heading {
+  font-family: "Druk Wide Super", sans-serif;
+  font-size: 6rem;
+  color: #2a2a2a;
+}
+@media (max-width: 37.5em) {
+  .heading {
+    font-size: 4rem;
+  }
+}
+
 .heading--section {
   font-family: "Druk Wide Medium", sans-serif;
   font-size: 3rem;
