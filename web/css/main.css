@@ -1636,6 +1636,7 @@ p {
   display: grid;
   grid-template-columns: 6fr 4fr;
   grid-column-gap: 2rem;
+  height: 70rem;
 }
 @media (max-width: 56.25em) {
   .artister__assets {
