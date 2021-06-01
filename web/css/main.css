@@ -1251,7 +1251,7 @@ p {
 
 .footer {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr 3fr;
+  grid-template-columns: 2fr 2fr 1fr 2fr;
   margin-top: 6rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -1315,6 +1315,26 @@ p {
   font-size: 3.4rem;
   color: #fd7e27;
 }
+.footer__newsletter {
+  margin-left: auto;
+  padding-right: 1rem;
+  width: 75%;
+}
+@media (max-width: 75em) {
+  .footer__newsletter {
+    margin-left: -1rem;
+    width: 100%;
+  }
+}
+.footer__newsletter form {
+  margin-top: -2rem;
+}
+@media (max-width: 75em) {
+  .footer__newsletter form {
+    margin-top: 1rem;
+  }
+}
+
 .header--dark {
   margin-top: -5vh;
   width: 90%;
