@@ -1647,7 +1647,6 @@ p {
 .artister__image {
   width: 100%;
   height: auto;
-  object-fit: cover;
 }
 
 .artister__music-embed iframe {
