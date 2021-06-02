@@ -1339,6 +1339,12 @@ p {
     margin-top: 1rem;
   }
 }
+@media (max-width: 37.5em) {
+  .footer__newsletter form {
+    margin-top: -3rem;
+    padding-top: 0rem;
+  }
+}
 
 .header--dark {
   margin-top: -5vh;
