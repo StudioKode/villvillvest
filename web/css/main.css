@@ -1257,7 +1257,7 @@ p {
 .footer {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr 2fr;
-  margin-top: 6rem;
+  margin-top: 10rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
 }
@@ -1344,6 +1344,9 @@ p {
     margin-top: -3rem;
     padding-top: 0rem;
   }
+}
+.footer .button {
+  background-color: #EF6202;
 }
 
 .header--dark {
