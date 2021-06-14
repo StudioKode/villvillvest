@@ -1,0 +1,133 @@
+description: ''
+handle: villVillVestStaff
+name: 'Vill Vill Vest Staff'
+permissions:
+  - 'createentries:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'publishentries:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'deleteentries:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'publishpeerentries:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'deletepeerentries:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'editpeerentries:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'publishpeerentrydrafts:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'deletepeerentrydrafts:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'editpeerentrydrafts:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'editentries:a8dca5bb-824a-42a4-8cc5-80855f57506a' # artister
+  - 'publishentries:8fb21bb1-83d5-4662-8cd3-372562600ec3' # Artistpåmelding
+  - 'publishpeerentrydrafts:8fb21bb1-83d5-4662-8cd3-372562600ec3' # Artistpåmelding
+  - 'deletepeerentrydrafts:8fb21bb1-83d5-4662-8cd3-372562600ec3' # Artistpåmelding
+  - 'editpeerentrydrafts:8fb21bb1-83d5-4662-8cd3-372562600ec3' # Artistpåmelding
+  - 'editentries:8fb21bb1-83d5-4662-8cd3-372562600ec3' # Artistpåmelding
+  - 'publishentries:650a9296-40dd-45fa-a806-7587171c263f' # Billetter
+  - 'publishpeerentrydrafts:650a9296-40dd-45fa-a806-7587171c263f' # Billetter
+  - 'deletepeerentrydrafts:650a9296-40dd-45fa-a806-7587171c263f' # Billetter
+  - 'editpeerentrydrafts:650a9296-40dd-45fa-a806-7587171c263f' # Billetter
+  - 'editentries:650a9296-40dd-45fa-a806-7587171c263f' # Billetter
+  - 'publishentries:ac48c659-f850-4a9f-a669-48338f1ef9cf' # FAQ
+  - 'publishpeerentrydrafts:ac48c659-f850-4a9f-a669-48338f1ef9cf' # FAQ
+  - 'deletepeerentrydrafts:ac48c659-f850-4a9f-a669-48338f1ef9cf' # FAQ
+  - 'editpeerentrydrafts:ac48c659-f850-4a9f-a669-48338f1ef9cf' # FAQ
+  - 'editentries:ac48c659-f850-4a9f-a669-48338f1ef9cf' # FAQ
+  - 'publishentries:5acf982f-c98f-41f0-a556-0a4600effa8b' # Frivillig
+  - 'publishpeerentrydrafts:5acf982f-c98f-41f0-a556-0a4600effa8b' # Frivillig
+  - 'deletepeerentrydrafts:5acf982f-c98f-41f0-a556-0a4600effa8b' # Frivillig
+  - 'editpeerentrydrafts:5acf982f-c98f-41f0-a556-0a4600effa8b' # Frivillig
+  - 'editentries:5acf982f-c98f-41f0-a556-0a4600effa8b' # Frivillig
+  - 'createentries:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'publishentries:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'deleteentries:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'publishpeerentries:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'deletepeerentries:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'editpeerentries:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'publishpeerentrydrafts:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'deletepeerentrydrafts:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'editpeerentrydrafts:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'editentries:d940cb33-7c15-4286-8cb3-8ec1183f127f' # Konferanse
+  - 'publishentries:4f151e96-64f3-4eef-8432-9e6dd0e0803a' # Konferanse Info
+  - 'publishpeerentrydrafts:4f151e96-64f3-4eef-8432-9e6dd0e0803a' # Konferanse Info
+  - 'deletepeerentrydrafts:4f151e96-64f3-4eef-8432-9e6dd0e0803a' # Konferanse Info
+  - 'editpeerentrydrafts:4f151e96-64f3-4eef-8432-9e6dd0e0803a' # Konferanse Info
+  - 'editentries:4f151e96-64f3-4eef-8432-9e6dd0e0803a' # Konferanse Info
+  - 'publishentries:f449ae46-3ea4-4ade-8cc3-2b5ef08eeb36' # Kontakt Oss
+  - 'publishpeerentrydrafts:f449ae46-3ea4-4ade-8cc3-2b5ef08eeb36' # Kontakt Oss
+  - 'deletepeerentrydrafts:f449ae46-3ea4-4ade-8cc3-2b5ef08eeb36' # Kontakt Oss
+  - 'editpeerentrydrafts:f449ae46-3ea4-4ade-8cc3-2b5ef08eeb36' # Kontakt Oss
+  - 'editentries:f449ae46-3ea4-4ade-8cc3-2b5ef08eeb36' # Kontakt Oss
+  - 'createentries:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'publishentries:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'deleteentries:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'publishpeerentries:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'deletepeerentries:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'editpeerentries:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'publishpeerentrydrafts:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'deletepeerentrydrafts:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'editpeerentrydrafts:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'editentries:128177ca-ec9e-45f3-b0b5-3cf67fe3fed8' # Nyheter
+  - 'publishentries:9e64103f-dc8f-4c68-83be-0dc3d1649662' # Om Vill Vill Vest
+  - 'publishpeerentrydrafts:9e64103f-dc8f-4c68-83be-0dc3d1649662' # Om Vill Vill Vest
+  - 'deletepeerentrydrafts:9e64103f-dc8f-4c68-83be-0dc3d1649662' # Om Vill Vill Vest
+  - 'editpeerentrydrafts:9e64103f-dc8f-4c68-83be-0dc3d1649662' # Om Vill Vill Vest
+  - 'editentries:9e64103f-dc8f-4c68-83be-0dc3d1649662' # Om Vill Vill Vest
+  - 'publishentries:883c21ad-6df5-4071-a0fe-3f4baadcad4a' # Partnere
+  - 'publishpeerentrydrafts:883c21ad-6df5-4071-a0fe-3f4baadcad4a' # Partnere
+  - 'deletepeerentrydrafts:883c21ad-6df5-4071-a0fe-3f4baadcad4a' # Partnere
+  - 'editpeerentrydrafts:883c21ad-6df5-4071-a0fe-3f4baadcad4a' # Partnere
+  - 'editentries:883c21ad-6df5-4071-a0fe-3f4baadcad4a' # Partnere
+  - 'publishentries:2a5f83b6-d037-48fc-a5a6-26736f1156c6' # Ung Delegat
+  - 'publishpeerentrydrafts:2a5f83b6-d037-48fc-a5a6-26736f1156c6' # Ung Delegat
+  - 'deletepeerentrydrafts:2a5f83b6-d037-48fc-a5a6-26736f1156c6' # Ung Delegat
+  - 'editpeerentrydrafts:2a5f83b6-d037-48fc-a5a6-26736f1156c6' # Ung Delegat
+  - 'editentries:2a5f83b6-d037-48fc-a5a6-26736f1156c6' # Ung Delegat
+  - 'editglobalset:af0b5954-7992-4a46-bf83-c69c709cf668' # Blob
+  - 'editglobalset:69b28f9b-25ca-4ca5-bc65-7f88d92ee3c3' # Header
+  - 'editglobalset:2c2610db-0283-47c6-9307-ffb7730c7777' # Hero
+  - 'editglobalset:c1a6366a-216d-4a50-8c33-b7de73b079aa' # Kontakt
+  - 'editglobalset:c90df82c-eb69-423e-a94f-0d1377e82a76' # Partnere
+  - 'editglobalset:601b7d03-bf54-445a-83c1-84ae9cfcb316' # Tickets
+  - 'editglobalset:cbdac109-75d3-4827-bebe-51f23523aeee' # Venue
+  - 'editcategories:da5588b9-1acb-4ee2-9150-665572898c4b' # Artister Categories
+  - 'editcategories:16b083e5-22dd-48cf-82a5-2c85727c3bf4' # Konferanse Categories
+  - 'editcategories:280a82d7-b917-4a4e-bbed-c1ef345c9636' # Nyheter Categories
+  - 'saveassetinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'createfoldersinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'deletefilesandfoldersinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'replacefilesinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'editimagesinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'editpeerfilesinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'replacepeerfilesinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'deletepeerfilesinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'editpeerimagesinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'viewpeerfilesinvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'viewvolume:eecfa624-8851-489f-8dca-ec7f8aac31b7' # artister
+  - 'saveassetinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'createfoldersinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'deletefilesandfoldersinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'replacefilesinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'editimagesinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'editpeerfilesinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'replacepeerfilesinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'deletepeerfilesinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'editpeerimagesinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'viewpeerfilesinvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'viewvolume:77885a82-6152-4b5b-b5c7-233f09e918a5' # General
+  - 'saveassetinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'createfoldersinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'deletefilesandfoldersinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'replacefilesinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'editimagesinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'editpeerfilesinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'replacepeerfilesinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'deletepeerfilesinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'editpeerimagesinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'viewpeerfilesinvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'viewvolume:776816d6-3abd-4c86-8ed3-b0941024cbfe' # Nyheter
+  - 'saveassetinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'createfoldersinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'deletefilesandfoldersinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'replacefilesinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'editimagesinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'editpeerfilesinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'replacepeerfilesinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'deletepeerfilesinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'editpeerimagesinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'viewpeerfilesinvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser
+  - 'viewvolume:5f4b189d-4359-4a46-808a-5ecfc8354d9a' # Konferanser

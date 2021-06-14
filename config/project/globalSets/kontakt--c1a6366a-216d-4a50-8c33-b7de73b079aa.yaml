@@ -1,10 +1,10 @@
 fieldLayouts:
-  bb059f84-2ef6-45ab-842f-b79b28190ab9:
+  47d2a2ae-ed7c-4877-97cf-9825b9e8695e:
     tabs:
       -
         elements:
           -
-            fieldUid: c56db5d3-d89b-4d3a-ac40-492caea0b62b # Hero Image
+            fieldUid: 5f001340-1034-4a54-bafc-e4e78c6a5d76 # One image
             instructions: null
             label: null
             required: false
@@ -12,7 +12,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-        name: Hero
+        name: Content
         sortOrder: 1
-handle: hero
-name: Hero
+handle: kontakt
+name: Kontakt
