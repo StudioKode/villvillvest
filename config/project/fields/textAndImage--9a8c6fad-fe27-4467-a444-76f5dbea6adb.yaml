@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 2dab7fb6-5d8e-42b2-b589-21c9b4eedc66 # Common
+handle: textAndImage
+instructions: 'Add text and image (optional).'
+name: 'Text and Image'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_textandimage}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

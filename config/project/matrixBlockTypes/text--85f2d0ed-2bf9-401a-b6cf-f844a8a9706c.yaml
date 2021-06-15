@@ -1,0 +1,40 @@
+field: 9a8c6fad-fe27-4467-a444-76f5dbea6adb # Text and Image
+fieldLayouts:
+  685ebfa1-73aa-4a10-bcfe-264f52f87d40:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: cab016d1-cd94-4873-8a8b-36fb15983f77 # Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  cab016d1-cd94-4873-8a8b-36fb15983f77: # Text
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: 'Add text'
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: text
+name: Text
+sortOrder: 1
