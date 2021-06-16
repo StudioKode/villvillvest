@@ -877,7 +877,7 @@ p {
   transition: filter 0.2s ease-in;
 }
 .listing__title {
-  padding: 3rem 0;
+  padding: 3rem 3rem;
   font-size: 2rem;
   color: #EF6202;
   font-weight: bold;
