@@ -55,7 +55,14 @@
     Vi vil sende ut mer informasjon underveis. Alle vil få svar på sin søknad i god tid før festivalen. For øvrig informasjon, ta kontakt med frivilligkoordinator <a href="mailto:frivillig@villvillvest.no">frivillig@villvillvest.no</a>
     </p>
     <p class="u-margin-bottom-2">
-    Les arbeidsbeskrivelsene her (SETT INN LENKE)
+
+    {% set doc = frivillig.pdf.one %}
+    {% if doc|length %}
+
+        <a target="_blank" href="{{ doc.url }}">Les arbeidsbeskrivelsene her</a>
+    {% endif %}
+
+    
     </p>
     <p class="u-margin-bottom-2">
     Vi gleder oss til å lage Vill Vill Vest med deg!

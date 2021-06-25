@@ -1,0 +1,18 @@
+fieldLayouts:
+  438ab404-8f13-4604-8541-94d78560473f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 920473ec-4d1f-42b9-9197-c10345031866 # PDF
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: frivillig
+name: Frivillig
