@@ -186,6 +186,10 @@ p {
   }
 }
 
+.u-no-padding {
+  padding: 0 !important;
+}
+
 /** Text **/
 .u-center {
   text-align: center;
