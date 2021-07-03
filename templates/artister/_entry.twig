@@ -34,7 +34,7 @@
     {% for block in entry.postContent.all() %}
       <div class="artister__text paragraph u-margin-top-4">
         {% if block.type == 'text' %}
-          {{ block.text }}
+          {{ block.text|nl2br }}
         {% elseif block.type == 'image' %}
           {% for image in block.image.all() %}
             <img src="{{ image.url }}" alt="{{ image.title }}" />
