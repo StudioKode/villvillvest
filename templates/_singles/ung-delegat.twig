@@ -4,25 +4,12 @@
 {% include "_includes/header-dark" %}
 {% include "_includes/nav" %}
 
-<section class="page-content u-w-pc-70">
-    <h1 class="heading--section u-margin-bottom-2 u-margin-top-4"><span class="u-color-accent">Ung</span> delegat</h1>
-    <p class="u-margin-bottom-2">
-    Er du mellom 14-21 år og arrangerer konserter, har et ønske om å arrangere konserter, eller driver med et annet felt i musikklivet? På Vill Vill Vest får du muligheten til å lære mer om konsertvirksomhet, musikkbransjen, bli inspirert og knytte bånd på tvers av arrangører fra hele landet!
-    </p>
-    <p class="u-margin-bottom-2">
-    Siden oppstarten av Vill Vill Vest hatt en egen satsing for unge arrangører i samarbeid med AKKS Bergen, Norske Konsertarrangører og Brak. I 2021 fortsetter vi suksessen med et mål om å legge grunnlaget for unge arrangører til å utvikle seg i form av kunnskap og kompetanse, men også i form av nettverksbygging og erfaringsutveksling. Vi ønsker at Vill Vill Vest skal være en møteplass for unge arrangørspirer og et ungt publikum, i tillegg til øvrig musikkbransje.
-    </p>
-    <p class="u-margin-bottom-2">
-    Som ung delegat deltar du på festivalens fagprogram skreddersydd for unge arrangører lørdag 11. september. I tillegg kan du velge å delta på Musikkonferansen torsdag 9. september og fredag 10. september. Som Ung delegat får du tilgang til konsertene i regi av UFLAKKS fredag 10. september (fri alder). Er du over 18 år får du også tilgang til øvrige konserter alle dager. Det beste av alt: det er helt gratis.
-    </p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSciP34vPBgIA3Rkh8D89YTF1d6BHcsa50yD2Os_3ciquI23Ug/viewform">LENKE TIL PÅMELDINGSSKJEMA</a>
-    </p>
 
-    {# <section>
+    <section class="page-content">
     {% for block in ungDelegat.textAndImage.all() %}
-      <div class="paragraph u-margin-top-4">
+      <div class="paragraph u-margin-bottom-4">
         {% if block.type == 'text' %}
-          {{ block.text }}
+          {{ block.text|nl2br }}
         {% elseif block.type == 'image' %}
           {% for image in block.image.all() %}
             <img src="{{ image.url }}" alt="{{ image.title }}" />
@@ -30,7 +17,12 @@
         {% endif %}
       </div>
     {% endfor %}
-    </section> #}
+    </section> 
+
+    <section class="u-margin-top-4 page-content">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSciP34vPBgIA3Rkh8D89YTF1d6BHcsa50yD2Os_3ciquI23Ug/viewform">LENKE TIL PÅMELDINGSSKJEMA</a>
+    </section>
+    
 
 </section>
 
