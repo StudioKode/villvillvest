@@ -1,4 +1,4 @@
-dateModified: 1625233859
+dateModified: 1625566751
 email:
   fromEmail: julia@studiokode.no
   fromName: villvillvest
@@ -12,6 +12,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.2.0
+  seomate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   servd-asset-storage:
     edition: standard
     enabled: true

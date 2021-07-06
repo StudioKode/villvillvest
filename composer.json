@@ -4,6 +4,7 @@
     "craftcms/redactor": "2.8.6",
     "ether/seo": "3.7.4",
     "servd/craft-asset-storage": "2.2.6",
+    "vaersaagod/seomate": "1.1.9",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {

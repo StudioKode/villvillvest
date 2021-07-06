@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "920f19427894af15ba01b3af33ba4bea",
+    "content-hash": "92710f26d1b730f163e61bcbc9063e11",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2372,6 +2372,50 @@
             "time": "2021-04-26T20:57:24+00:00"
         },
         {
+            "name": "spatie/schema-org",
+            "version": "2.8.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/schema-org/zipball/747df590839f94262c87181b492ede02ca0fe9b2",
+                "reference": "747df590839f94262c87181b492ede02ca0fe9b2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\SchemaOrg\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tom Witkowski",
+                    "email": "dev.gummibeer@gmail.com",
+                    "homepage": "https://gummibeer.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A fluent builder Schema.org types and ld+json generator",
+            "homepage": "https://github.com/spatie/schema-org",
+            "keywords": [
+                "schema-org",
+                "spatie"
+            ],
+            "time": "2019-10-06T13:19:05+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.7",
             "dist": {
@@ -3419,6 +3463,60 @@
                 "templating"
             ],
             "time": "2021-05-16T12:12:47+00:00"
+        },
+        {
+            "name": "vaersaagod/seomate",
+            "version": "1.1.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaersaagod/seomate/zipball/ce242f023f3b011bfea892072fcec2b9dc43f558",
+                "reference": "ce242f023f3b011bfea892072fcec2b9dc43f558",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0",
+                "spatie/schema-org": "^2.0|^3.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "SEOMate",
+                "handle": "seomate",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/vaersaagod/seomate/master/CHANGELOG.md",
+                "components": [],
+                "class": "vaersaagod\\seomate\\SEOMate"
+            },
+            "autoload": {
+                "psr-4": {
+                    "vaersaagod\\seomate\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Værsågod",
+                    "homepage": "https://www.vaersaagod.no/"
+                }
+            ],
+            "description": "SEO, mate! It's important.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "json-ld",
+                "meta",
+                "seo",
+                "seomate"
+            ],
+            "support": {
+                "docs": "https://github.com/vaersaagod/seomate/blob/master/README.md",
+                "issues": "https://github.com/vaersaagod/seomate/issues"
+            },
+            "time": "2021-03-01T14:58:13+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
