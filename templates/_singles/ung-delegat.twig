@@ -5,9 +5,14 @@
 {% include "_includes/nav" %}
 
 
-    <section class="page-content">
+<section class="page-content">
+
+   <h1 class="heading--section page-content u-margin-top-2 u-margin-bottom-2">
+    <span class="u-color-accent">Ung </span>delegat
+   </h1>
+
     {% for block in ungDelegat.textAndImage.all() %}
-      <div class="paragraph u-margin-bottom-4">
+      <div class="u-w-pc-70 paragraph u-margin-bottom-4">
         {% if block.type == 'text' %}
           {{ block.text|nl2br }}
         {% elseif block.type == 'image' %}
@@ -17,13 +22,11 @@
         {% endif %}
       </div>
     {% endfor %}
-    </section> 
+  </section> 
 
-    <section class="u-margin-top-4 page-content">
+  <section class="u-margin-top-4 page-content">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSciP34vPBgIA3Rkh8D89YTF1d6BHcsa50yD2Os_3ciquI23Ug/viewform">LENKE TIL PÅMELDINGSSKJEMA</a>
-    </section>
+  </section>
     
-
-</section>
 
 {% endblock %}
