@@ -45,6 +45,20 @@
         </div>
       </div> #}
 
+    <div class="covid-sticker">
+
+        {% set image = blob.covidBlob.one %}
+        {% if image|length %}
+            <img src="{{ image.url({ width: 400 }) }}" alt="Taco Bitch på USF Verftet, 2019. Fotograf: John Patrick">
+        {% endif %}
+            <div class="covid-sticker__text">
+                <h2>Smittevern</h2>
+                <h3>Spørsmål<br>og<br>svar</h3>
+            </div>
+    </div>
+
+
+
       <div class="hero__year">
         <h1>9. – 11. september</h1>
     </div>

@@ -12,6 +12,15 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: a7150ac9-4426-4777-ba5a-1c62a81501a7 # Covid blob
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Blobs
         sortOrder: 1
 handle: blob
