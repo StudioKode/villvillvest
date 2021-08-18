@@ -518,17 +518,19 @@ p {
   cursor: pointer; }
 
 .covid-sticker {
-  position: fixed;
+  position: absolute;
   top: 20vh;
   left: 6rem;
   color: #fff;
   text-align: center; }
+  .covid-sticker a {
+    color: #fff; }
   .covid-sticker img {
     width: 23rem; }
   .covid-sticker__text {
-    position: fixed;
-    top: 31vh;
-    left: 10rem;
+    position: absolute;
+    top: 11vh;
+    left: 3.5rem;
     transform: rotate(-20deg);
     font-family: "Druk Wide Medium", sans-serif;
     font-size: 1.4rem; }
