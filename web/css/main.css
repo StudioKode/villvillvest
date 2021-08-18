@@ -950,6 +950,15 @@ p {
 .session:not(:last-child) {
   margin-bottom: 2rem; }
 
+.ung-delegat-row {
+  width: 500px;
+  display: flex;
+  grid-gap: 4rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #333; }
+
 .venues {
   margin-top: 4rem; }
   @media (max-width: 56.25em) {

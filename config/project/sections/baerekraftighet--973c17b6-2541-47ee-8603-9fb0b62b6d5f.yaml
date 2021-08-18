@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: baerekraftighet
+name: Bærekraftighet
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  ff6d129f-58c1-49a3-82d4-b5e2571a753e: # villvillvest
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/baerekraftighet
+    uriFormat: baerekraftighet
+type: single

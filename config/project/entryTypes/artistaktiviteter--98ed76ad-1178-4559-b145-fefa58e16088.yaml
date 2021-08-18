@@ -1,0 +1,38 @@
+fieldLayouts:
+  612c7c27-0d55-4443-8827-a74309f91381:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: artistaktiviteter
+hasTitleField: false
+name: Artistaktiviteter
+section: a0117f70-bc46-4c50-bb6b-ec8e9082b6ff # Artistaktiviteter
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,38 @@
+fieldLayouts:
+  6154c716-8e64-48de-b504-ac777f52cff2:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: delegataktiviteter
+hasTitleField: false
+name: Delegataktiviteter
+section: d4ec4340-cd41-4cd0-b68b-2996cb7da3b8 # Delegataktiviteter
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,38 @@
+fieldLayouts:
+  53ecdc73-77e9-4046-9156-2e876d5b0ec8:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: scenerOgKart
+hasTitleField: false
+name: 'Scener og kart'
+section: da7c12ec-8a20-455c-8468-7e05b40e3565 # Scener og kart
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
