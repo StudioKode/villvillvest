@@ -955,9 +955,12 @@ p {
   display: flex;
   grid-gap: 4rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
   padding-top: 1rem;
-  font-size: 1.6rem;
-  border-bottom: 1px solid #333; }
+  font-size: 1.6rem; }
+
+.ung-delegat-row:nth-child(odd) {
+  background-color: #F2EDED; }
 
 .venues {
   margin-top: 4rem; }
