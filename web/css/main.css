@@ -162,6 +162,9 @@ p {
 .u-bold {
   font-weight: bold; }
 
+.u-italics {
+  font-style: italic; }
+
 .u-color-accent {
   color: #EF6202; }
 
