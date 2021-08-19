@@ -869,7 +869,6 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%; }
   .program .divider {
-    padding-top: 6rem;
     padding-bottom: 2rem; }
     .program .divider h3 {
       font-size: 3rem;
@@ -920,36 +919,48 @@ p {
   grid-row-end: 14; }
 
 .divider-19 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3; }
 
 .divider-20 {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5; }
 
 .divider-21 {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 6;
   grid-row-end: 7; }
 
 .divider-22 {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 8;
   grid-row-end: 9; }
 
 .divider-23 {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 10;
   grid-row-end: 11; }
 
 .divider-00 {
+  margin-top: 10rem;
+  margin-bottom: 2rem;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 12;
