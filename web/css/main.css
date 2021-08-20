@@ -536,10 +536,15 @@ p {
   .covid-sticker__text {
     position: absolute;
     top: 11vh;
-    left: 3.5rem;
-    transform: rotate(-20deg);
+    left: 3rem;
+    transform: rotate(-22deg);
     font-family: "Druk Wide Medium", sans-serif;
-    font-size: 1.4rem; }
+    font-size: 1rem;
+    text-transform: uppercase; }
+  .covid-sticker h3 {
+    padding-top: 1rem;
+    color: #2a2a2a;
+    font-size: .95rem; }
 
 .konferanse {
   width: 90%;
