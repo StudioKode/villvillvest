@@ -532,11 +532,11 @@ p {
   .covid-sticker a {
     color: #fff; }
   .covid-sticker img {
-    width: 23rem; }
+    width: 25rem; }
   .covid-sticker__text {
     position: absolute;
-    top: 11vh;
-    left: 3rem;
+    top: 12vh;
+    left: 3.5rem;
     transform: rotate(-22deg);
     font-family: "Druk Wide Medium", sans-serif;
     font-size: 1rem;
