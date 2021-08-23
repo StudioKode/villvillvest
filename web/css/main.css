@@ -372,13 +372,25 @@ p {
   .artister-mobile__button:hover {
     background: #fd7e27; }
 
+.covid-banner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #EF6202;
+  text-align: center;
+  font-family: "Druk Wide Medium", sans-serif; }
+  .covid-banner__highlight {
+    color: #fff;
+    padding-right: 2rem; }
+  .covid-banner__link {
+    text-decoration: none; }
+
 .hero {
-  height: 100vh;
+  height: 95vh;
   margin: 0 0;
   position: relative; }
   .hero__image {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     object-fit: cover; }
   .hero__year {
     font-family: "Druk Wide Super", sans-serif;
