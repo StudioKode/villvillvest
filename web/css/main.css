@@ -1494,7 +1494,7 @@ p {
 
 .artister__assets {
   display: grid;
-  grid-template-columns: 6fr 4fr;
+  grid-template-columns: 5fr 5fr;
   grid-column-gap: 2rem; }
   @media (max-width: 56.25em) {
     .artister__assets {
