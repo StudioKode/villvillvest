@@ -15,14 +15,14 @@
   <h2 class="artister__date">{{ entry.concertDate }}</h2>
 
     <section class="artister__assets">
-      {# <div class="artister__image-container"> #}
+      <div class="artister__image-container">
         {% if entry.featureImage|length %}
             {% for image in entry.featureImage.all() %}
             <img class="artister__image" src="{{ image.getUrl(featureImage) }}" alt="{{ image.title }}" />
             {% endfor %}
         {% endif %}
         <p class="artister__credit">{{ entry.photoCredit }}</p>
-      {# </div> #}
+      </div>
 
         <div class="artister__music-embed">
             {{ entry.spotify | raw }}

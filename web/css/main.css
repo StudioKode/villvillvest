@@ -1502,7 +1502,8 @@ p {
 
 .artister__image-container {
   position: relative;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
 
 .artister__image {
   width: 100%;
