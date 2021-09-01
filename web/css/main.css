@@ -161,6 +161,11 @@ p {
 .u-no-padding {
   padding: 0 !important; }
 
+.u-sub-list {
+  list-style: none;
+  padding-left: 2rem;
+  padding-top: 2rem; }
+
 /** Text **/
 .u-center {
   text-align: center; }
