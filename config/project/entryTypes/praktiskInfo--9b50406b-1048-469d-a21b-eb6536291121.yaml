@@ -1,0 +1,38 @@
+fieldLayouts:
+  5e9ca4a5-85ce-403b-b3ca-034483ba60f1:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: praktiskInfo
+hasTitleField: false
+name: 'Praktisk info'
+section: 8475a6ab-8599-4a99-8339-3259b14568d3 # Praktisk info
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
