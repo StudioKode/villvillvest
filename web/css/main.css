@@ -177,7 +177,7 @@ p {
   font-style: italic; }
 
 .u-color-accent {
-  color: #EF6202; }
+  color: #FE92C4; }
 
 .u-header-offset {
   padding-top: 15vh; }
@@ -192,7 +192,7 @@ p {
   .accordion__item {
     margin-bottom: 5px; }
   .accordion__title {
-    background: #EF6202;
+    background: #FE92C4;
     color: #fff;
     font-family: "Helvetica Neue", "Open Sans", sans-serif;
     padding: 2rem;
@@ -282,7 +282,7 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
-    color: #EF6202; }
+    color: #FE92C4; }
   .artister-row__summary {
     padding: 1rem;
     padding-bottom: 2rem;
@@ -363,7 +363,7 @@ p {
   font-size: 1.6rem; }
 
 .artister-mobile__button {
-  background: #EF6202;
+  background: #FE92C4;
   color: #fff;
   font-size: 1.6rem;
   padding: 1rem 2rem;
@@ -378,12 +378,12 @@ p {
     .artister-mobile__button {
       width: 60%; } }
   .artister-mobile__button:hover {
-    background: #fd7e27; }
+    background: #fec5df; }
 
 .covid-banner {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background: #EF6202;
+  background: #FE92C4;
   text-align: center;
   font-family: "Druk Wide Medium", sans-serif; }
   .covid-banner__highlight {
@@ -402,7 +402,7 @@ p {
     object-fit: cover; }
   .hero__year {
     font-family: "Druk Wide Super", sans-serif;
-    color: #EF6202;
+    color: #FE92C4;
     text-transform: uppercase;
     font-size: 6rem;
     text-align: center;
@@ -444,7 +444,7 @@ p {
       margin-left: 2rem; }
   .hero__box-2 {
     background: #F2EDED;
-    color: #EF6202;
+    color: #FE92C4;
     flex-basis: 100%;
     padding-top: 2rem;
     padding-left: 2rem;
@@ -608,7 +608,7 @@ p {
 .program-link {
   margin-right: 2rem;
   padding: 1rem 2rem;
-  background: #EF6202;
+  background: #FE92C4;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -671,7 +671,7 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
-    color: #EF6202; }
+    color: #FE92C4; }
   .konferanse-row__summary {
     padding: 1rem;
     padding-bottom: 2rem;
@@ -751,7 +751,7 @@ p {
   font-size: 1.6rem; }
 
 .konferanse-mobile__button {
-  background: #EF6202;
+  background: #FE92C4;
   color: #fff;
   font-size: 1.6rem;
   padding: 1rem 2rem;
@@ -766,7 +766,7 @@ p {
     .konferanse-mobile__button {
       width: 60%; } }
   .konferanse-mobile__button:hover {
-    background: #fd7e27; }
+    background: #fec5df; }
 
 .listing {
   display: grid;
@@ -788,7 +788,7 @@ p {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #EF6202;
+    color: #FE92C4;
     text-decoration: none;
     background: #F2EDED;
     transition: transform .2s ease-in; }
@@ -804,7 +804,7 @@ p {
   .listing__title {
     padding: 3rem 3rem;
     font-size: 2rem;
-    color: #EF6202;
+    color: #FE92C4;
     font-weight: bold;
     font-family: "Druk Wide Medium", sans-serif;
     text-decoration: none; }
@@ -875,7 +875,7 @@ p {
     margin-top: 2rem; }
   .partners__button {
     margin-top: 4rem;
-    background-color: #EF6202;
+    background-color: #FE92C4;
     color: #fff;
     font-size: 1.6rem;
     text-transform: uppercase;
@@ -888,7 +888,7 @@ p {
       margin-left: 1rem;
       transition: all .3s ease-in; }
     .partners__button:hover {
-      background: #fd8431; }
+      background: #ffcfe5; }
     .partners__button:hover span {
       margin-left: 1.7rem; }
 
@@ -952,7 +952,7 @@ p {
     padding-bottom: 2rem; }
     .program .divider h3 {
       font-size: 3rem;
-      color: #EF6202; }
+      color: #FE92C4; }
     .program .divider hr {
       margin-top: 1rem; }
 
@@ -1053,7 +1053,7 @@ p {
   .session h4 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
-    color: #EF6202;
+    color: #FE92C4;
     font-weight: bold; }
 
 .session:not(:last-child) {
@@ -1121,13 +1121,13 @@ p {
   .venues__slide-paragraph--address {
     padding-top: 2rem;
     padding-bottom: 3rem;
-    color: #EF6202;
+    color: #FE92C4;
     font-weight: 600; }
     @media (max-width: 56.25em) {
       .venues__slide-paragraph--address {
         padding-bottom: 4rem; } }
   .venues__slide-button {
-    background: #EF6202;
+    background: #FE92C4;
     color: #fff;
     padding: 1rem 2rem;
     font-size: 1.4rem;
@@ -1135,7 +1135,7 @@ p {
     text-decoration: none;
     transition: background .2s ease-in; }
     .venues__slide-button:hover {
-      background: #fd7e27; }
+      background: #fec5df; }
     @media (max-width: 56.25em) {
       .venues__slide-button {
         padding: 1rem 4rem;
@@ -1246,14 +1246,14 @@ p {
     .footer__link:hover {
       text-decoration: underline; }
     .footer__link--social {
-      color: #EF6202; }
+      color: #FE92C4; }
       @media (max-width: 37.5em) {
         .footer__link--social {
           padding-right: 1rem; } }
     .footer__link--social:hover {
       text-decoration: none; }
   .footer__social {
-    color: #EF6202;
+    color: #FE92C4;
     display: flex;
     justify-content: space-between; }
     @media (max-width: 37.5em) {
@@ -1266,7 +1266,7 @@ p {
     display: block; }
   .footer__social span:hover {
     font-size: 3.4rem;
-    color: #fd7e27; }
+    color: #fec5df; }
   .footer__newsletter {
     margin-left: auto;
     padding-right: 1rem;
@@ -1285,7 +1285,7 @@ p {
           margin-top: -3rem;
           padding-top: 0rem; } }
   .footer .button {
-    background-color: #EF6202; }
+    background-color: #FE92C4; }
 
 .header--dark {
   margin-top: -5vh;
@@ -1306,7 +1306,7 @@ p {
     display: flex;
     align-items: center; }
   .header--dark__button {
-    background: #EF6202;
+    background: #FE92C4;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -1380,7 +1380,7 @@ p {
     font-family: "Druk Wide Super", sans-serif;
     margin-right: auto; }
   .header__button {
-    color: #EF6202;
+    color: #FE92C4;
     background: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -1470,7 +1470,7 @@ p {
   .navigation__heading {
     font-size: 2.2rem;
     padding-bottom: 2rem;
-    color: #EF6202;
+    color: #FE92C4;
     font-family: "Druk Wide Medium", sans-serif; }
     @media (max-width: 50em) {
       .navigation__heading {
@@ -1507,7 +1507,7 @@ p {
     justify-self: start; }
   .navigation__social-link {
     font-size: 3rem;
-    color: #EF6202;
+    color: #FE92C4;
     text-decoration: none; }
     .navigation__social-link:not(:last-child) {
       margin-right: 4rem; }
@@ -1516,7 +1516,7 @@ p {
     font-size: 4rem;
     transition: all .2s ease-in; }
   .navigation__social span:hover {
-    color: #fd8d40; }
+    color: #ffdeed; }
   .navigation__blob {
     margin-top: 8rem;
     margin-left: 15%;
@@ -1539,7 +1539,7 @@ p {
   margin-top: 2rem;
   font-size: 4rem;
   font-family: "Druk Wide Medium", sans-serif;
-  color: #EF6202;
+  color: #FE92C4;
   padding-bottom: 2rem; }
 
 .artister__date {
@@ -1590,7 +1590,7 @@ p {
     font-size: 1.6rem;
     text-transform: uppercase;
     text-decoration: none;
-    background: #EF6202;
+    background: #FE92C4;
     padding: 1.5rem 4rem;
     border: none;
     transition: all .2s ease-in;
@@ -1599,7 +1599,7 @@ p {
       margin-left: 1rem;
       transition: all .3s ease-in; }
     .tickets__button:hover {
-      background: #fd8431; }
+      background: #ffcfe5; }
     .tickets__button:hover span {
       margin-left: 1.7rem; }
 
@@ -1666,7 +1666,7 @@ p {
   .ticket-cards h3 {
     font-family: "Druk Wide Medium", sans-serif;
     font-size: 3rem;
-    color: #EF6202;
+    color: #FE92C4;
     padding-bottom: 1rem; }
   .ticket-cards__text-box {
     height: 20rem; }
@@ -1683,7 +1683,7 @@ p {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    background-color: #EF6202;
+    background-color: #FE92C4;
     border: none;
     border-radius: .4rem;
     cursor: pointer;
@@ -1692,7 +1692,7 @@ p {
       margin-left: 1rem;
       transition: all .2s ease-in; }
     .ticket-cards__button:hover, .ticket-cards__button:active {
-      background-color: #fd8431; }
+      background-color: #ffcfe5; }
     .ticket-cards__button:hover span {
       margin-left: 1.7rem; }
 
@@ -1700,7 +1700,7 @@ p {
   margin-top: 2rem;
   font-size: 4rem;
   font-family: "Druk Wide Medium", sans-serif;
-  color: #EF6202;
+  color: #FE92C4;
   padding-bottom: 2rem; }
 
 .konferanse__date {
