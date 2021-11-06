@@ -423,7 +423,7 @@ p {
     left: 0;
     bottom: 6.3rem;
     background: #fff;
-    width: 40rem;
+    width: 23rem;
     height: 6rem;
     z-index: 2; }
     @media (max-width: 75em) {
@@ -445,7 +445,7 @@ p {
   .hero__box-2 {
     background: #F2EDED;
     color: #EF6202;
-    flex-basis: 50%;
+    flex-basis: 100%;
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
