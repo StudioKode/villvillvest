@@ -1502,7 +1502,7 @@ p {
     .navigation__links a:not(:last-child) {
       padding-right: 2rem; }
   .navigation__social {
-    margin-top: 0rem;
+    margin-top: -1rem;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
