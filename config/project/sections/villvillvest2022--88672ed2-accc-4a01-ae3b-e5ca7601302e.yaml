@@ -17,7 +17,7 @@ propagationMethod: all
 siteSettings:
   ff6d129f-58c1-49a3-82d4-b5e2571a753e: # villvillvest
     enabledByDefault: true
-    hasUrls: false
-    template: null
-    uriFormat: null
+    hasUrls: true
+    template: _singles/villvillvest2022
+    uriFormat: villvillvest2022
 type: single
