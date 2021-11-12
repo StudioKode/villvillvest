@@ -22,9 +22,9 @@
 </section>
 
 <section class="u-margin-top-2">
-    {% set image = hero.oneImage.one %}
-    {% if image|length %}
-        <img class="hero__image" src="{{ image.url({ width: 2000 }) }}" alt="Taco Bitch på USF Verftet, 2019. Fotograf: ohn Patrick">
-    {% endif %}
+    {% set images = partnere.hovedpartnere.all() %}
+        {% for image in images %}
+            <img src="{{ image.getUrl({ width: 600 }) }}" class="partners-categories__image">
+        {% endfor %} 
 </section>
 {% endblock %}
