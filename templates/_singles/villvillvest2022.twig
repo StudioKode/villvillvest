@@ -22,7 +22,7 @@
 </section>
 
 <section class="u-margin-top-2">
-    {% set image = hero.oneImage.one() %}
+    {% set image = hero.heroImage.one() %}
         {% if image|length %}
         <img class="hero__image" src="{{ image.url({ width: 2000 }) }}" alt="Taco Bitch på USF Verftet, 2019. Fotograf: John Patrick">
     {% endif %}
