@@ -1,0 +1,18 @@
+fieldLayouts:
+  e822554d-be21-4a2d-8aef-c487d9d44dfb:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5f001340-1034-4a54-bafc-e4e78c6a5d76 # One image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: villvillvest2022
+name: 'VillVillVest 2022'
