@@ -1,0 +1,38 @@
+fieldLayouts:
+  d406c0fe-bc96-406a-b527-d2d604fd4fbb:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: villvillvest2022
+hasTitleField: false
+name: VillVillVest2022
+section: 88672ed2-accc-4a01-ae3b-e5ca7601302e # VillVillVest2022
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
