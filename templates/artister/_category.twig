@@ -11,10 +11,10 @@
   </h1>
   <p class="paragraph page-content u-w-pc-70 u-padding-bottom-4">Hvert år kommer noen av de beste og mest talentfulle artistene til Vill Vill Vest. Klikk deg inn og finn en ny favoritt! Vi oppdaterer fortløpende med nye artister frem mot festivalen.</p>
 
-  <section class="program-nav page-content u-padding-bottom-4">
+  {# <section class="program-nav page-content u-padding-bottom-4">
     <a href="{{ url('artister/category/2021') }}" class="program-link">Artister</a>
     <a href="{{ url('program') }}" class="program-link">Program</a>
-  </section>
+  </section> #}
 
   {% include "_includes/listing" with { posts: posts } only %}
 {% endblock %}
