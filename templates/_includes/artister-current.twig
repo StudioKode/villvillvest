@@ -1,0 +1,18 @@
+{% set category = craft.categories().slug('2022').all() %}
+        {% set posts = craft.entries().section('artister').relatedTo(category) %}
+
+        {% for post in posts %}
+  <a href="{{ post.url }}" class="artister-row__link">
+    {% if post.featureImage|length %}
+      {% set image = post.featureImage.one() %}
+      <div>
+        <img src="{{ image.getUrl({ width: 800, height: 800}) }}"
+            alt="{{ image.title }}"
+            class="artister-row__image"
+        />
+      </div>
+    {% endif %}
+    <h3 class="artister-row__title">{{ post.title }}</h3>
+    <p class="artister-row__summary">{{ post.summary }}</p>
+  </a>
+{% endfor %}
