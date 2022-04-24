@@ -1,0 +1,19 @@
+<div class="listing">
+{% set category = craft.categories().slug('2021').all() %}
+        {% set posts = craft.entries().section('artister').relatedTo(category) %}
+
+        {% for post in posts %}
+  <a href="{{ post.url }}" class="listing__link">
+    {% if post.featureImage|length %}
+      {% set image = post.featureImage.one() %}
+      <div>
+        <img src="{{ image.getUrl({ width: 1200, height: 1200}) }}"
+            alt="{{ image.title }}"
+            class="listing__image"
+        />
+      </div>
+    {% endif %}
+    <h3 class="listing__title">{{ post.title }}</h3>
+  </a>
+{% endfor %}
+</div>
