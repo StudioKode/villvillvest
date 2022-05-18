@@ -1,4 +1,4 @@
-dateModified: 1636716994
+dateModified: 1652892671
 email:
   fromEmail: julia@studiokode.no
   fromName: villvillvest
@@ -34,5 +34,6 @@ system:
   edition: pro
   live: true
   name: villvillvest
+  retryDuration: null
   schemaVersion: 3.6.8
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Oslo
