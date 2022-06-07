@@ -20,7 +20,7 @@ fields:
     contentColumnType: text
     fieldGroup: null
     handle: text
-    instructions: 'Add text'
+    instructions: 'Plain text, kan ikke formateres'
     name: Text
     searchable: false
     settings:
