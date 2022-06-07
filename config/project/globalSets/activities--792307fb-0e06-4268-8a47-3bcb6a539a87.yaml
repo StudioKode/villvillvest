@@ -1,0 +1,18 @@
+fieldLayouts:
+  9cb88430-bb33-4944-9b99-41b33ceaac3c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9a8c6fad-fe27-4467-a444-76f5dbea6adb # Text and Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: activities
+name: Activities
