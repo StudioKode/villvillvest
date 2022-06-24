@@ -1,0 +1,18 @@
+fieldLayouts:
+  3da0230c-e70e-4364-9df5-01c7f9a37f05:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9a8c6fad-fe27-4467-a444-76f5dbea6adb # Text and Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: internationalExchange
+name: 'International Exchange'
