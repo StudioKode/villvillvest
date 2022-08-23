@@ -6,27 +6,122 @@
 {% include "_includes/nav" %}
 
   <h1 class="heading--section page-content u-margin-top-2 u-margin-bottom-2">
-    <span class="u-color-accent">Konferanse</span> 2021
+    <span class="u-color-accent">Music Conference</span> 2022
   </h1>
-  <p class="paragraph page-content u-w-pc-70 u-padding-bottom-4">Vill Vill Vest og Brak har gleden av å invitere til Vill Vill Vest Musikkonferanse 9.- 10. september 2021, i tillegg til sosialt program lørdag 11. september. Konferansen arrangeres på <a target="_blank" href="https://www.facebook.com/Kulturhusetibergen/">Kulturhuset</a> i Bergen, i Vaskerelven 8.<br><br>
-  Hovedtema for 2021: Music:ID<br>
-  Musikk kan føles privat og personlig, men skaper også tilhørighet og samhold.<br>
-  For mange mennesker er musikk en viktig ingrediens i deres identitet.<br>
-  Musikk kan være en forlengelse av deg selv, og kan uttrykke hvem du er. Eller ønsker å være.
-  Gjennom historien har musikk gitt en stemme til underrepresenterte grupper og vært brukt som virkemiddel i protester og revolusjoner.<br><br>
-  Vill Vill Vest musikkonferanse 2021 vil belyse en rekke tema relatert til musikk og identitet. 
-  Hvordan brukes musikk i markedsføring og som politisk virkemiddel?<br>
-  Kan artistutvikling gå på bekostning av artisten sitt genuine uttrykk og identitet?
-  Har artisten gått fra å være rebell til å bli kreativ entreprenør?</p>
+  <section class="page-content u-w-pc-70 u-padding-bottom-2">
+    {% for block in konferanseTekst.textAndImage.all() %}
+      <div class="u-w-pc-70 paragraph u-margin-bottom-4">
+        {% if block.type == 'text' %}
+          {{ block.text|nl2br }}
+        {% elseif block.type == 'image' %}
+          {% for image in block.image.all() %}
+            <img src="{{ image.url }}" alt="{{ image.title }}" />
+          {% endfor %}
+        {% elseif block.type == 'richText' %}
+          {{ block.richTextField|nl2br }}
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
 
-  <section class="program-nav page-content">
-    <a href="{{ url('konferanse/category/2021') }}" class="program-link">Speakers</a>
-    <a href="{{ url('konferanse-program') }}" class="program-link">Program</a>
+  <section class="program-nav page-content u-padding-bottom-4">
+    {# <a href="{{ url('konferanse/category/2021') }}" class="program-link">Speakers</a> #}
+    <a role="link" aria-disabled="true" href="{{ url('konferanse/category/2021') }}" class="program-link">Speakers</a>
+    {# <a href="{{ url('konferanse-program') }}" class="program-link">Program</a> #}
+    <a role="link" aria-disabled="true" href="#" class="program-link program-link--selected">Program</a>
+    <a role="link" aria-disabled="true" href="{{ url('billetter') }}" class="program-link">Delegatpass</a>
   </section>
 
   <section class="u-margin-top-4 page-content">
+
+    <div class="u-padding-top-4">
+      <h2 class="DrukWide-Medium-Web"><span class="u-color-accent">Torsdag 1 sep.</span></h2>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">11:00 - 11:45</h3>
+      </div>
+      <div>
+        <p><span class="u-bold">Lillesalen: </span>Skeivhet i bransjen<p/>
+        <p><span class="u-bold">Galleriet: </span>(11:00-12:15) Chartmetric: a peak behind the digial curtain<p/>
+      </div>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">12:00 - 12:45</h3>
+      </div>
+      <div>
+        <p><span class="u-bold">Lillesalen: </span>NOPA: låtskriversamtale med Fieh<p/>
+        <p><span class="u-bold">Galleriet: </span>(12:15-12:45) Fanget i feeden<p/>
+      </div>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">13:00 - 13:45</h3>
+      </div>
+      <p><span class="u-bold">Lillesalen: </span>GramArt presenterer: Ekspertene svarer<p/>
+      <p><span class="u-bold">Galleriet: </span>Musikkforleggerne presents: Sync deals - luck or labor?<p/>
+      <p><span class="u-bold">Loftet: </span>Crescat inviterer: hvordan bygge din merkevare som kulturarrangør<p/>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">14:00 - 14:45</h3>
+      </div>
+      <div>
+      <p><span class="u-bold">Lillesalen: </span>In conversation: Dagny<p/>
+      <p><span class="u-bold">Galleriet: </span>Teen Spirit: Leading young talents on their own terms<p/>
+      <p><span class="u-bold">Loftet: </span>Crescat inviterer: hvordan bygge din merkevare som kulturarrangør<p/>
+      </div>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">15:00 - 15:45</h3>
+      </div>
+      <div>
+      <p><span class="u-bold">Lillesalen: </span>Buzz presenterer: Hvordan lage 6x45 minutter musikk<p/>
+      </div>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">18:00 - 19:00</h3>
+      </div>
+      <div>
+      <p><span class="u-bold">Lillesalen: </span>Møteplass Music Norway og NKA<p/>
+      </div>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">17:30 - 20:00</h3>
+      </div>
+      <p class="u-margin-bottom-4"><span class="u-bold">Lillesalen: </span>TONO-lounge<p/>
+    </div>
+
+    <div class="u-padding-top-4">
+      <h2 class="DrukWide-Medium-Web"><span class="u-color-accent">Fredag 2 sep.</span></h2>
+      <div>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">10:00 - 10:45</h3>
+      </div>
+      <p><span class="u-bold">Galleriet: </span>CMU presents: The Digital Dollar Debates<p/>
+      <p><span class="u-bold">Loftet: </span>Rundebordssamtale med Grønn festival<p/>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">11:00 - 11:45</h3>
+      </div>
+      <p><span class="u-bold">Lillesalen: </span>NKA presents: how to sell tickets when people don't know what they're listening to<p/>
+      <p><span class="u-bold">Galleriet: </span>CMU presents: Platform responsibility and cancel culture<p/>
+      <p><span class="u-bold">Storsalen: </span>Musikkforleggerne inviterer: Coffee & Sync<p/>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">12:00 - 12:45</h3>
+      </div>
+      <p><span class="u-bold">Lillesalen: </span>Mer enn en post - strategi og merkevarebygging på digitale plattformer<p/>
+      <p><span class="u-bold">Galleriet: </span>CMU presents: Diversifying Digital - Where Does Web3 Fit In?<p/>
+      <p><span class="u-bold">Storsalen: </span>Musikkforleggerne inviterer: Coffee & Sync<p/>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">13:00 - 13:45</h3>
+      </div>
+      <p><span class="u-bold">Lillesalen: </span>Musikkontoret presenterer: Demosession<p/>
+      <p><span class="u-bold">Galleriet: </span>CMU presents: Great great content on a budget<p/>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">14:00 - 14:45</h3>
+      </div>
+      <p><span class="u-bold">Lillesalen: </span>Teen Spirit: Meet the consumers<p/>
+      <p><span class="u-bold">Galleriet: </span>Teen Spirit: Big tech might not get you rich. But your fans might<p/>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">15:00 - 15:45</h3>
+      </div>
+      <p><span class="u-bold">Lillesalen: </span>Gramo presenterer: Kreativ kontroll<p/>
+      <div>
+      <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">16:00 - 17:00</h3>
+      </div>
+      <p><span class="u-bold">Lillesalen: </span>Møteplass Gramo <p/>
     
-        <div class="konferanse-program">
+        {# <div class="konferanse-program">
             <div class="col-1"><h3><span class="u-color-accent">Torsdag 9 sep.</span></h3></div>
             <div class="col-2"><p>10.00-10:45</p></div>
             <div class="col-3"><p>11.00-11:45</p></div>
@@ -84,7 +179,7 @@
             <div class="col-6"><p>Nye takter: tech</p></div>
             <div class="col-7"><p>Aurora in Conversation</p></div>
         
-    </div>
+    </div> #}
   
   </section>
 
