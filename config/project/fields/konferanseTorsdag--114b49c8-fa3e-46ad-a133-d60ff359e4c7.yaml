@@ -1,0 +1,133 @@
+contentColumnType: text
+fieldGroup: 2dab7fb6-5d8e-42b2-b589-21c9b4eedc66 # Common
+handle: konferanseTorsdag
+instructions: ''
+name: 'Konferanse Torsdag'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Torsdag 1. sep'
+            -
+              - handle
+              - time
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Lillesalen
+            -
+              - handle
+              - lillesalen
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - Galleriet
+            -
+              - handle
+              - galleriet
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - Loftet
+            -
+              - handle
+              - loftet
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - Storsalen
+            -
+              - handle
+              - storsalen
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+      -
+        - col6
+        -
+          __assoc__:
+            -
+              - heading
+              - Apollon
+            -
+              - handle
+              - apollon
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+        -
+          - col3
+          - ''
+        -
+          - col4
+          - ''
+        -
+          - col5
+          - ''
+        -
+          - col6
+          - ''
+  maxRows: '100'
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

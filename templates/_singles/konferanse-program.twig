@@ -34,7 +34,25 @@
 
   <section class="u-margin-top-4 page-content">
 
-    <div class="u-padding-top-4">
+  {% for block in konferanseprogram.textAndImage.all() %}
+      <div class="u-w-pc-70 paragraph u-margin-bottom-4">
+        {% if block.type == 'text' %}
+          {{ block.text|nl2br }}
+        {% elseif block.type == 'image' %}
+          {% for image in block.image.all() %}
+            <img src="{{ image.url }}" alt="{{ image.title }}" />
+          {% endfor %}
+        {% elseif block.type == 'richText' %}
+          {{ block.richTextField|nl2br }}
+        {% endif %}
+
+        
+      </div>
+    {% endfor %}
+
+    
+
+    {# <div class="u-padding-top-4">
       <h2 class="DrukWide-Medium-Web"><span class="u-color-accent">Torsdag 1 sep.</span></h2>
       <div>
       <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">11:00 - 11:45</h3>
@@ -119,7 +137,7 @@
       <div>
       <h3 class="paragraph u-bold u-padding-top-4 u-color-accent">16:00 - 17:00</h3>
       </div>
-      <p><span class="u-bold">Lillesalen: </span>Møteplass Gramo <p/>
+      <p><span class="u-bold">Lillesalen: </span>Møteplass Gramo <p/> #}
     
         {# <div class="konferanse-program">
             <div class="col-1"><h3><span class="u-color-accent">Torsdag 9 sep.</span></h3></div>
