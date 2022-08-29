@@ -1,0 +1,30 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_includes/header-dark" %}
+{% include "_includes/nav" %}
+
+<section class="page-content u-w-pc-70">
+    <h1 class="heading--section u-margin-bottom-2 u-margin-top-4"><span class="u-color-accent">Døgnfluer</span> på Vill Vill Vest</h1>
+    
+
+
+    {% for block in dognfluer.textAndImage.all() %}
+      <div class="u-w-pc-70 paragraph u-margin-bottom-4">
+        {% if block.type == 'text' %}
+          {{ block.text|nl2br }}
+        {% elseif block.type == 'image' %}
+          {% for image in block.image.all() %}
+            <img src="{{ image.url }}" alt="{{ image.title }}" width="100%" />
+          {% endfor %}
+        {% elseif block.type == 'richText' %}
+          {{ block.richTextField|nl2br }}
+        {% endif %}
+      </div>
+    {% endfor %}
+
+</section>
+    
+
+
+{% endblock %}

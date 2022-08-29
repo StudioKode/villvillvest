@@ -1,0 +1,18 @@
+fieldLayouts:
+  5a3b755f-3d1e-4223-b702-d7e64bcd8665:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9a8c6fad-fe27-4467-a444-76f5dbea6adb # Text and Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: dognfluer
+name: Døgnfluer

@@ -1,0 +1,38 @@
+fieldLayouts:
+  7d8712bd-3cd3-4ab3-89f3-fd1cd945b63e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: dognfluer
+hasTitleField: false
+name: Døgnfluer
+section: 89b6b94a-dc00-4a0a-8ec2-0bed4146b601 # Døgnfluer
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
