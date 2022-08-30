@@ -87,7 +87,7 @@ section:not(:last-child) {
     bottom: 3rem;
     background: #fff;
     font-family: 'Roboto', sans-serif;
-    width: 70rem;
+    /* width: 70rem; */
     height: 15rem;
     z-index: 2;
 }

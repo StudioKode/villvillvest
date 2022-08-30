@@ -536,26 +536,29 @@ p {
   left: 0;
   bottom: 6.3rem;
   background: #fff;
-  width: 23rem;
+  width: 30vw;
   height: 6rem;
   z-index: 2;
 }
-@media (max-width: 75em) {
+@media (max-width: 120em) {
   .hero__info {
-    width: 40rem;
+    width: 35vw;
   }
 }
-@media (max-width: 56.25em) {
+@media (max-width: 95em) {
   .hero__info {
-    display: none;
+    width: 45vw;
+  }
+}
+@media (max-width: 68em) {
+  .hero__info {
+    width: 100vw;
   }
 }
 .hero__box-1 {
   background: #fff;
   color: #2a2a2a;
-  flex-basis: 50%;
-  padding-top: 2rem;
-  padding-left: 2rem;
+  flex-basis: 45%;
   position: relative;
   display: block;
 }
@@ -565,10 +568,7 @@ p {
 .hero__box-2 {
   background: #F2EDED;
   color: #FE92C4;
-  flex-basis: 100%;
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  flex-basis: 55%;
   position: relative;
   display: block;
 }
