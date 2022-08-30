@@ -5,7 +5,7 @@
       {% set image = post.featureImage.one() %}
         <img src="{{ image.getUrl({ width: 1200, height: 1200}) }}"
             alt="{{ image.title }}"
-            class="listing__image"
+            class="listing__image" height="auto"
         />
     {% endif %}
     <span class="listing__title">{{ post.title }}</span>
