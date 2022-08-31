@@ -1836,7 +1836,7 @@ p {
   display: grid;
   grid-template-columns: 35% 1fr 1fr 1fr;
   grid-column-gap: 6rem;
-  margin-top: 17vh;
+  margin-top: 12vh;
   padding-right: 5%;
 }
 @media (max-width: 56.25em) {
@@ -1907,7 +1907,7 @@ p {
   padding-right: 2rem;
 }
 .navigation__social {
-  margin-top: -1rem;
+  margin-top: 2rem;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 2;
