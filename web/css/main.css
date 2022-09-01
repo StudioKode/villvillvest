@@ -492,10 +492,44 @@ p {
 }
 .covid-banner__highlight {
   color: #fff;
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
 }
 .covid-banner__link {
   text-decoration: none;
+}
+
+.festivalapp-flex {
+  display: flex;
+}
+
+.festivalapp-textbox {
+  margin-top: 14vh;
+  padding-right: 4vw;
+}
+
+.festivalapp-image {
+  margin-top: 8vh;
+  padding-right: 5vw;
+  padding-left: 8vw;
+  height: 60vh;
+  width: auto;
+}
+
+@media (max-width: 70em) {
+  .festivalapp-flex {
+    display: block;
+  }
+  .festivalapp-textbox {
+    margin-top: 0vh;
+    padding-right: 0vw;
+  }
+  .festivalapp-image {
+    margin-top: 4vh;
+    padding-right: 5vw;
+    padding-left: 0vw;
+    height: 30vh;
+    width: auto;
+  }
 }
 
 .hero {

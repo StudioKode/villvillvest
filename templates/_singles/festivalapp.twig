@@ -1,0 +1,33 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% include "_includes/header-dark" %}
+{% include "_includes/nav" %}
+
+<section class="page-content">
+    
+<div class="paragraph u-margin-bottom-4 festivalapp-flex">
+
+    {% for block in festivalapp.textAndImage.all() %}
+      
+        {% if block.type == 'text' %}
+          {{ block.text|nl2br }}
+        {% elseif block.type == 'image' %}
+          {% for image in block.image.all() %}
+            <img src="{{ image.url }}" alt="{{ image.title }}" width="100%" class="festivalapp-image" />
+          {% endfor %}
+        {% elseif block.type == 'richText' %}
+        <div class="festivalapp-textbox">
+            <h1 class="heading--section u-margin-bottom-2 u-margin-top-4"><span class="u-color-accent">Festivalapp</span></h1>
+          {{ block.richTextField|nl2br }}
+        </div>
+        {% endif %}
+      
+    {% endfor %}
+</div>
+
+</section>
+    
+
+
+{% endblock %}
