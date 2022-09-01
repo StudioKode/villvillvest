@@ -14,7 +14,7 @@
           {{ block.text|nl2br }}
         {% elseif block.type == 'image' %}
           {% for image in block.image.all() %}
-            <img src="{{ image.url }}" alt="{{ image.title }}" width="100%" class="festivalapp-image" />
+            <img src="{{ image.url }}" alt="{{ image.title }}" width="auto" class="festivalapp-image" />
           {% endfor %}
         {% elseif block.type == 'richText' %}
         <div class="festivalapp-textbox">
